@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>SSU Map</title>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
+  <meta charset="UTF-8">
+  <title>SSU Map</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
 </head>
 <body>
-    <script>
-        d3.xml('19-050_campus_map_revise_v6.svg')
-            .then(data => {
-                d3.select('body').node().append(data.documentElement)
-            })
-    </script>
+  <script>
+    loadSVG();
+  </script>
 </body>
 </html>
