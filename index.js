@@ -17,6 +17,7 @@ function loadSVG()
 	.attr('height', c.mapHeight)
 	.call(d3.zoom()
 	      .scaleExtent([c.minZoomScale, c.maxZoomScale])
+        .translateExtent([[0,0],[1000,800]])
 	      .on('zoom', function () {
 		  svg.attr('transform', d3.event.transform)
 		  /*
@@ -26,9 +27,21 @@ function loadSVG()
 		  */
 	      }))
 	.append("g")
-    
-    d3.xml('19-050_campus_map_revise_v6.svg')
+
+    d3.xml('19-050_campus_map_revise_v6.svg', function(data) { console.log(data) })
         .then(data => {
             d3.select('svg g').node().append(data.documentElement)
-        })    
+            main()
+        })
+
+}
+
+function main()
+{
+  makeClickables();
+}
+function makeClickables()
+{
+  var sel = d3.selectAll('#Tuscany')
+  console.log(sel)
 }
