@@ -17,7 +17,7 @@ function loadSVG()
 	.attr('height', c.mapHeight)
 	.call(d3.zoom()
 	      .scaleExtent([c.minZoomScale, c.maxZoomScale])
-        .translateExtent([[0,0],[1000,800]])
+        .translateExtent([[0,0],[c.mapWidth,c.mapHeight]])
 	      .on('zoom', function () {
 		  svg.attr('transform', d3.event.transform)
 		  /*
