@@ -1,0 +1,6892 @@
+[
+  {
+    "L_Name": "Kinmont",
+    "F_Name": "Adam",
+    "Faculty_ID": 42201,
+    "Building": "32 1033A",
+    "Room_Number": 0,
+    "Department": "Network Security and Comm Svcs",
+    "email": "kinmont@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Edwards",
+    "F_Name": "Shannon",
+    "Faculty_ID": 43596,
+    "Building": "Art",
+    "Room_Number": 111,
+    "Department": "Art",
+    "email": "edwardsh@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Haenlein",
+    "F_Name": "Nathan",
+    "Faculty_ID": 43205,
+    "Building": "Art",
+    "Room_Number": 138,
+    "Department": "Art",
+    "email": "nathan.haenlein@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kemp",
+    "F_Name": "Kurt",
+    "Faculty_ID": 44439,
+    "Building": "Art",
+    "Room_Number": 140,
+    "Department": "Art",
+    "email": "kurt.kemp@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Menghini",
+    "F_Name": "Cindy",
+    "Faculty_ID": 43049,
+    "Building": "Art",
+    "Room_Number": 128,
+    "Department": "Art",
+    "email": "menghini@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Roberson",
+    "F_Name": "Jennifer",
+    "Faculty_ID": 42658,
+    "Building": "Art",
+    "Room_Number": 103,
+    "Department": "Art",
+    "email": "robejenn@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Schwager",
+    "F_Name": "Michael",
+    "Faculty_ID": 42720,
+    "Building": "Art",
+    "Room_Number": 106,
+    "Department": "Art",
+    "email": "schwager@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Shaw",
+    "F_Name": "Jennifer",
+    "Faculty_ID": 43041,
+    "Building": "Art",
+    "Room_Number": 104,
+    "Department": "Art",
+    "email": "shaw@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Stone",
+    "F_Name": "Carla",
+    "Faculty_ID": 42295,
+    "Building": "Art",
+    "Room_Number": 101,
+    "Department": "Art Gallery",
+    "email": "carla.stone@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Whitley",
+    "F_Name": "Thomas",
+    "Faculty_ID": 42674,
+    "Building": "ASC",
+    "Room_Number": 29,
+    "Department": "Anthropology",
+    "email": "whitley@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Pulido",
+    "F_Name": "Susan",
+    "Faculty_ID": 42698,
+    "Building": "Beaujolais Village",
+    "Room_Number": 117,
+    "Department": "Health and Wellness",
+    "email": "susan.pulido@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Rossetti",
+    "F_Name": "Giovanna",
+    "Faculty_ID": 44300,
+    "Building": "Bldg",
+    "Room_Number": 29,
+    "Department": "Anthropological Studies Center",
+    "email": "rossetti@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Zuniga",
+    "F_Name": "Eshawn",
+    "Faculty_ID": 43908,
+    "Building": "Bldg",
+    "Room_Number": 49,
+    "Department": "Pre−College Programs",
+    "email": "zuniga@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Bedford",
+    "F_Name": "Matt",
+    "Faculty_ID": 42136,
+    "Building": "Boiler Plant",
+    "Room_Number": 0,
+    "Department": "Operations and Engineering",
+    "email": "bedfordm@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Furtado",
+    "F_Name": "Davide",
+    "Faculty_ID": 42136,
+    "Building": "Boiler Plant",
+    "Room_Number": 0,
+    "Department": "Operations and Engineering",
+    "email": "furtado@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Martinez",
+    "F_Name": "JoFrank",
+    "Faculty_ID": 477.5424,
+    "Building": "Boiler Plant",
+    "Room_Number": 0,
+    "Department": "Operations and Engineering",
+    "email": "jofrank.martinez@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Tompkins",
+    "F_Name": "Amy",
+    "Faculty_ID": 43909,
+    "Building": "Building",
+    "Room_Number": 49,
+    "Department": "Pre−Collegiate Programs",
+    "email": "amy.tompkins@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Fitzpatrick",
+    "F_Name": "Ryan",
+    "Faculty_ID": 44223,
+    "Building": "Campus Recreation Center",
+    "Room_Number": "216− Glacier Bay",
+    "Department": "Rec Center Admin",
+    "email": "ryan.fitzpatrick@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Parker",
+    "F_Name": "Richard",
+    "Faculty_ID": 606.9815,
+    "Building": "Carpenter Shop",
+    "Room_Number": 0,
+    "Department": "Maintenance",
+    "email": "parkrich@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Jacobson",
+    "F_Name": "Thomas",
+    "Faculty_ID": 43145,
+    "Building": "Carson Hall",
+    "Room_Number": 7,
+    "Department": "Geography",
+    "email": "Environment & Plan.",
+    "": ""
+  },
+  {
+    "L_Name": "Bartlett Johnson",
+    "F_Name": "Billie",
+    "Faculty_ID": 42491,
+    "Building": "Carson Hall",
+    "Room_Number": 44,
+    "Department": "Hutchins School of Lib Studies",
+    "email": "bartletb@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Gehlawat",
+    "F_Name": "Ajay",
+    "Faculty_ID": 43178,
+    "Building": "Carson Hall",
+    "Room_Number": 33,
+    "Department": "Hutchins School of Lib Studies",
+    "email": "gehlawat@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hess",
+    "F_Name": "Janet",
+    "Faculty_ID": 694.4274,
+    "Building": "Carson Hall",
+    "Room_Number": 52,
+    "Department": "Hutchins School of Lib Studies",
+    "email": "janet.hess@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "McGuckin",
+    "F_Name": "Eric",
+    "Faculty_ID": 43177,
+    "Building": "Carson Hall",
+    "Room_Number": 61,
+    "Department": "Hutchins School of Lib Studies",
+    "email": "mcguckin@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Mpanya",
+    "F_Name": "Mutombo",
+    "Faculty_ID": 43175,
+    "Building": "Carson Hall",
+    "Room_Number": 37,
+    "Department": "Hutchins School of Lib Studies",
+    "email": "mutombo.mpanya@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ostroff",
+    "F_Name": "Wendy",
+    "Faculty_ID": 43184,
+    "Building": "Carson Hall",
+    "Room_Number": 35,
+    "Department": "Hutchins School of Lib Studies",
+    "email": "ostroff@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Clark",
+    "F_Name": "Emily",
+    "Faculty_ID": 42436,
+    "Building": "Carson Hall",
+    "Room_Number": 31,
+    "Department": "Modern Languages Literature",
+    "email": "clarkemi@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Renaudin",
+    "F_Name": "Christine",
+    "Faculty_ID": 43159,
+    "Building": "Carson Hall",
+    "Room_Number": 24,
+    "Department": "Modern Languages Literature",
+    "email": "renaudin@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Sims",
+    "F_Name": "Kate",
+    "Faculty_ID": 42351,
+    "Building": "Carson Hall",
+    "Room_Number": 18,
+    "Department": "Modern Languages Literature",
+    "email": "kate.sims@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Tadrissi",
+    "F_Name": "Parissa",
+    "Faculty_ID": 43163,
+    "Building": "Carson Hall",
+    "Room_Number": 13,
+    "Department": "Modern Languages Literature",
+    "email": "tadrissi@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Toczyski",
+    "F_Name": "Suzanne",
+    "Faculty_ID": 44177,
+    "Building": "Carson Hall",
+    "Room_Number": 26,
+    "Department": "Modern Languages Literature",
+    "email": "suzanne.toczyski@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Train",
+    "F_Name": "Robert W",
+    "Faculty_ID": 42014,
+    "Building": "Carson Hall",
+    "Room_Number": 27,
+    "Department": "Modern Languages Literature",
+    "email": "train@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Boyd",
+    "F_Name": "Katie",
+    "Faculty_ID": 42058,
+    "Building": "Carson Hall",
+    "Room_Number": 7,
+    "Department": "Writing Center",
+    "email": "boydka@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Dyer",
+    "F_Name": "Stephanie",
+    "Faculty_ID": "n/a",
+    "Building": "Carson Hall 44B",
+    "Room_Number": 0,
+    "Department": "Hutchins School of Lib Studies",
+    "email": "dyers@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Martinez",
+    "F_Name": "Celestino",
+    "Faculty_ID": 42136,
+    "Building": "Central Plant",
+    "Room_Number": 0,
+    "Department": "Operations and Engineering",
+    "email": "martince@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Thompson",
+    "F_Name": "Lia",
+    "Faculty_ID": 42230,
+    "Building": "Children's School",
+    "Room_Number": 0,
+    "Department": "Children’s School",
+    "email": "thompsol@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Dinno",
+    "F_Name": "Christopher",
+    "Faculty_ID": 42870,
+    "Building": "Corp Yard",
+    "Room_Number": 0,
+    "Department": "Development Projects",
+    "email": "christopher.dinno@sonoma.edu",
+    "": "jeffrey.baldwin@sonoma.edu"
+  },
+  {
+    "L_Name": "Angle",
+    "F_Name": "Christopher",
+    "Faculty_ID": 42318,
+    "Building": "Corp Yard",
+    "Room_Number": 0,
+    "Department": "Environmental Health Safety",
+    "email": "angle@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Irey",
+    "F_Name": "Vicki",
+    "Faculty_ID": 42345,
+    "Building": "Corp Yard",
+    "Room_Number": 0,
+    "Department": "Facilities Administration",
+    "email": "vicki.irey@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Gutierrez",
+    "F_Name": "Luz",
+    "Faculty_ID": 43010,
+    "Building": "Corp Yard",
+    "Room_Number": 0,
+    "Department": "Housekeeping",
+    "email": "gutierrl@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ratliff",
+    "F_Name": "Clifford",
+    "Faculty_ID": 43010,
+    "Building": "Corp Yard",
+    "Room_Number": 0,
+    "Department": "Housekeeping",
+    "email": "ratliffc@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Tedla",
+    "F_Name": "Kidane",
+    "Faculty_ID": 43010,
+    "Building": "Corp Yard",
+    "Room_Number": 0,
+    "Department": "Housekeeping",
+    "email": "tedla@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Mendoza",
+    "F_Name": "Yriberto",
+    "Faculty_ID": 42103,
+    "Building": "Corp Yard",
+    "Room_Number": 0,
+    "Department": "Landscaping",
+    "email": "mendozay@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Elliott",
+    "F_Name": "Charles",
+    "Faculty_ID": 42963,
+    "Building": "Corp Yard",
+    "Room_Number": 0,
+    "Department": "Operations and Engineering",
+    "email": "elliottc@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Simmons",
+    "F_Name": "Todd",
+    "Faculty_ID": 42317,
+    "Building": "Corp Yard",
+    "Room_Number": 0,
+    "Department": "Operations and Engineering",
+    "email": "simmonst@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Tyndall",
+    "F_Name": "Hazel",
+    "Faculty_ID": 42317,
+    "Building": "Corp Yard",
+    "Room_Number": 0,
+    "Department": "Operations and Engineering",
+    "email": "tyndall@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Dahlstedt",
+    "F_Name": "Kevin",
+    "Faculty_ID": 42695,
+    "Building": "Corp Yard",
+    "Room_Number": 0,
+    "Department": "Operations and Engineering",
+    "email": "dahlsted@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Cohen",
+    "F_Name": "Michael",
+    "Faculty_ID": 43413,
+    "Building": "Darwin Hall",
+    "Room_Number": 222,
+    "Department": "Biology",
+    "email": "cohenm@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Crocker",
+    "F_Name": "Daniel",
+    "Faculty_ID": 42995,
+    "Building": "Darwin Hall",
+    "Room_Number": 224,
+    "Department": "Biology",
+    "email": "crocker@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Galten",
+    "F_Name": "Rosemary",
+    "Faculty_ID": 42189,
+    "Building": "Darwin Hall",
+    "Room_Number": 200,
+    "Department": "Biology",
+    "email": "galtenr@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Geist",
+    "F_Name": "Nicholas",
+    "Faculty_ID": 43056,
+    "Building": "Darwin Hall",
+    "Room_Number": 217,
+    "Department": "Biology",
+    "email": "nick.geist@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Gilmore",
+    "F_Name": "Kandis",
+    "Faculty_ID": 43157,
+    "Building": "Darwin Hall",
+    "Room_Number": 232,
+    "Department": "Biology",
+    "email": "gilmokan@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Girman",
+    "F_Name": "Derek",
+    "Faculty_ID": 43055,
+    "Building": "Darwin Hall",
+    "Room_Number": 220,
+    "Department": "Biology",
+    "email": "girman@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kettmann",
+    "F_Name": "Elisabeth",
+    "Faculty_ID": 42535,
+    "Building": "Darwin Hall",
+    "Room_Number": 200,
+    "Department": "Biology",
+    "email": "elisabeth.kettmann@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lin",
+    "F_Name": "Joseph",
+    "Faculty_ID": 42931,
+    "Building": "Darwin Hall",
+    "Room_Number": 211,
+    "Department": "Biology",
+    "email": "linj@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Pillai",
+    "F_Name": "Murali",
+    "Faculty_ID": 42981,
+    "Building": "Darwin Hall",
+    "Room_Number": 214,
+    "Department": "Biology",
+    "email": "pillai@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Place",
+    "F_Name": "Sean",
+    "Faculty_ID": 43054,
+    "Building": "Darwin Hall",
+    "Room_Number": 220,
+    "Department": "Biology",
+    "email": "places@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Rank",
+    "F_Name": "Nathan",
+    "Faculty_ID": 43053,
+    "Building": "Darwin Hall",
+    "Room_Number": 224,
+    "Department": "Biology",
+    "email": "rank@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Thibault",
+    "F_Name": "Stephanie",
+    "Faculty_ID": 42949,
+    "Building": "Darwin Hall",
+    "Room_Number": "203A",
+    "Department": "Biology",
+    "email": "thibault@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Whitkus",
+    "F_Name": "Richard",
+    "Faculty_ID": 42303,
+    "Building": "Darwin Hall",
+    "Room_Number": 213,
+    "Department": "Biology",
+    "email": "whitkus@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Zippay",
+    "F_Name": "Mackenzie",
+    "Faculty_ID": 44349,
+    "Building": "Darwin Hall",
+    "Room_Number": 235,
+    "Department": "Biology",
+    "email": "zippay@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Farmer",
+    "F_Name": "Steven",
+    "Faculty_ID": 43728,
+    "Building": "Darwin Hall",
+    "Room_Number": 316,
+    "Department": "Chemistry",
+    "email": "farmers@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Fukuto",
+    "F_Name": "Jon",
+    "Faculty_ID": 42187,
+    "Building": "Darwin Hall",
+    "Room_Number": 319,
+    "Department": "Chemistry",
+    "email": "fukuto@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lares",
+    "F_Name": "Monica",
+    "Faculty_ID": 43971,
+    "Building": "Darwin Hall",
+    "Room_Number": 315,
+    "Department": "Chemistry",
+    "email": "lares@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lillig",
+    "F_Name": "Jennifer",
+    "Faculty_ID": 42331,
+    "Building": "Darwin Hall",
+    "Room_Number": "311C",
+    "Department": "Chemistry",
+    "email": "whilesli@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "McDonald",
+    "F_Name": "Marissa",
+    "Faculty_ID": 42119,
+    "Building": "Darwin Hall",
+    "Room_Number": 300,
+    "Department": "Chemistry",
+    "email": "mcdonmar@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Negru",
+    "F_Name": "Bogdan",
+    "Faculty_ID": 42157,
+    "Building": "Darwin Hall",
+    "Room_Number": "300F",
+    "Department": "Chemistry",
+    "email": "negru@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Perri",
+    "F_Name": "Mark",
+    "Faculty_ID": 42440,
+    "Building": "Darwin Hall",
+    "Room_Number": 318,
+    "Department": "Chemistry",
+    "email": "perrim@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Works",
+    "F_Name": "Carmen",
+    "Faculty_ID": 43084,
+    "Building": "Darwin Hall",
+    "Room_Number": 312,
+    "Department": "Chemistry",
+    "email": "works@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Bhattarai",
+    "F_Name": "Sujan",
+    "Faculty_ID": 42152,
+    "Building": "Darwin Hall",
+    "Room_Number": 329,
+    "Department": "Chemistry",
+    "email": "bhattara@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Carter",
+    "F_Name": "Glenn",
+    "Faculty_ID": 42961,
+    "Building": "Darwin Hall",
+    "Room_Number": "116A (Ground Floor)",
+    "Department": "Computer Science",
+    "email": "glenn.carter@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Gill",
+    "F_Name": "Gurman",
+    "Faculty_ID": 42667,
+    "Building": "Darwin Hall",
+    "Room_Number": "116G",
+    "Department": "Computer Science",
+    "email": "gillg@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Gondree",
+    "F_Name": "Mark",
+    "Faculty_ID": 43854,
+    "Building": "Darwin Hall",
+    "Room_Number": "116H",
+    "Department": "Computer Science",
+    "email": "gondree@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kooshesh",
+    "F_Name": "Ali",
+    "Faculty_ID": 42088,
+    "Building": "Darwin Hall",
+    "Room_Number": "116D",
+    "Department": "Computer Science",
+    "email": "kooshesh@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Leal",
+    "F_Name": "Anamary",
+    "Faculty_ID": 43539,
+    "Building": "Darwin Hall",
+    "Room_Number": "116B",
+    "Department": "Computer Science",
+    "email": "leala@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ledin Jr",
+    "F_Name": "George",
+    "Faculty_ID": 42810,
+    "Building": "Darwin Hall",
+    "Room_Number": 333,
+    "Department": "Computer Science",
+    "email": "ledin@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lyle",
+    "F_Name": "Michael",
+    "Faculty_ID": 327.8423,
+    "Building": "Darwin Hall",
+    "Room_Number": "116H",
+    "Department": "Computer Science",
+    "email": "lylem@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Mamer",
+    "F_Name": "Roger",
+    "Faculty_ID": 506.6686,
+    "Building": "Darwin Hall",
+    "Room_Number": "116G",
+    "Department": "Computer Science",
+    "email": "mamer@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Peacock",
+    "F_Name": "Dena",
+    "Faculty_ID": 42667,
+    "Building": "Darwin Hall",
+    "Room_Number": 116,
+    "Department": "Computer Science",
+    "email": "peacock@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ravikumar",
+    "F_Name": "Balasubramanian",
+    "Faculty_ID": 43335,
+    "Building": "Darwin Hall",
+    "Room_Number": 141,
+    "Department": "Computer Science",
+    "email": "ravikuma@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Rivoire",
+    "F_Name": "Suzanne",
+    "Faculty_ID": 43337,
+    "Building": "Darwin Hall",
+    "Room_Number": "116D",
+    "Department": "Computer Science",
+    "email": "rivoire@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Watts",
+    "F_Name": "Marcia",
+    "Faculty_ID": 42807,
+    "Building": "Darwin Hall",
+    "Room_Number": "116E",
+    "Department": "Computer Science",
+    "email": "wattst@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Anfinson",
+    "F_Name": "Owen",
+    "Faculty_ID": 42176,
+    "Building": "Darwin Hall",
+    "Room_Number": 124,
+    "Department": "Geology",
+    "email": "anfinson@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Mookerjee",
+    "F_Name": "Matty",
+    "Faculty_ID": 42002,
+    "Building": "Darwin Hall",
+    "Room_Number": 122,
+    "Department": "Geology",
+    "email": "matty.mookerjee@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Mooney",
+    "F_Name": "Philip",
+    "Faculty_ID": 42328,
+    "Building": "Darwin Hall",
+    "Room_Number": 127,
+    "Department": "Geology",
+    "email": "mooneyp@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Waters",
+    "F_Name": "Laura",
+    "Faculty_ID": 43546,
+    "Building": "Darwin Hall",
+    "Room_Number": 121,
+    "Department": "Geology",
+    "email": "watersla@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Brannen",
+    "F_Name": "N",
+    "Faculty_ID": 42591,
+    "Building": "Darwin Hall",
+    "Room_Number": "114H",
+    "Department": "Mathematics",
+    "email": "brannen@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Elliott Cortez",
+    "F_Name": "Robbin",
+    "Faculty_ID": 42368,
+    "Building": "Darwin Hall",
+    "Room_Number": 114,
+    "Department": "Mathematics",
+    "email": "robbin.cortez@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ford",
+    "F_Name": "Ben",
+    "Faculty_ID": 42472,
+    "Building": "Darwin Hall",
+    "Room_Number": "114G",
+    "Department": "Mathematics",
+    "email": "ben.ford@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Herring",
+    "F_Name": "Susan",
+    "Faculty_ID": 44118,
+    "Building": "Darwin Hall",
+    "Room_Number": "114 E",
+    "Department": "Mathematics",
+    "email": "herring@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lahme",
+    "F_Name": "Brigitte",
+    "Faculty_ID": 42238,
+    "Building": "Darwin Hall",
+    "Room_Number": "114 E",
+    "Department": "Mathematics",
+    "email": "lahme@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Morris",
+    "F_Name": "Jerry",
+    "Faculty_ID": 42199,
+    "Building": "Darwin Hall",
+    "Room_Number": "114 P",
+    "Department": "Mathematics",
+    "email": "morrisj@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Newman",
+    "F_Name": "Elaine",
+    "Faculty_ID": 44461,
+    "Building": "Darwin Hall",
+    "Room_Number": "114C",
+    "Department": "Mathematics",
+    "email": "mcdonale@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ortega",
+    "F_Name": "Omayra",
+    "Faculty_ID": 42139,
+    "Building": "Darwin Hall",
+    "Room_Number": "114N",
+    "Department": "Mathematics",
+    "email": "ortegao@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Shott",
+    "F_Name": "Martha",
+    "Faculty_ID": 42909,
+    "Building": "Darwin Hall",
+    "Room_Number": "114I",
+    "Department": "Mathematics",
+    "email": "shott@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Silverman",
+    "F_Name": "Jeff",
+    "Faculty_ID": 42229,
+    "Building": "Darwin Hall",
+    "Room_Number": "17B",
+    "Department": "Mathematics",
+    "email": "jeff.silverman@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Tiwari",
+    "F_Name": "Sunil",
+    "Faculty_ID": 42373,
+    "Building": "Darwin Hall",
+    "Room_Number": "114 F",
+    "Department": "Mathematics",
+    "email": "tiwari@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Barnes",
+    "F_Name": "Julie",
+    "Faculty_ID": 42172,
+    "Building": "Darwin Hall",
+    "Room_Number": "115B",
+    "Department": "Offc of the Dean Science Tech",
+    "email": "julie.barnes@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Cari−Shudde",
+    "F_Name": "Catherine",
+    "Faculty_ID": 42129,
+    "Building": "Darwin Hall",
+    "Room_Number": 115,
+    "Department": "Offc of the Dean Science Tech",
+    "email": "carishuc@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "D’Errico",
+    "F_Name": "Megan",
+    "Faculty_ID": 43032,
+    "Building": "Darwin Hall",
+    "Room_Number": "100A",
+    "Department": "Offc of the Dean Science Tech",
+    "email": "derrico@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Oates",
+    "F_Name": "Cory",
+    "Faculty_ID": 42171,
+    "Building": "Darwin Hall",
+    "Room_Number": 115,
+    "Department": "Offc of the Dean Science Tech",
+    "email": "cory.oates@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Stauffer",
+    "F_Name": "Lynn",
+    "Faculty_ID": 42171,
+    "Building": "Darwin Hall",
+    "Room_Number": 115,
+    "Department": "Offc of the Dean Science Tech",
+    "email": "lynn.stauffer@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Tucker",
+    "F_Name": "Sarah",
+    "Faculty_ID": 43324,
+    "Building": "Darwin Hall",
+    "Room_Number": 114,
+    "Department": "Offc of the Dean Science Tech",
+    "email": "tuckers@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lee",
+    "F_Name": "James",
+    "Faculty_ID": 42594,
+    "Building": "Darwin Hall",
+    "Room_Number": "300I",
+    "Department": "Physics and Astronomy",
+    "email": "james.lee@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Miller",
+    "F_Name": "Alexandra",
+    "Faculty_ID": 43639,
+    "Building": "Darwin Hall",
+    "Room_Number": "300L",
+    "Department": "Physics and Astronomy",
+    "email": "millerale@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Severson",
+    "F_Name": "Scott",
+    "Faculty_ID": 42376,
+    "Building": "Darwin Hall",
+    "Room_Number": "300L",
+    "Department": "Physics and Astronomy",
+    "email": "scott.severson@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Shi",
+    "F_Name": "Hongtao",
+    "Faculty_ID": 42013,
+    "Building": "Darwin Hall",
+    "Room_Number": "300J",
+    "Department": "Physics and Astronomy",
+    "email": "hongtao.shi@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Targett",
+    "F_Name": "Thomas",
+    "Faculty_ID": 42594,
+    "Building": "Darwin Hall",
+    "Room_Number": "300i",
+    "Department": "Physics and Astronomy",
+    "email": "targett@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Marian",
+    "F_Name": "Kristi",
+    "Faculty_ID": 42821,
+    "Building": "Facilities",
+    "Room_Number": 1001,
+    "Department": "Capital Planning Design Constr",
+    "email": "marian@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ingerman",
+    "F_Name": "Carol",
+    "Faculty_ID": 42893,
+    "Building": "Facilities",
+    "Room_Number": 0,
+    "Department": "Capital Planning Design Constr",
+    "email": "carol.ingerman@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Dawson",
+    "F_Name": "Craig",
+    "Faculty_ID": 42932,
+    "Building": "Facilities",
+    "Room_Number": 0,
+    "Department": "Facilities Administration",
+    "email": "craig.dawson@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Toshich",
+    "F_Name": "Teodora",
+    "Faculty_ID": 42851,
+    "Building": "Facilities",
+    "Room_Number": "",
+    "Department": "Facilities Administration",
+    "email": "toshich@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Couret",
+    "F_Name": "Patty",
+    "Faculty_ID": 42019,
+    "Building": "Facilities",
+    "Room_Number": 0,
+    "Department": "Facilities Administration",
+    "email": "patty.couret@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Jordan",
+    "F_Name": "Honami",
+    "Faculty_ID": 42569,
+    "Building": "Facilities",
+    "Room_Number": 0,
+    "Department": "Mail and Receiving",
+    "email": "jordanh@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Powers",
+    "F_Name": "Nick",
+    "Faculty_ID": 42362,
+    "Building": "Facilities",
+    "Room_Number": 0,
+    "Department": "Mail and Receiving",
+    "email": "powersni@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hendry",
+    "F_Name": "Nicole",
+    "Faculty_ID": 43817,
+    "Building": "Facilities",
+    "Room_Number": 0,
+    "Department": "Operations and Engineering",
+    "email": "nicole.hendry@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Potts",
+    "F_Name": "Shawn",
+    "Faculty_ID": 43865,
+    "Building": "Facilities",
+    "Room_Number": 0,
+    "Department": "Operations and Engineering",
+    "email": "potts@sonoma.edu",
+    "": "matthew.clark@sonoma.edu"
+  },
+  {
+    "L_Name": "Chasey",
+    "F_Name": "Jared",
+    "Faculty_ID": 42764,
+    "Building": "FH",
+    "Room_Number": 124,
+    "Department": "Athletics",
+    "email": "chasey@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Uhlig",
+    "F_Name": "Jerry",
+    "Faculty_ID": 43969,
+    "Building": "Green Music Center",
+    "Room_Number": 1213,
+    "Department": "Back of House",
+    "email": "uhlig@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Annala",
+    "F_Name": "Madison",
+    "Faculty_ID": 42053,
+    "Building": "Green Music Center",
+    "Room_Number": 2084,
+    "Department": "Facilities Administration",
+    "email": "annalam@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Cale",
+    "F_Name": "Becky",
+    "Faculty_ID": 42371,
+    "Building": "Green Music Center",
+    "Room_Number": 2085,
+    "Department": "GMC Administration",
+    "email": "becky.cale@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Limbert",
+    "F_Name": "Marge",
+    "Faculty_ID": "707−664−3814 or 919−636−0634 (mobile)",
+    "Building": "Green Music Center",
+    "Room_Number": 0,
+    "Department": "GMC Administration",
+    "email": "limbertm@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Alva",
+    "F_Name": "Christina",
+    "Faculty_ID": 43813,
+    "Building": "Green Music Center",
+    "Room_Number": 2081,
+    "Department": "GMC Administration",
+    "email": "alvac@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Neyman",
+    "F_Name": "Caroline",
+    "Faculty_ID": 43517,
+    "Building": "Green Music Center",
+    "Room_Number": 2083,
+    "Department": "GMC Administration",
+    "email": "ammannc@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Yarrow",
+    "F_Name": "Jacob",
+    "Faculty_ID": 43258,
+    "Building": "Green Music Center",
+    "Room_Number": 2080,
+    "Department": "GMC Administration",
+    "email": "yarrow@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Nikolov",
+    "F_Name": "Kamen",
+    "Faculty_ID": 43371,
+    "Building": "Green Music Center",
+    "Room_Number": 2082,
+    "Department": "GMC Back of House",
+    "email": "kamen.nikolov@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Chadwin",
+    "F_Name": "Gail",
+    "Faculty_ID": 43661,
+    "Building": "Green Music Center",
+    "Room_Number": 2081,
+    "Department": "GMC Fundraising",
+    "email": "chadwin@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kaslar",
+    "F_Name": "Kelley",
+    "Faculty_ID": 42747,
+    "Building": "Green Music Center",
+    "Room_Number": 1064,
+    "Department": "GMC Hospitality Center",
+    "email": "kaslar@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Cronomiz",
+    "F_Name": "Andrew",
+    "Faculty_ID": 43512,
+    "Building": "Green Music Center",
+    "Room_Number": 2081,
+    "Department": "GMC House Operations",
+    "email": "cronomia@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Jossey",
+    "F_Name": "Christine",
+    "Faculty_ID": 42756,
+    "Building": "Green Music Center",
+    "Room_Number": 2078,
+    "Department": "GMC Marketing",
+    "email": "jossey@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Shepherd",
+    "F_Name": "Andy",
+    "Faculty_ID": 44122,
+    "Building": "Green Music Center",
+    "Room_Number": 2078,
+    "Department": "GMC Marketing",
+    "email": "shephera@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Tellez",
+    "F_Name": "Jose",
+    "Faculty_ID": 236.2855,
+    "Building": "Green Music Center",
+    "Room_Number": 0,
+    "Department": "Housekeeping",
+    "email": "tellezjo@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Collinsworth",
+    "F_Name": "Andy",
+    "Faculty_ID": 44154,
+    "Building": "Green Music Center",
+    "Room_Number": 2063,
+    "Department": "Music",
+    "email": "racworth@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Leibinger",
+    "F_Name": "Douglas",
+    "Faculty_ID": "573.823.8084",
+    "Building": "Green Music Center",
+    "Room_Number": 2061,
+    "Department": "Music",
+    "email": "leibinge@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Tester",
+    "F_Name": "Brooke",
+    "Faculty_ID": 42324,
+    "Building": "Green Music Center",
+    "Room_Number": 2042,
+    "Department": "Music",
+    "email": "brooke.tester@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Bent",
+    "F_Name": "Jenny",
+    "Faculty_ID": 43925,
+    "Building": "Green Music Center",
+    "Room_Number": 2071,
+    "Department": "Music",
+    "email": "bentje@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Limbert",
+    "F_Name": "Thom",
+    "Faculty_ID": 42218,
+    "Building": "Green Music Center",
+    "Room_Number": 2067,
+    "Department": "Music",
+    "email": "tlimbert@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Mieder",
+    "F_Name": "Kim",
+    "Faculty_ID": "813.928.6188",
+    "Building": "Green Music Center",
+    "Room_Number": 2073,
+    "Department": "Music",
+    "email": "mieder@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Palmer",
+    "F_Name": "John",
+    "Faculty_ID": 42302,
+    "Building": "Green Music Center",
+    "Room_Number": 2073,
+    "Department": "Music",
+    "email": "palmejoh@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Aranda",
+    "F_Name": "Catalino",
+    "Faculty_ID": 43488,
+    "Building": "Green Music Center",
+    "Room_Number": 1212,
+    "Department": "Operations and Engineering",
+    "email": "arandaca@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Parks",
+    "F_Name": "Kurt",
+    "Faculty_ID": 43488,
+    "Building": "Green Music Center",
+    "Room_Number": 1212,
+    "Department": "Operations and Engineering",
+    "email": "parksku@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Boracchia",
+    "F_Name": "Toni",
+    "Faculty_ID": 42921,
+    "Building": "Health Center",
+    "Room_Number": 0,
+    "Department": "Student Health Center",
+    "email": "boracchi@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Drier",
+    "F_Name": "Patricia",
+    "Faculty_ID": 42921,
+    "Building": "Health Center",
+    "Room_Number": 135,
+    "Department": "Student Health Center",
+    "email": "drier@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Klotz",
+    "F_Name": "Allan",
+    "Faculty_ID": 42921,
+    "Building": "Health Center",
+    "Room_Number": 0,
+    "Department": "Student Health Center",
+    "email": "klotza@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Verrier",
+    "F_Name": "Audra",
+    "Faculty_ID": 43082,
+    "Building": "International Hall",
+    "Room_Number": "IH",
+    "Department": 107,
+    "email": "Career Services",
+    "": ""
+  },
+  {
+    "L_Name": "Emry Ortiz",
+    "F_Name": "Hope",
+    "Faculty_ID": 43358,
+    "Building": "International Hall",
+    "Room_Number": 107,
+    "Department": "Academic Programs",
+    "email": "hope.ortiz@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Bensky",
+    "F_Name": "Kelsey",
+    "Faculty_ID": 42846,
+    "Building": "International Hall",
+    "Room_Number": "107D",
+    "Department": "Career Services",
+    "email": "kelsey.bensky@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Young",
+    "F_Name": "Becky",
+    "Faculty_ID": 42490,
+    "Building": "International Hall",
+    "Room_Number": 107,
+    "Department": "Career Services",
+    "email": "becky.young@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Clegg",
+    "F_Name": "Sarah",
+    "Faculty_ID": 42480,
+    "Building": "International Hall",
+    "Room_Number": 207,
+    "Department": "OPHD",
+    "email": "cleggs@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Edens",
+    "F_Name": "Jennifer",
+    "Faculty_ID": 44276,
+    "Building": "International Hall",
+    "Room_Number": "201B",
+    "Department": "OPHD",
+    "email": "edens@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hopkins",
+    "F_Name": "Britnie",
+    "Faculty_ID": 44394,
+    "Building": "International Hall",
+    "Room_Number": "201 C",
+    "Department": "OPHD",
+    "email": "hopkinsb@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hagen",
+    "F_Name": "Michael",
+    "Faculty_ID": 42247,
+    "Building": "Ives Hall",
+    "Room_Number": 19,
+    "Department": "Center for Performing Arts",
+    "email": "hagen@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Wilson",
+    "F_Name": "Jason",
+    "Faculty_ID": 2736,
+    "Building": "Ives Hall",
+    "Room_Number": 206,
+    "Department": "Center for Performing Arts",
+    "email": "wilsonja@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Wormer",
+    "F_Name": "Yvonne",
+    "Faculty_ID": 43479,
+    "Building": "Ives Hall",
+    "Room_Number": 65,
+    "Department": "Center for Performing Arts",
+    "email": "wormer@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Marsh",
+    "F_Name": "George",
+    "Faculty_ID": 42324,
+    "Building": "Ives Hall",
+    "Room_Number": 0,
+    "Department": "Music Studio",
+    "email": "marsh@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Bish",
+    "F_Name": "Tony",
+    "Faculty_ID": 42797,
+    "Building": "Ives Hall",
+    "Room_Number": 46,
+    "Department": "Theatre Arts",
+    "email": "anthony.bish@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Daley",
+    "F_Name": "Kristen",
+    "Faculty_ID": 43907,
+    "Building": "Ives Hall",
+    "Room_Number": 205,
+    "Department": "Theatre Arts",
+    "email": "kristen.daley@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Draper",
+    "F_Name": "Paul",
+    "Faculty_ID": 43904,
+    "Building": "Ives Hall",
+    "Room_Number": 111,
+    "Department": "Theatre Arts",
+    "email": "paul.draper@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ezra",
+    "F_Name": "Michael",
+    "Faculty_ID": 43293,
+    "Building": "Nichols Hall",
+    "Room_Number": 214,
+    "Department": "American Multicultural Studies",
+    "email": "ezra@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Mullins",
+    "F_Name": "Linnea",
+    "Faculty_ID": 42486,
+    "Building": "Nichols Hall",
+    "Room_Number": 214,
+    "Department": "American Multicultural Studies",
+    "email": "mullins@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kim",
+    "F_Name": "Patricia",
+    "Faculty_ID": 43294,
+    "Building": "Nichols Hall",
+    "Room_Number": 208,
+    "Department": "Chicano and Latino Studies",
+    "email": "kimrajal@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lopez",
+    "F_Name": "Ronald",
+    "Faculty_ID": 43039,
+    "Building": "Nichols Hall",
+    "Room_Number": 208,
+    "Department": "Chicano and Latino Studies",
+    "email": "lopezro@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Malpica",
+    "F_Name": "Daniel",
+    "Faculty_ID": 44217,
+    "Building": "Nichols Hall",
+    "Room_Number": 209,
+    "Department": "Chicano and Latino Studies",
+    "email": "daniel.malpica@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Acosta Lewis",
+    "F_Name": "Emily",
+    "Faculty_ID": 42507,
+    "Building": "Nichols Hall",
+    "Room_Number": 324,
+    "Department": "Communication Studies",
+    "email": "emily.acostalewis@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Beebout",
+    "F_Name": "Edward",
+    "Faculty_ID": 44042,
+    "Building": "Nichols Hall",
+    "Room_Number": 326,
+    "Department": "Communication Studies",
+    "email": "beebout@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Burch",
+    "F_Name": "Elizabeth",
+    "Faculty_ID": 42149,
+    "Building": "Nichols Hall",
+    "Room_Number": 328,
+    "Department": "Communication Studies",
+    "email": "elizabeth.burch@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Calavita",
+    "F_Name": "Marco",
+    "Faculty_ID": 44209,
+    "Building": "Nichols Hall",
+    "Room_Number": 130,
+    "Department": "Communication Studies",
+    "email": "calavita@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Stephens",
+    "F_Name": "Shelly",
+    "Faculty_ID": 42149,
+    "Building": "Nichols Hall",
+    "Room_Number": 364,
+    "Department": "Communication Studies",
+    "email": "shelly.stephens@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hill",
+    "F_Name": "Adam",
+    "Faculty_ID": 42340,
+    "Building": "Nichols Hall",
+    "Room_Number": 232,
+    "Department": "Counseling",
+    "email": "adam.hill@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kelley",
+    "F_Name": "Lisa",
+    "Faculty_ID": 42544,
+    "Building": "Nichols Hall",
+    "Room_Number": 220,
+    "Department": "Counseling",
+    "email": "kelleyl@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Shulman",
+    "F_Name": "Julie",
+    "Faculty_ID": 43395,
+    "Building": "Nichols Hall",
+    "Room_Number": 223,
+    "Department": "Counseling",
+    "email": "shulmanj@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Zagelbaum",
+    "F_Name": "Adam",
+    "Faculty_ID": 42266,
+    "Building": "Nichols Hall",
+    "Room_Number": "220−a",
+    "Department": "Counseling",
+    "email": "zagelbau@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Bryant",
+    "F_Name": "Brantley",
+    "Faculty_ID": 43139,
+    "Building": "Nichols Hall",
+    "Room_Number": "362A",
+    "Department": "English",
+    "email": "brantley.bryant@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Goldman",
+    "F_Name": "Anne",
+    "Faculty_ID": 42651,
+    "Building": "Nichols Hall",
+    "Room_Number": 338,
+    "Department": "English",
+    "email": "goldmana@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hester−Williams",
+    "F_Name": "Kim",
+    "Faculty_ID": 43136,
+    "Building": "Nichols Hall",
+    "Room_Number": 340,
+    "Department": "English",
+    "email": "kim.hester.williams@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Johnson",
+    "F_Name": "Jennifer",
+    "Faculty_ID": 43265,
+    "Building": "Nichols Hall",
+    "Room_Number": 346,
+    "Department": "English",
+    "email": "johnsonje@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kunat",
+    "F_Name": "John",
+    "Faculty_ID": 43138,
+    "Building": "Nichols Hall",
+    "Room_Number": 361,
+    "Department": "English",
+    "email": "kunat@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Oxenhandler",
+    "F_Name": "Noelle",
+    "Faculty_ID": 42506,
+    "Building": "Nichols Hall",
+    "Room_Number": 344,
+    "Department": "English",
+    "email": "oxenhand@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Piantanida",
+    "F_Name": "Sandra",
+    "Faculty_ID": 42140,
+    "Building": "Nichols Hall",
+    "Room_Number": 362,
+    "Department": "English",
+    "email": "sandra.piantanida@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Rizzuto",
+    "F_Name": "Anthony",
+    "Faculty_ID": "510.691.1927",
+    "Building": "Nichols Hall",
+    "Room_Number": 352,
+    "Department": "English",
+    "email": "rizzuto@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Wandling",
+    "F_Name": "Timothy",
+    "Faculty_ID": 42796,
+    "Building": "Nichols Hall",
+    "Room_Number": 356,
+    "Department": "English",
+    "email": "wandling@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Wo",
+    "F_Name": "Chingling",
+    "Faculty_ID": 42164,
+    "Building": "Nichols Hall",
+    "Room_Number": 342,
+    "Department": "English",
+    "email": "wo@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Brogan",
+    "F_Name": "Alanna",
+    "Faculty_ID": 42643,
+    "Building": "Nichols Hall",
+    "Room_Number": "2nd floor",
+    "Department": "Nursing",
+    "email": "alanna.brogan@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Altaker",
+    "F_Name": "Krista",
+    "Faculty_ID": 42654,
+    "Building": "Nichols Hall",
+    "Room_Number": 276,
+    "Department": "Nursing",
+    "email": "krista.altaker@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Brunk",
+    "F_Name": "Tammy",
+    "Faculty_ID": 42398,
+    "Building": "Nichols Hall",
+    "Room_Number": 272,
+    "Department": "Nursing",
+    "email": "brunk@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Edmunds",
+    "F_Name": "Johnna",
+    "Faculty_ID": 42356,
+    "Building": "Nichols Hall",
+    "Room_Number": "149B",
+    "Department": "Nursing",
+    "email": "edmunds@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hellman",
+    "F_Name": "Kristi",
+    "Faculty_ID": 42862,
+    "Building": "Nichols Hall",
+    "Room_Number": 256,
+    "Department": "Nursing",
+    "email": "hellmank@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kelly",
+    "F_Name": "Michelle",
+    "Faculty_ID": 42650,
+    "Building": "Nichols Hall",
+    "Room_Number": 246,
+    "Department": "Nursing",
+    "email": "kelmiche@sonoma.edu",
+    "": "fangk@sonoma.edu"
+  },
+  {
+    "L_Name": "Munoz",
+    "F_Name": "Ana",
+    "Faculty_ID": 42466,
+    "Building": "Nichols Hall",
+    "Room_Number": 256,
+    "Department": "Nursing",
+    "email": "munoz@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Rockett",
+    "F_Name": "Kathleen",
+    "Faculty_ID": 42464,
+    "Building": "Nichols Hall",
+    "Room_Number": 274,
+    "Department": "Nursing",
+    "email": "rockett@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Rose",
+    "F_Name": "Jordan",
+    "Faculty_ID": 42309,
+    "Building": "Nichols Hall",
+    "Room_Number": 278,
+    "Department": "Nursing",
+    "email": "rosejo@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Smith",
+    "F_Name": "Wendy",
+    "Faculty_ID": 42276,
+    "Building": "Nichols Hall",
+    "Room_Number": 270,
+    "Department": "Nursing",
+    "email": "wendy.smith@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Werder",
+    "F_Name": "Karen",
+    "Faculty_ID": 644.3498,
+    "Building": "Nichols Hall",
+    "Room_Number": 244,
+    "Department": "Nursing",
+    "email": "werderk@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Wilkosz",
+    "F_Name": "Mary Ellen",
+    "Faculty_ID": 42297,
+    "Building": "Nichols Hall",
+    "Room_Number": "262A",
+    "Department": "Nursing",
+    "email": "wilkosz@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Eichhorn",
+    "F_Name": "Linda",
+    "Faculty_ID": 44106,
+    "Building": "Nichols Hall",
+    "Room_Number": 380,
+    "Department": "Office of the Dean A and H",
+    "email": "eichhorl@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "McTaggart",
+    "F_Name": "Leigh",
+    "Faculty_ID": 42146,
+    "Building": "Nichols Hall",
+    "Room_Number": 380,
+    "Department": "Office of the Dean A and H",
+    "email": "mctaggle@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Robbins",
+    "F_Name": "Hollis",
+    "Faculty_ID": 42146,
+    "Building": "Nichols Hall",
+    "Room_Number": 310,
+    "Department": "Office of the Dean A and H",
+    "email": "robbinsh@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Russotti",
+    "F_Name": "Tai",
+    "Faculty_ID": 42148,
+    "Building": "Nichols Hall",
+    "Room_Number": 380,
+    "Department": "Office of the Dean A and H",
+    "email": "tai.russotti@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Zim",
+    "F_Name": "Roger",
+    "Faculty_ID": "415.407.6377",
+    "Building": "Nichols Hall",
+    "Room_Number": 345,
+    "Department": "Philosophy",
+    "email": "zim@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Burke",
+    "F_Name": "Megan",
+    "Faculty_ID": 43148,
+    "Building": "Nichols Hall",
+    "Room_Number": 314,
+    "Department": "Philosophy",
+    "email": "burkemeg@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Glasgow",
+    "F_Name": "Joshua",
+    "Faculty_ID": 42841,
+    "Building": "Nichols Hall",
+    "Room_Number": 316,
+    "Department": "Philosophy",
+    "email": "glasgojo@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Parker",
+    "F_Name": "Gillian",
+    "Faculty_ID": 42739,
+    "Building": "Nichols Hall",
+    "Room_Number": 318,
+    "Department": "Philosophy",
+    "email": "gillian.parker@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Sullins III",
+    "F_Name": "John",
+    "Faculty_ID": 42277,
+    "Building": "Nichols Hall",
+    "Room_Number": "363A",
+    "Department": "Philosophy",
+    "email": "john.sullins@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Wallace",
+    "F_Name": "Andy",
+    "Faculty_ID": 42503,
+    "Building": "Nichols Hall",
+    "Room_Number": 314,
+    "Department": "Philosophy",
+    "email": "andy.wallace@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Rudy",
+    "F_Name": "Julie",
+    "Faculty_ID": 42937,
+    "Building": "PE",
+    "Room_Number": 51,
+    "Department": "Athletics",
+    "email": "julie.rudy@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Seymon",
+    "F_Name": "April",
+    "Faculty_ID": 42421,
+    "Building": "PE",
+    "Room_Number": 51,
+    "Department": "Athletics",
+    "email": "seymon@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ha",
+    "F_Name": "Katherine",
+    "Faculty_ID": "707 3l8 5284",
+    "Building": "PE",
+    "Room_Number": 0,
+    "Department": "Kinesiology",
+    "email": "ha@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Allen",
+    "F_Name": "Gloria",
+    "Faculty_ID": 42105,
+    "Building": "PE",
+    "Room_Number": 0,
+    "Department": "Kinesiology",
+    "email": "gloria.allen@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Boda",
+    "F_Name": "Wanda",
+    "Faculty_ID": 43938,
+    "Building": "PE",
+    "Room_Number": 16,
+    "Department": "Kinesiology",
+    "email": "boda@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Liebich",
+    "F_Name": "James",
+    "Faculty_ID": 42357,
+    "Building": "PE",
+    "Room_Number": 14,
+    "Department": "Kinesiology",
+    "email": "liebich@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Morimoto",
+    "F_Name": "Lauren",
+    "Faculty_ID": 42479,
+    "Building": "PE",
+    "Room_Number": 26,
+    "Department": "Kinesiology",
+    "email": "morimoto@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Sokmen",
+    "F_Name": "Bulent",
+    "Faculty_ID": 42789,
+    "Building": "PE",
+    "Room_Number": 22,
+    "Department": "Kinesiology",
+    "email": "sokmen@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Sollanek",
+    "F_Name": "Kurt",
+    "Faculty_ID": 42678,
+    "Building": "PE",
+    "Room_Number": 17,
+    "Department": "Kinesiology",
+    "email": "sollanek@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Voight",
+    "F_Name": "Gina",
+    "Faculty_ID": 42357,
+    "Building": "PE",
+    "Room_Number": 14,
+    "Department": "Kinesiology",
+    "email": "voightg@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Winter",
+    "F_Name": "Steven",
+    "Faculty_ID": 42188,
+    "Building": "PE",
+    "Room_Number": 14,
+    "Department": "Kinesiology",
+    "email": "steven.winter@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Bridant",
+    "F_Name": "Theo",
+    "Faculty_ID": 42565,
+    "Building": "Person",
+    "Room_Number": 105,
+    "Department": "Center for Performing Arts",
+    "email": "bridant@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Wigglesworth",
+    "F_Name": "Russell",
+    "Faculty_ID": 42473,
+    "Building": "Person Theater Scene Shop −",
+    "Room_Number": 106,
+    "Department": "Center for Performing Arts",
+    "email": "wigglesw@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Penn",
+    "F_Name": "Shyla",
+    "Faculty_ID": 44316,
+    "Building": "Physical Education",
+    "Room_Number": 51,
+    "Department": "Athletics",
+    "email": "penn@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Carlton",
+    "F_Name": "Ellen",
+    "Faculty_ID": 43918,
+    "Building": "Physical Education",
+    "Room_Number": 25,
+    "Department": "Kinesiology",
+    "email": "ellen.carlton@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Utarid",
+    "F_Name": "Mark",
+    "Faculty_ID": 42243,
+    "Building": "Plant Operations Office",
+    "Room_Number": 1004,
+    "Department": "Operations and Engineering",
+    "email": "utarid@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Longoria",
+    "F_Name": "Martin",
+    "Faculty_ID": 43402,
+    "Building": "Police and Safety Services",
+    "Room_Number": 0,
+    "Department": "Parking",
+    "email": "longoria@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Crockett",
+    "F_Name": "Ellen",
+    "Faculty_ID": 42143,
+    "Building": "PPS",
+    "Room_Number": 0,
+    "Department": "Parking",
+    "email": "crockett@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Wandling",
+    "F_Name": "Susan",
+    "Faculty_ID": 43122,
+    "Building": "Pre−Collegiate Programs",
+    "Room_Number": 26,
+    "Department": "Early Academic Outreach",
+    "email": "susan.wandling@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Wong",
+    "F_Name": "Vicky",
+    "Faculty_ID": 43901,
+    "Building": "Pre−Collegiate Programs",
+    "Room_Number": 0,
+    "Department": "Early Academic Outreach",
+    "email": "wongvic@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Savage",
+    "F_Name": "Talmadge",
+    "Faculty_ID": 43301,
+    "Building": "Prelude",
+    "Room_Number": 0,
+    "Department": "Culinary Services",
+    "email": "savaget@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Frymer",
+    "F_Name": "Benjamin",
+    "Faculty_ID": 43182,
+    "Building": "Rachel Carson Hall",
+    "Room_Number": 55,
+    "Department": "Hutchins School of Lib Studies",
+    "email": "frymer@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Garbesi",
+    "F_Name": "Donna",
+    "Faculty_ID": 42492,
+    "Building": "Rachel Carson Hall",
+    "Room_Number": 44,
+    "Department": "Hutchins School of Lib Studies",
+    "email": "donna.garbesi@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Law",
+    "F_Name": "Justine",
+    "Faculty_ID": 43853,
+    "Building": "Rachel Carson Hall",
+    "Room_Number": 59,
+    "Department": "Hutchins School of Lib Studies",
+    "email": "lawj@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Grobbel",
+    "F_Name": "Michaela",
+    "Faculty_ID": 42637,
+    "Building": "Rachel Carson Hall",
+    "Room_Number": 32,
+    "Department": "Modern Languages Literature",
+    "email": "grobbel@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Wautischer",
+    "F_Name": "Helmut",
+    "Faculty_ID": 42270,
+    "Building": "Rachel Carson Hall",
+    "Room_Number": 56,
+    "Department": "Philosophy",
+    "email": "wautisch@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Murray",
+    "F_Name": "Stacey",
+    "Faculty_ID": 44192,
+    "Building": "REACH Office",
+    "Room_Number": "Zinfandel",
+    "Department": "Residential Education",
+    "email": "murrays@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Walsh",
+    "F_Name": "Ryan",
+    "Faculty_ID": 43391,
+    "Building": "Rec Center Glacier Bay",
+    "Room_Number": 216,
+    "Department": "Rec Center Admin",
+    "email": "walsh@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Long",
+    "F_Name": "Shelbi",
+    "Faculty_ID": 42771,
+    "Building": "Recreation Center",
+    "Room_Number": 212,
+    "Department": "Rec Center Admin",
+    "email": "shelbi.long@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Mathieson",
+    "F_Name": "Reed",
+    "Faculty_ID": 42706,
+    "Building": "Recreation Center",
+    "Room_Number": 215,
+    "Department": "Rec Center Admin",
+    "email": "reed.mathieson@sonoma.edu",
+    "": "goman@sonoma.edu"
+  },
+  {
+    "L_Name": "Anderson",
+    "F_Name": "Nikki",
+    "Faculty_ID": 42488,
+    "Building": "Salazar Hall",
+    "Room_Number": 2074,
+    "Department": "Accounting/Financial Reporting",
+    "email": "nikki.anderson@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Brown",
+    "F_Name": "Julie",
+    "Faculty_ID": 44285,
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Accounting/Financial Reporting",
+    "email": "julie.brown@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Davisson",
+    "F_Name": "Trista",
+    "Faculty_ID": 44043,
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Accounting/Financial Reporting",
+    "email": "davisson@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Fuiten",
+    "F_Name": "Leilani",
+    "Faculty_ID": 43152,
+    "Building": "Salazar Hall",
+    "Room_Number": "2050B",
+    "Department": "Accounting/Financial Reporting",
+    "email": "leilani.fuiten@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Harlin",
+    "F_Name": "Mark",
+    "Faculty_ID": 42768,
+    "Building": "Salazar Hall",
+    "Room_Number": "2050B",
+    "Department": "Accounting/Financial Reporting",
+    "email": "harlin@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Taylor",
+    "F_Name": "Shawn",
+    "Faculty_ID": 43331,
+    "Building": "Salazar Hall",
+    "Room_Number": "2050B",
+    "Department": "Accounting/Financial Reporting",
+    "email": "shawn.taylor@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Visser",
+    "F_Name": "Amanda",
+    "Faculty_ID": 43251,
+    "Building": "Salazar Hall",
+    "Room_Number": 2075,
+    "Department": "Accounting/Financial Reporting",
+    "email": "amanda.visser@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Bascherini",
+    "F_Name": "Vanessa",
+    "Faculty_ID": 42798,
+    "Building": "Salazar Hall",
+    "Room_Number": 1070,
+    "Department": "Advising Center",
+    "email": "bascherv@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Brown",
+    "F_Name": "Edie",
+    "Faculty_ID": 44157,
+    "Building": "Salazar Hall",
+    "Room_Number": 1076,
+    "Department": "Advising Center",
+    "email": "edie.brown@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ismail",
+    "F_Name": "Alia",
+    "Faculty_ID": 43563,
+    "Building": "Salazar Hall",
+    "Room_Number": 1070,
+    "Department": "Advising Center",
+    "email": "ismail@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Thao",
+    "F_Name": "Christina",
+    "Faculty_ID": 43562,
+    "Building": "Salazar Hall",
+    "Room_Number": 1070,
+    "Department": "Advising Center",
+    "email": "thaoch@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Christensen",
+    "F_Name": "Megan",
+    "Faculty_ID": 42750,
+    "Building": "Salazar Hall",
+    "Room_Number": "2063 B",
+    "Department": "Box Office",
+    "email": "megan.christensen@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Santa Cruz",
+    "F_Name": "Cheryl",
+    "Faculty_ID": 43366,
+    "Building": "Salazar Hall",
+    "Room_Number": 2078,
+    "Department": "Common Mgmt Systems (CMS)",
+    "email": "cheryl.santacruz@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Canon",
+    "F_Name": "Jessica",
+    "Faculty_ID": 43323,
+    "Building": "Salazar Hall",
+    "Room_Number": 2051,
+    "Department": "Conference and Event Services",
+    "email": "canon@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Gillespie",
+    "F_Name": "Sarah",
+    "Faculty_ID": 43336,
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Conference and Event Services",
+    "email": "sarah.gillespie@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kautz",
+    "F_Name": "Kindra",
+    "Faculty_ID": 43513,
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Conference and Event Services",
+    "email": "kautz@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Moss",
+    "F_Name": "Kelsey",
+    "Faculty_ID": 43850,
+    "Building": "Salazar Hall",
+    "Room_Number": 2051,
+    "Department": "Conference and Event Services",
+    "email": "kelsey.moss@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Flores",
+    "F_Name": "Gustavo",
+    "Faculty_ID": 44388,
+    "Building": "Salazar Hall",
+    "Room_Number": 2040,
+    "Department": "Ctr for Acad Access and Std En",
+    "email": "floresg@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Antoni",
+    "F_Name": "Lauren",
+    "Faculty_ID": 43476,
+    "Building": "Salazar Hall",
+    "Room_Number": "2 Floor A",
+    "Department": "Culinary Services",
+    "email": "antoni@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Keller",
+    "F_Name": "Nancy",
+    "Faculty_ID": 42994,
+    "Building": "Salazar Hall",
+    "Room_Number": 2054,
+    "Department": "Culinary Services",
+    "email": "kellern@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Molin",
+    "F_Name": "Deidre",
+    "Faculty_ID": 43851,
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Culinary Services",
+    "email": "molin@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "O’Brien",
+    "F_Name": "Daniel",
+    "Faculty_ID": 43342,
+    "Building": "Salazar Hall",
+    "Room_Number": 2065,
+    "Department": "Culinary Services",
+    "email": "obriend@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Verrier",
+    "F_Name": "Richard",
+    "Faculty_ID": 42174,
+    "Building": "Salazar Hall",
+    "Room_Number": "2063F",
+    "Department": "Development Projects",
+    "email": "verrier@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Colton",
+    "F_Name": "Carrie Ann",
+    "Faculty_ID": "1−707−664−4470",
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Empl Relations Complnc Svcs",
+    "email": "carrieann.colton@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Fisette",
+    "F_Name": "Noelle",
+    "Faculty_ID": 43214,
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Empl Relations Complnc Svcs",
+    "email": "fisette@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Taylor",
+    "F_Name": "Erin",
+    "Faculty_ID": 42212,
+    "Building": "Salazar Hall",
+    "Room_Number": 2078,
+    "Department": "Empl Relations Complnc Svcs",
+    "email": "taylore@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Chhoeung",
+    "F_Name": "Sary",
+    "Faculty_ID": 44258,
+    "Building": "Salazar Hall",
+    "Room_Number": 2078,
+    "Department": "Employment Services",
+    "email": "chhoeung@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Gordon",
+    "F_Name": "Debbie",
+    "Faculty_ID": 44127,
+    "Building": "Salazar Hall",
+    "Room_Number": 2078,
+    "Department": "Employment Services",
+    "email": "debbie.gordon@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Holte",
+    "F_Name": "Chandra",
+    "Faculty_ID": 42092,
+    "Building": "Salazar Hall",
+    "Room_Number": 2078,
+    "Department": "Employment Services",
+    "email": "holte@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lillo",
+    "F_Name": "Kimberly",
+    "Faculty_ID": 43717,
+    "Building": "Salazar Hall",
+    "Room_Number": 2078,
+    "Department": "Employment Services",
+    "email": "lillo@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Rock",
+    "F_Name": "Erin",
+    "Faculty_ID": 43278,
+    "Building": "Salazar Hall",
+    "Room_Number": 2078,
+    "Department": "Employment Services",
+    "email": "erin.rock@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kujoory",
+    "F_Name": "Ali",
+    "Faculty_ID": 42030,
+    "Building": "Salazar Hall",
+    "Room_Number": "2008B",
+    "Department": "Engineering Degree Program",
+    "email": "ali.kujoory@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lapp",
+    "F_Name": "Kate",
+    "Faculty_ID": 42030,
+    "Building": "Salazar Hall",
+    "Room_Number": 2004,
+    "Department": "Engineering Degree Program",
+    "email": "lappk@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Marivani",
+    "F_Name": "Shahram",
+    "Faculty_ID": 42150,
+    "Building": "Salazar Hall",
+    "Room_Number": 2002,
+    "Department": "Engineering Degree Program",
+    "email": "marivani@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Shrestha",
+    "F_Name": "Sudhir",
+    "Faculty_ID": 44385,
+    "Building": "Salazar Hall",
+    "Room_Number": "2010D",
+    "Department": "Engineering Degree Program",
+    "email": "sudhir.shrestha@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Blaylock",
+    "F_Name": "Ashley",
+    "Faculty_ID": 43063,
+    "Building": "Salazar Hall",
+    "Room_Number": 2050,
+    "Department": "Entrepreneurial Activities",
+    "email": "ashley.blaylock@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Crenshaw",
+    "F_Name": "Jill",
+    "Faculty_ID": 44382,
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Entrepreneurial Activities",
+    "email": "crenshaj@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hendry",
+    "F_Name": "Christopher",
+    "Faculty_ID": 42527,
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Entrepreneurial Activities",
+    "email": "hendry@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Markley",
+    "F_Name": "Neil",
+    "Faculty_ID": 44068,
+    "Building": "Salazar Hall",
+    "Room_Number": 2063,
+    "Department": "Entrepreneurial Activities",
+    "email": "neil.markley@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Merrifield",
+    "F_Name": "Todd",
+    "Faculty_ID": 42996,
+    "Building": "Salazar Hall",
+    "Room_Number": 2050,
+    "Department": "Entrepreneurial Activities",
+    "email": "todd.merrifield@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Spires",
+    "F_Name": "Meredith",
+    "Faculty_ID": 43302,
+    "Building": "Salazar Hall",
+    "Room_Number": 2050,
+    "Department": "Entrepreneurial Activities",
+    "email": "spires@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Way",
+    "F_Name": "Jessica",
+    "Faculty_ID": 42138,
+    "Building": "Salazar Hall",
+    "Room_Number": "2063A",
+    "Department": "Entrepreneurial Activities",
+    "email": "jessica.way@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Bailey",
+    "F_Name": "Andre",
+    "Faculty_ID": 43031,
+    "Building": "Salazar Hall",
+    "Room_Number": 1060,
+    "Department": "EOP",
+    "email": "andre.bailey@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Calderon",
+    "F_Name": "Ricardo",
+    "Faculty_ID": 42865,
+    "Building": "Salazar Hall",
+    "Room_Number": 1079,
+    "Department": "EOP",
+    "email": "calderor@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Dates",
+    "F_Name": "Ashley",
+    "Faculty_ID": 43537,
+    "Building": "Salazar Hall",
+    "Room_Number": 1060,
+    "Department": "EOP",
+    "email": "dates@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Garcia−Valdez",
+    "F_Name": "Jesus",
+    "Faculty_ID": 42374,
+    "Building": "Salazar Hall",
+    "Room_Number": 1081,
+    "Department": "EOP",
+    "email": "jesus.garciavaldez@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Stein",
+    "F_Name": "Nicole",
+    "Faculty_ID": 42571,
+    "Building": "Salazar Hall",
+    "Room_Number": "1041A",
+    "Department": "EOP",
+    "email": "steinn@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Yang−Vigil",
+    "F_Name": "Khou",
+    "Faculty_ID": 43525,
+    "Building": "Salazar Hall",
+    "Room_Number": 1060,
+    "Department": "EOP",
+    "email": "yangvigi@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Diaz Misa",
+    "F_Name": "Carmen",
+    "Faculty_ID": 42389,
+    "Building": "Salazar Hall",
+    "Room_Number": "2050A",
+    "Department": "Financial Aid",
+    "email": "carmen.diaz@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Gutierrez",
+    "F_Name": "Susan",
+    "Faculty_ID": 42287,
+    "Building": "Salazar Hall",
+    "Room_Number": 1008,
+    "Department": "Financial Aid",
+    "email": "susan.gutierrez@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hilger",
+    "F_Name": "Nicole",
+    "Faculty_ID": 42389,
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Financial Aid",
+    "email": "hilger@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ibanez",
+    "F_Name": "Julia",
+    "Faculty_ID": 43173,
+    "Building": "Salazar Hall",
+    "Room_Number": "2050A",
+    "Department": "Financial Aid",
+    "email": "julia.ibanez@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kegley",
+    "F_Name": "Jessica",
+    "Faculty_ID": 42389,
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Financial Aid",
+    "email": "jessica.kegley@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "MacKay",
+    "F_Name": "Evan",
+    "Faculty_ID": 42389,
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Financial Aid",
+    "email": "evan.mackay@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Manriquez",
+    "F_Name": "Ivonne",
+    "Faculty_ID": 42389,
+    "Building": "Salazar Hall",
+    "Room_Number": 2050,
+    "Department": "Financial Aid",
+    "email": "ivonne.manriquez@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Mcdowell",
+    "F_Name": "Whitney",
+    "Faculty_ID": 42288,
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Financial Aid",
+    "email": "whitney.mcdowell@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Vasquez",
+    "F_Name": "Eduardo",
+    "Faculty_ID": 42389,
+    "Building": "Salazar Hall",
+    "Room_Number": "1st Floor",
+    "Department": "Financial Aid",
+    "email": "eduardo.vasquez@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Crozier",
+    "F_Name": "David",
+    "Faculty_ID": 43442,
+    "Building": "Salazar Hall",
+    "Room_Number": 2065,
+    "Department": "Financial Services",
+    "email": "david.crozier@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Singer",
+    "F_Name": "Eric",
+    "Faculty_ID": 43589,
+    "Building": "Salazar Hall",
+    "Room_Number": 2055,
+    "Department": "GMC Fundraising",
+    "email": "singere@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Zhu",
+    "F_Name": "Xiaodong",
+    "Faculty_ID": 42913,
+    "Building": "Salazar Hall",
+    "Room_Number": "2nd floor",
+    "Department": "Human Resources",
+    "email": "zhux@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kujoory",
+    "F_Name": "Ali",
+    "Faculty_ID": 43127,
+    "Building": "Salazar Hall",
+    "Room_Number": "2008B",
+    "Department": "MS Ces",
+    "email": "ali.kujoory@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hodenfield",
+    "F_Name": "Alicia",
+    "Faculty_ID": 43967,
+    "Building": "Salazar Hall",
+    "Room_Number": 2050,
+    "Department": "Office of the VP A and F",
+    "email": "hodenfie@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lopes",
+    "F_Name": "Joyce",
+    "Faculty_ID": 42310,
+    "Building": "Salazar Hall",
+    "Room_Number": "2063E",
+    "Department": "Office of the VP A and F",
+    "email": "joyce.lopes@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Karp",
+    "F_Name": "Steven",
+    "Faculty_ID": 43715,
+    "Building": "Salazar Hall",
+    "Room_Number": 2058,
+    "Department": "ORSP Post−Award",
+    "email": "karpst@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Moore",
+    "F_Name": "Lisa",
+    "Faculty_ID": 43444,
+    "Building": "Salazar Hall",
+    "Room_Number": "2050A",
+    "Department": "ORSP Post−Award",
+    "email": "lisa.moore@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ream",
+    "F_Name": "Nicole",
+    "Faculty_ID": 44423,
+    "Building": "Salazar Hall",
+    "Room_Number": 2059,
+    "Department": "ORSP Post−Award",
+    "email": "nicole.ream@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Stever",
+    "F_Name": "Sandy",
+    "Faculty_ID": 43210,
+    "Building": "Salazar Hall",
+    "Room_Number": "2050B",
+    "Department": "ORSP Post−Award",
+    "email": "sandy.stever@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Utarid",
+    "F_Name": "Gabrielle",
+    "Faculty_ID": 43972,
+    "Building": "Salazar Hall",
+    "Room_Number": 2057,
+    "Department": "ORSP Post−Award",
+    "email": "gabrielle.utarid@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Sandoval",
+    "F_Name": "Arcelia",
+    "Faculty_ID": 42066,
+    "Building": "Salazar Hall",
+    "Room_Number": 2058,
+    "Department": "ORSP Pre−Award",
+    "email": "arcelia.sandoval@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Varnadore",
+    "F_Name": "Megan",
+    "Faculty_ID": 43087,
+    "Building": "Salazar Hall",
+    "Room_Number": 2056,
+    "Department": "Parking",
+    "email": "megan.varnadore@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Cabergas",
+    "F_Name": "Flori",
+    "Faculty_ID": 44267,
+    "Building": "Salazar Hall",
+    "Room_Number": "2050B",
+    "Department": "Payables",
+    "email": "cabergas@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Habtezion",
+    "F_Name": "Raf",
+    "Faculty_ID": 43995,
+    "Building": "Salazar Hall",
+    "Room_Number": "2050−B",
+    "Department": "Payables",
+    "email": "habtezir@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Keene",
+    "F_Name": "Lisa",
+    "Faculty_ID": 43587,
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Payables",
+    "email": "lisa.keene@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Schmidt",
+    "F_Name": "Carrie",
+    "Faculty_ID": 43315,
+    "Building": "Salazar Hall",
+    "Room_Number": "2050B",
+    "Department": "Payables",
+    "email": "carrie.schmidt@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Cain",
+    "F_Name": "Heather",
+    "Faculty_ID": 42983,
+    "Building": "Salazar Hall",
+    "Room_Number": "2079B",
+    "Department": "Payroll and Benefits",
+    "email": "heather.cain@sonoma.edu",
+    "": "tom.jacobson@sonoma.edu"
+  },
+  {
+    "L_Name": "Carlson",
+    "F_Name": "Karen",
+    "Faculty_ID": 43936,
+    "Building": "Salazar Hall",
+    "Room_Number": 2079,
+    "Department": "Payroll and Benefits",
+    "email": "carlskar@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Colet",
+    "F_Name": "Kshatriya",
+    "Faculty_ID": 42982,
+    "Building": "Salazar Hall",
+    "Room_Number": 2079,
+    "Department": "Payroll and Benefits",
+    "email": "millickk@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Powers",
+    "F_Name": "Melanie",
+    "Faculty_ID": 42978,
+    "Building": "Salazar Hall",
+    "Room_Number": 2079,
+    "Department": "Payroll and Benefits",
+    "email": "melanie.powers@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ramos",
+    "F_Name": "Trisha",
+    "Faculty_ID": 42178,
+    "Building": "Salazar Hall",
+    "Room_Number": "2079A",
+    "Department": "Payroll and Benefits",
+    "email": "trisha.ramos@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Reyes",
+    "F_Name": "Alisia",
+    "Faculty_ID": 42232,
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Payroll and Benefits",
+    "email": "alisia.reyes@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Senander",
+    "F_Name": "Renee",
+    "Faculty_ID": 42979,
+    "Building": "Salazar Hall",
+    "Room_Number": "2079C",
+    "Department": "Payroll and Benefits",
+    "email": "renee.senander@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Bauman",
+    "F_Name": "Mandy",
+    "Faculty_ID": 43979,
+    "Building": "Salazar Hall",
+    "Room_Number": 2051,
+    "Department": "Purchasing",
+    "email": "mandy.bauman@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Faulconer",
+    "F_Name": "Carolyn",
+    "Faculty_ID": 43830,
+    "Building": "Salazar Hall",
+    "Room_Number": 2051,
+    "Department": "Purchasing",
+    "email": "carolyn.faulconer@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Herman",
+    "F_Name": "Trudee",
+    "Faculty_ID": 43239,
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Purchasing",
+    "email": "trudee.herman@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Nelson",
+    "F_Name": "Candace",
+    "Faculty_ID": 44283,
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Purchasing",
+    "email": "candace.nelson@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Simmons",
+    "F_Name": "Patti",
+    "Faculty_ID": 43591,
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Purchasing",
+    "email": "simmonsp@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Sun",
+    "F_Name": "Joy",
+    "Faculty_ID": 42274,
+    "Building": "Salazar Hall",
+    "Room_Number": 2071,
+    "Department": "Purchasing",
+    "email": "joy.sun@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Beem",
+    "F_Name": "Johna",
+    "Faculty_ID": 42046,
+    "Building": "Salazar Hall",
+    "Room_Number": 1019,
+    "Department": "Receipts Receivables",
+    "email": "beemjo@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Burnett",
+    "F_Name": "Adriana",
+    "Faculty_ID": 43568,
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Receipts Receivables",
+    "email": "burnetad@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Garcia−Torres",
+    "F_Name": "Guadalupe",
+    "Faculty_ID": 42723,
+    "Building": "Salazar Hall",
+    "Room_Number": 1019,
+    "Department": "Receipts Receivables",
+    "email": "garcigua@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Johnston",
+    "F_Name": "Leslie",
+    "Faculty_ID": 42576,
+    "Building": "Salazar Hall",
+    "Room_Number": 1019,
+    "Department": "Receipts Receivables",
+    "email": "johnstle@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lozano",
+    "F_Name": "Lisa",
+    "Faculty_ID": 43156,
+    "Building": "Salazar Hall",
+    "Room_Number": "2050B",
+    "Department": "Receipts Receivables",
+    "email": "lisa.lozano@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Magallon",
+    "F_Name": "Dusty",
+    "Faculty_ID": 43151,
+    "Building": "Salazar Hall",
+    "Room_Number": "2050B",
+    "Department": "Receipts Receivables",
+    "email": "dusty.magallon@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Orr",
+    "F_Name": "Brian",
+    "Faculty_ID": 44462,
+    "Building": "Salazar Hall",
+    "Room_Number": 2074,
+    "Department": "Receipts Receivables",
+    "email": "brian.orr@sonoma.edu",
+    "": "kaidoalv@sonoma.edu"
+  },
+  {
+    "L_Name": "Brunetta",
+    "F_Name": "Missy",
+    "Faculty_ID": 43408,
+    "Building": "Salazar Hall",
+    "Room_Number": 2061,
+    "Department": "Risk Mgmt",
+    "email": "missy.brunetta@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Avner",
+    "F_Name": "Jessica",
+    "Faculty_ID": 44249,
+    "Building": "Salazar Hall",
+    "Room_Number": 1000,
+    "Department": "Seawolf Services",
+    "email": "jessica.avner@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Cambou",
+    "F_Name": "Kelly",
+    "Faculty_ID": 44298,
+    "Building": "Salazar Hall",
+    "Room_Number": 1000,
+    "Department": "Seawolf Services",
+    "email": "cambou@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Goodman",
+    "F_Name": "Tracy",
+    "Faculty_ID": 44248,
+    "Building": "Salazar Hall",
+    "Room_Number": 1000,
+    "Department": "Seawolf Services",
+    "email": "tracy.goodman@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Jakushak",
+    "F_Name": "Darci",
+    "Faculty_ID": 42061,
+    "Building": "Salazar Hall",
+    "Room_Number": 1000,
+    "Department": "Seawolf Services",
+    "email": "jakushak@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Murray",
+    "F_Name": "Catherine",
+    "Faculty_ID": 44019,
+    "Building": "Salazar Hall",
+    "Room_Number": 1000,
+    "Department": "Seawolf Services",
+    "email": "murrayc@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "O’Brien",
+    "F_Name": "Elizabeth",
+    "Faculty_ID": 44023,
+    "Building": "Salazar Hall",
+    "Room_Number": 1000,
+    "Department": "Seawolf Services",
+    "email": "elizabeth.obrien@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "O’Hara",
+    "F_Name": "Lori",
+    "Faculty_ID": 44299,
+    "Building": "Salazar Hall",
+    "Room_Number": 1000,
+    "Department": "Seawolf Services",
+    "email": "lori.ohara@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Perry",
+    "F_Name": "Tiffany",
+    "Faculty_ID": 42039,
+    "Building": "Salazar Hall",
+    "Room_Number": 1000,
+    "Department": "Seawolf Services",
+    "email": "tiffany.perry@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Acharya",
+    "F_Name": "L Kiranmayi",
+    "Faculty_ID": 43110,
+    "Building": "Salazar Hall",
+    "Room_Number": 2030,
+    "Department": "Student Admissions",
+    "email": "acharyal@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Boyd",
+    "F_Name": "Kerbrina",
+    "Faculty_ID": 43024,
+    "Building": "Salazar Hall",
+    "Room_Number": 2030,
+    "Department": "Student Admissions",
+    "email": "kerbrina.boyd@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Cook−Imoto",
+    "F_Name": "Margaret",
+    "Faculty_ID": 43014,
+    "Building": "Salazar Hall",
+    "Room_Number": 2030,
+    "Department": "Student Admissions",
+    "email": "margaret.cook.imoto@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Godoy",
+    "F_Name": "Barbara",
+    "Faculty_ID": 43022,
+    "Building": "Salazar Hall",
+    "Room_Number": 2038,
+    "Department": "Student Admissions",
+    "email": "godoyb@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Johnson",
+    "F_Name": "Vicki",
+    "Faculty_ID": 43204,
+    "Building": "Salazar Hall",
+    "Room_Number": 2030,
+    "Department": "Student Admissions",
+    "email": "vicki.johnson@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kalogiannis",
+    "F_Name": "Natalie",
+    "Faculty_ID": 42874,
+    "Building": "Salazar Hall",
+    "Room_Number": 2030,
+    "Department": "Student Admissions",
+    "email": "natalie.kalogiannis@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kelley",
+    "F_Name": "Rosanna",
+    "Faculty_ID": 42252,
+    "Building": "Salazar Hall",
+    "Room_Number": 2030,
+    "Department": "Student Admissions",
+    "email": "rosanna.kelley@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Plikuhn",
+    "F_Name": "Delia",
+    "Faculty_ID": 43028,
+    "Building": "Salazar Hall",
+    "Room_Number": 2030,
+    "Department": "Student Admissions",
+    "email": "delia.plikuhn@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Rycroft",
+    "F_Name": "Kimberly",
+    "Faculty_ID": 43027,
+    "Building": "Salazar Hall",
+    "Room_Number": 2030,
+    "Department": "Student Admissions",
+    "email": "kimberly.rycroft@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Traverso",
+    "F_Name": "Sherrie",
+    "Faculty_ID": 43021,
+    "Building": "Salazar Hall",
+    "Room_Number": 2040,
+    "Department": "Student Admissions",
+    "email": "traverso@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Wright",
+    "F_Name": "Rebecca",
+    "Faculty_ID": 43474,
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Student Admissions",
+    "email": "wrightr@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Atkinson",
+    "F_Name": "Patricia",
+    "Faculty_ID": 44459,
+    "Building": "Salazar Hall",
+    "Room_Number": 2030,
+    "Department": "Student Records",
+    "email": "atkinsop@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Balasek",
+    "F_Name": "Michael",
+    "Faculty_ID": 42701,
+    "Building": "Salazar Hall",
+    "Room_Number": 1070,
+    "Department": "Student Records",
+    "email": "balasek@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Dahl",
+    "F_Name": "Katherine",
+    "Faculty_ID": 43367,
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Student Records",
+    "email": "katherine.dahl@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hernandez",
+    "F_Name": "Angeles",
+    "Faculty_ID": 43346,
+    "Building": "Salazar Hall",
+    "Room_Number": 2030,
+    "Department": "Student Records",
+    "email": "angeles.hernandez@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lee",
+    "F_Name": "Lillian",
+    "Faculty_ID": 43101,
+    "Building": "Salazar Hall",
+    "Room_Number": 2030,
+    "Department": "Student Records",
+    "email": "lillian.lee@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Macarty",
+    "F_Name": "Conchita",
+    "Faculty_ID": 42635,
+    "Building": "Salazar Hall",
+    "Room_Number": 0,
+    "Department": "Student Records",
+    "email": "conchita.macarty@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Noto",
+    "F_Name": "Lisa",
+    "Faculty_ID": 42778,
+    "Building": "Salazar Hall",
+    "Room_Number": 2030,
+    "Department": "Student Records",
+    "email": "noto@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Toves",
+    "F_Name": "Stephanie",
+    "Faculty_ID": 42087,
+    "Building": "Salazar Hall",
+    "Room_Number": 2038,
+    "Department": "Student Records",
+    "email": "toves@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Anderson",
+    "F_Name": "Lucas",
+    "Faculty_ID": 42353,
+    "Building": "Salazar Hall",
+    "Room_Number": 1010,
+    "Department": "Student Recruitment",
+    "email": "andersonl@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Calderon",
+    "F_Name": "Bianca",
+    "Faculty_ID": 43819,
+    "Building": "Salazar Hall",
+    "Room_Number": 1010,
+    "Department": "Student Recruitment",
+    "email": "calderob@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Cooper",
+    "F_Name": "Melanie",
+    "Faculty_ID": 42938,
+    "Building": "Salazar Hall",
+    "Room_Number": 1010,
+    "Department": "Student Recruitment",
+    "email": "gonzamel@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Saldana",
+    "F_Name": "Priscilla",
+    "Faculty_ID": 42231,
+    "Building": "Salazar Hall",
+    "Room_Number": 1070,
+    "Department": "Student Success and Advising",
+    "email": "saldanap@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Zamjahn",
+    "F_Name": "Jamie",
+    "Faculty_ID": 43079,
+    "Building": "Salazar Hall",
+    "Room_Number": 1080,
+    "Department": "Student Success and Advising",
+    "email": "zamjahn@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Vega",
+    "F_Name": "Luis",
+    "Faculty_ID": 43437,
+    "Building": "Salazar Hall",
+    "Room_Number": "1070−(1082)",
+    "Department": "Testing Services",
+    "email": "luis.vega@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Black",
+    "F_Name": "Erika",
+    "Faculty_ID": 43564,
+    "Building": "Salazar Hall",
+    "Room_Number": 1070,
+    "Department": "Transfer and Transition Center",
+    "email": "erika.black@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Chavez",
+    "F_Name": "Marissa",
+    "Faculty_ID": 44384,
+    "Building": "Salazar Hall",
+    "Room_Number": 1070,
+    "Department": "Transfer and Transition Center",
+    "email": "chamaris@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Nguyen",
+    "F_Name": "Alvin",
+    "Faculty_ID": 43281,
+    "Building": "Salazar Hall",
+    "Room_Number": 1073,
+    "Department": "Transfer and Transition Center",
+    "email": "alvin.nguyen@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Shivers",
+    "F_Name": "Kaila",
+    "Faculty_ID": 43588,
+    "Building": "Salazar Hall",
+    "Room_Number": 1070,
+    "Department": "Transfer and Transition Center",
+    "email": "kaila.shivers@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Salamanca Moreira",
+    "F_Name": "Rosa",
+    "Faculty_ID": 43541,
+    "Building": "Salazar Hall",
+    "Room_Number": 1060,
+    "Department": "UndocuCenter",
+    "email": "rosa.salamanca@sonoma.edu",
+    "": "laney@sonoma.edu"
+  },
+  {
+    "L_Name": "Avery",
+    "F_Name": "Hayley",
+    "Faculty_ID": 43926,
+    "Building": "Salazar Hall",
+    "Room_Number": 2050,
+    "Department": "University Budget and Planning",
+    "email": "rossha@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lupei",
+    "F_Name": "Laura",
+    "Faculty_ID": 43132,
+    "Building": "Salazar Hall",
+    "Room_Number": "2063−I",
+    "Department": "University Budget and Planning",
+    "email": "laura.lupei@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Newman",
+    "F_Name": "Kendall",
+    "Faculty_ID": 43832,
+    "Building": "Salazar Hall",
+    "Room_Number": "2050A",
+    "Department": "University Budget and Planning",
+    "email": "kendall.newman@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Robinson",
+    "F_Name": "Katie",
+    "Faculty_ID": 42835,
+    "Building": "Salazar Hall",
+    "Room_Number": "2063G",
+    "Department": "University Budget and Planning",
+    "email": "robinkat@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Sanchez",
+    "F_Name": "Natalie",
+    "Faculty_ID": 42715,
+    "Building": "Salazar Hall",
+    "Room_Number": 2050,
+    "Department": "University Budget and Planning",
+    "email": "natalie.sanchez@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Barclay",
+    "F_Name": "Achara",
+    "Faculty_ID": 43131,
+    "Building": "Salazar Hall",
+    "Room_Number": 1041,
+    "Department": "University Support Services",
+    "email": "barclaya@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Orme",
+    "F_Name": "Cora",
+    "Faculty_ID": 42696,
+    "Building": "Salazar Hall",
+    "Room_Number": 1061,
+    "Department": "Writing Center",
+    "email": "orme@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Farahmand",
+    "F_Name": "Farid",
+    "Faculty_ID": 43491,
+    "Building": "Salazar Hall #2004",
+    "Room_Number": 0,
+    "Department": "Engineering Degree Program",
+    "email": "farid.farahmand@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Torres",
+    "F_Name": "Rheannon",
+    "Faculty_ID": 43756,
+    "Building": "Salazar Hall Administration and Finance Suit",
+    "Room_Number": "",
+    "Department": "ORSP Pre−Award",
+    "email": "torresr@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hill",
+    "F_Name": "Tyson",
+    "Faculty_ID": 44039,
+    "Building": "Salazar Hall AFD",
+    "Room_Number": "2nd Floor",
+    "Department": "Risk Mgmt",
+    "email": "hillt@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "O’Brien",
+    "F_Name": "Cecilia",
+    "Faculty_ID": 43737,
+    "Building": "Salazar Hall−",
+    "Room_Number": "2nd floor− Administration",
+    "Department": "Conference and Event Services",
+    "email": "obrienm@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Henderson",
+    "F_Name": "Eleanor",
+    "Faculty_ID": 43094,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1010,
+    "Department": "Common Mgmt Systems (CMS)",
+    "email": "henderel@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "DeCoursey",
+    "F_Name": "Suzanne",
+    "Faculty_ID": 42197,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1105,
+    "Department": "Ctr for Environmental Inquiry",
+    "email": "decourse@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Davis",
+    "F_Name": "Oran",
+    "Faculty_ID": 43825,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1021,
+    "Department": "Workstation Security and Svcs",
+    "email": "oran.davis@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Sprang",
+    "F_Name": "Amanda",
+    "Faculty_ID": 43581,
+    "Building": "Schulz Information Center",
+    "Room_Number": 0,
+    "Department": "Culinary Services",
+    "email": "spranga@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Moore",
+    "F_Name": "Barbara",
+    "Faculty_ID": 42721,
+    "Building": "Schulz Information Center",
+    "Room_Number": "2011C",
+    "Department": "Academic Technology",
+    "email": "mooreb@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Poloynis",
+    "F_Name": "Achilles",
+    "Faculty_ID": 43570,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1043,
+    "Department": "Academic Technology",
+    "email": "poloynis@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Cullinane",
+    "F_Name": "Michael",
+    "Faculty_ID": 44266,
+    "Building": "Schulz Information Center",
+    "Room_Number": 2024,
+    "Department": "Access Services",
+    "email": "cullinan@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Muller",
+    "F_Name": "John",
+    "Faculty_ID": 42590,
+    "Building": "Schulz Information Center",
+    "Room_Number": "3004−A",
+    "Department": "Access Services",
+    "email": "muller@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ritchie",
+    "F_Name": "Jack",
+    "Faculty_ID": 42562,
+    "Building": "Schulz Information Center",
+    "Room_Number": "2012b",
+    "Department": "Access Services",
+    "email": "ritchiej@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Anderson",
+    "F_Name": "Josh",
+    "Faculty_ID": 43864,
+    "Building": "Schulz Information Center",
+    "Room_Number": "1058B",
+    "Department": "Common Mgmt Systems (CMS)",
+    "email": "josh.anderson@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Brewer",
+    "F_Name": "Alisandra",
+    "Faculty_ID": 44241,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1057,
+    "Department": "Common Mgmt Systems (CMS)",
+    "email": "brewer@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Damera",
+    "F_Name": "Koushik",
+    "Faculty_ID": 42767,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1064,
+    "Department": "Common Mgmt Systems (CMS)",
+    "email": "koushik.damera@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hankins",
+    "F_Name": "Douglas",
+    "Faculty_ID": 44271,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1065,
+    "Department": "Common Mgmt Systems (CMS)",
+    "email": "hankins@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "James",
+    "F_Name": "Teresa",
+    "Faculty_ID": 42792,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1067,
+    "Department": "Common Mgmt Systems (CMS)",
+    "email": "teresa.james@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Klafter",
+    "F_Name": "Erica",
+    "Faculty_ID": 42418,
+    "Building": "Schulz Information Center",
+    "Room_Number": "1058B",
+    "Department": "Common Mgmt Systems (CMS)",
+    "email": "erica.klafter@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "McGowan",
+    "F_Name": "Amanda",
+    "Faculty_ID": 43361,
+    "Building": "Schulz Information Center",
+    "Room_Number": "1050A",
+    "Department": "Common Mgmt Systems (CMS)",
+    "email": "amanda.mcgowan@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Mejia Berzunza",
+    "F_Name": "Ivonne",
+    "Faculty_ID": 43586,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1055,
+    "Department": "Common Mgmt Systems (CMS)",
+    "email": "ivonne.mejiaberzunza@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Miller",
+    "F_Name": "Cindy",
+    "Faculty_ID": 42099,
+    "Building": "Schulz Information Center",
+    "Room_Number": "1058B",
+    "Department": "Common Mgmt Systems (CMS)",
+    "email": "millercy@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Montalto",
+    "F_Name": "Joseph",
+    "Faculty_ID": 44071,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1068,
+    "Department": "Common Mgmt Systems (CMS)",
+    "email": "montalto@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Myers",
+    "F_Name": "Roda Lee",
+    "Faculty_ID": 43878,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1022,
+    "Department": "Common Mgmt Systems (CMS)",
+    "email": "rodalee.myers@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Pettit",
+    "F_Name": "Sadie",
+    "Faculty_ID": 42162,
+    "Building": "Schulz Information Center",
+    "Room_Number": "1058B",
+    "Department": "Common Mgmt Systems (CMS)",
+    "email": "pettitj@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Russell",
+    "F_Name": "Jaime",
+    "Faculty_ID": 42889,
+    "Building": "Schulz Information Center",
+    "Room_Number": "1050B",
+    "Department": "Common Mgmt Systems (CMS)",
+    "email": "jaime.russell@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Bellwood",
+    "F_Name": "Vaughn",
+    "Faculty_ID": 42998,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1049,
+    "Department": "Computer Operations",
+    "email": "vaughn.bellwood@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Biggs",
+    "F_Name": "Brian",
+    "Faculty_ID": 42047,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1037,
+    "Department": "Computer Operations",
+    "email": "biggsb@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Boehlke",
+    "F_Name": "Jon",
+    "Faculty_ID": 44097,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1039,
+    "Department": "Computer Operations",
+    "email": "boehlke@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Eisenhart",
+    "F_Name": "Eric",
+    "Faculty_ID": 43099,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1036,
+    "Department": "Computer Operations",
+    "email": "eric.eisenhart@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Gordon",
+    "F_Name": "Sam",
+    "Faculty_ID": 43599,
+    "Building": "Schulz Information Center",
+    "Room_Number": 0,
+    "Department": "Computer Operations",
+    "email": "gordonsa@sonoma.edu",
+    "": "mackn@sonoma.edu"
+  },
+  {
+    "L_Name": "Mollo",
+    "F_Name": "Dustin",
+    "Faculty_ID": 43340,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1038,
+    "Department": "Computer Operations",
+    "email": "mollo@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Nelson",
+    "F_Name": "Michael",
+    "Faculty_ID": 43896,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1035,
+    "Department": "Computer Operations",
+    "email": "nelsonm@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Peterson",
+    "F_Name": "Matt",
+    "Faculty_ID": 43575,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1042,
+    "Department": "Computer Operations",
+    "email": "matthew.peterson@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Banuelos",
+    "F_Name": "Caroline",
+    "Faculty_ID": 43493,
+    "Building": "Schulz Information Center",
+    "Room_Number": 0,
+    "Department": "Ctr for Community Engagement",
+    "email": "caroline.banuelos@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Weisman",
+    "F_Name": "Merith",
+    "Faculty_ID": 43202,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1102,
+    "Department": "Ctr for Community Engagement",
+    "email": "merith.weisman@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Luke",
+    "F_Name": "Claudia",
+    "Faculty_ID": 43416,
+    "Building": "Schulz Information Center",
+    "Room_Number": 3048,
+    "Department": "Ctr for Environmental Inquiry",
+    "email": "lukec@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Boyer",
+    "F_Name": "Brent",
+    "Faculty_ID": 42677,
+    "Building": "Schulz Information Center",
+    "Room_Number": "1014A",
+    "Department": "Disability Srvcs for Students",
+    "email": "boyer@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Eynon",
+    "F_Name": "Michael",
+    "Faculty_ID": 43946,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1006,
+    "Department": "Disability Srvcs for Students",
+    "email": "eynon@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Franzen",
+    "F_Name": "Noelia",
+    "Faculty_ID": 43898,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1010,
+    "Department": "Disability Srvcs for Students",
+    "email": "noelia.franzen@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Giambastiani",
+    "F_Name": "Christy",
+    "Faculty_ID": 42677,
+    "Building": "Schulz Information Center",
+    "Room_Number": "1014A",
+    "Department": "Disability Srvcs for Students",
+    "email": "christy.giambastiani@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Graham",
+    "F_Name": "Stephanie",
+    "Faculty_ID": 43244,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1009,
+    "Department": "Disability Srvcs for Students",
+    "email": "stephanie.graham@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Jaggars",
+    "F_Name": "JoAnne",
+    "Faculty_ID": 43932,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1003,
+    "Department": "Disability Srvcs for Students",
+    "email": "jaggars@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Simms",
+    "F_Name": "Maggie",
+    "Faculty_ID": 42677,
+    "Building": "Schulz Information Center",
+    "Room_Number": "1014A",
+    "Department": "Disability Srvcs for Students",
+    "email": "maggie.simms@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Miller",
+    "F_Name": "Scott",
+    "Faculty_ID": 44402,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1103,
+    "Department": "English",
+    "email": "scott.miller@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Gould",
+    "F_Name": "Joel",
+    "Faculty_ID": 43009,
+    "Building": "Schulz Information Center",
+    "Room_Number": "2019B",
+    "Department": "Faculty Center",
+    "email": "gouldjo@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hensel",
+    "F_Name": "Timothy",
+    "Faculty_ID": 44455,
+    "Building": "Schulz Information Center",
+    "Room_Number": "2019B",
+    "Department": "Faculty Center",
+    "email": "hensel@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lipp",
+    "F_Name": "Justin",
+    "Faculty_ID": 42636,
+    "Building": "Schulz Information Center",
+    "Room_Number": 2019,
+    "Department": "Faculty Center",
+    "email": "lipp@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lynch",
+    "F_Name": "John",
+    "Faculty_ID": 43678,
+    "Building": "Schulz Information Center",
+    "Room_Number": 2019,
+    "Department": "Faculty Center",
+    "email": "lynchjo@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Aaseth",
+    "F_Name": "Jen",
+    "Faculty_ID": 43565,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1035,
+    "Department": "Information Technology",
+    "email": "aaseth@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Casas",
+    "F_Name": "Jestina",
+    "Faculty_ID": 43153,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1003,
+    "Department": "Information Technology",
+    "email": "casasj@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Krichmar",
+    "F_Name": "Lee",
+    "Faculty_ID": 43765,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1046,
+    "Department": "Information Technology",
+    "email": "krichmar@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Baggs",
+    "F_Name": "Laurie",
+    "Faculty_ID": 42540,
+    "Building": "Schulz Information Center",
+    "Room_Number": "2N−2028",
+    "Department": "Library Administration",
+    "email": "baggs@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Cormier",
+    "F_Name": "Bonnie",
+    "Faculty_ID": 42397,
+    "Building": "Schulz Information Center",
+    "Room_Number": 3070,
+    "Department": "Library Administration",
+    "email": "cormier@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Corona",
+    "F_Name": "Alyssa",
+    "Faculty_ID": 44153,
+    "Building": "Schulz Information Center",
+    "Room_Number": 3071,
+    "Department": "Library Administration",
+    "email": "coroalys@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Croll",
+    "F_Name": "Meghan",
+    "Faculty_ID": 42951,
+    "Building": "Schulz Information Center",
+    "Room_Number": 2033,
+    "Department": "Library Administration",
+    "email": "croll@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Dinkins",
+    "F_Name": "Julie",
+    "Faculty_ID": 44077,
+    "Building": "Schulz Information Center",
+    "Room_Number": 3028,
+    "Department": "Library Administration",
+    "email": "dinkins@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Fonseca",
+    "F_Name": "Catherine",
+    "Faculty_ID": 43310,
+    "Building": "Schulz Information Center",
+    "Room_Number": 2029,
+    "Department": "Library Administration",
+    "email": "fonseca@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hayes",
+    "F_Name": "Christine",
+    "Faculty_ID": 43339,
+    "Building": "Schulz Information Center",
+    "Room_Number": "2012E",
+    "Department": "Library Administration",
+    "email": "christine.hayes@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Krier",
+    "F_Name": "Laura",
+    "Faculty_ID": 42459,
+    "Building": "Schulz Information Center",
+    "Room_Number": 2029,
+    "Department": "Library Administration",
+    "email": "laura.krier@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "O’Neil",
+    "F_Name": "Jen",
+    "Faculty_ID": 43344,
+    "Building": "Schulz Information Center",
+    "Room_Number": 2035,
+    "Department": "Library Administration",
+    "email": "jen.oneil@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Premo",
+    "F_Name": "Rita",
+    "Faculty_ID": 44196,
+    "Building": "Schulz Information Center",
+    "Room_Number": "2011A",
+    "Department": "Library Administration",
+    "email": "premo@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ricciardi",
+    "F_Name": "Dawnelle",
+    "Faculty_ID": 42877,
+    "Building": "Schulz Information Center",
+    "Room_Number": 2024,
+    "Department": "Library Administration",
+    "email": "dawnelle.ricciardi@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Sargent",
+    "F_Name": "Darren",
+    "Faculty_ID": 44015,
+    "Building": "Schulz Information Center",
+    "Room_Number": 2035,
+    "Department": "Library Administration",
+    "email": "darren.sargent@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Smith",
+    "F_Name": "Hilary",
+    "Faculty_ID": 43464,
+    "Building": "Schulz Information Center",
+    "Room_Number": 2052,
+    "Department": "Library Administration",
+    "email": "hilary.smith@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Smith",
+    "F_Name": "Jonathan",
+    "Faculty_ID": 44370,
+    "Building": "Schulz Information Center",
+    "Room_Number": "2011A",
+    "Department": "Library Administration",
+    "email": "jonathan.smith@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Springmier",
+    "F_Name": "Kaitlin",
+    "Faculty_ID": 43542,
+    "Building": "Schulz Information Center",
+    "Room_Number": "2051A",
+    "Department": "Library Administration",
+    "email": "kaitlin.springmier@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kanaana",
+    "F_Name": "Izabela",
+    "Faculty_ID": 42271,
+    "Building": "Schulz Information Center",
+    "Room_Number": "2009c Office 7",
+    "Department": "Mathematics",
+    "email": "kanaana@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Aceves",
+    "F_Name": "Mira",
+    "Faculty_ID": 42205,
+    "Building": "Schulz Information Center",
+    "Room_Number": "1033C",
+    "Department": "Network Security and Comm Svcs",
+    "email": "acevesm@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Orton",
+    "F_Name": "Vincent",
+    "Faculty_ID": 42206,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1031,
+    "Department": "Network Security and Comm Svcs",
+    "email": "orton@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Revere",
+    "F_Name": "Lisa",
+    "Faculty_ID": 42204,
+    "Building": "Schulz Information Center",
+    "Room_Number": "1033C",
+    "Department": "Network Security and Comm Svcs",
+    "email": "revere@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Wright",
+    "F_Name": "Todd",
+    "Faculty_ID": 42207,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1032,
+    "Department": "Network Security and Comm Svcs",
+    "email": "todd.wright@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Rivas Miranda",
+    "F_Name": "Pam",
+    "Faculty_ID": 43897,
+    "Building": "Schulz Information Center",
+    "Room_Number": 2020,
+    "Department": "ORSP Student Research",
+    "email": "rivasp@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Cominsky",
+    "F_Name": "Lynn",
+    "Faculty_ID": 42655,
+    "Building": "Schulz Information Center",
+    "Room_Number": 3051,
+    "Department": "Physics and Astronomy",
+    "email": "lynnc@universe.sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Arnold",
+    "F_Name": "Nick",
+    "Faculty_ID": 43006,
+    "Building": "Schulz Information Center",
+    "Room_Number": "1021B",
+    "Department": "Workstation Security and Svcs",
+    "email": "nick.arnold@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Baker",
+    "F_Name": "Ken",
+    "Faculty_ID": 42072,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1029,
+    "Department": "Workstation Security and Svcs",
+    "email": "ken.baker@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Byers",
+    "F_Name": "Jon",
+    "Faculty_ID": 44356,
+    "Building": "Schulz Information Center",
+    "Room_Number": "1018−B",
+    "Department": "Workstation Security and Svcs",
+    "email": "jon.byers@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Calvez",
+    "F_Name": "Moe",
+    "Faculty_ID": 42758,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1072,
+    "Department": "Workstation Security and Svcs",
+    "email": "calvez@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Chavez",
+    "F_Name": "Andres",
+    "Faculty_ID": 43560,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1022,
+    "Department": "Workstation Security and Svcs",
+    "email": "andres.chavez@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Corwin",
+    "F_Name": "Christopher",
+    "Faculty_ID": 44368,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1022,
+    "Department": "Workstation Security and Svcs",
+    "email": "chris.corwin@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Cotter",
+    "F_Name": "Paul",
+    "Faculty_ID": 42245,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1032,
+    "Department": "Workstation Security and Svcs",
+    "email": "cotterp@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ferguson",
+    "F_Name": "Evan",
+    "Faculty_ID": 43980,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1071,
+    "Department": "Workstation Security and Svcs",
+    "email": "evan.ferguson@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hazen",
+    "F_Name": "Michael",
+    "Faculty_ID": 42922,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1030,
+    "Department": "Workstation Security and Svcs",
+    "email": "hazen@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lance",
+    "F_Name": "Scott",
+    "Faculty_ID": 42107,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1029,
+    "Department": "Workstation Security and Svcs",
+    "email": "lance@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Reinacher",
+    "F_Name": "Jan",
+    "Faculty_ID": 43594,
+    "Building": "Schulz Information Center",
+    "Room_Number": "1021 B",
+    "Department": "Workstation Security and Svcs",
+    "email": "reinache@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Schramm",
+    "F_Name": "Rosie",
+    "Faculty_ID": 42822,
+    "Building": "Schulz Information Center",
+    "Room_Number": "1000 1018A",
+    "Department": "Workstation Security and Svcs",
+    "email": "rosie.schramm@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Estes",
+    "F_Name": "Gillian",
+    "Faculty_ID": 44274,
+    "Building": "Schulz Information Center",
+    "Room_Number": 1103,
+    "Department": "Writing Center",
+    "email": "estesg@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Negri",
+    "F_Name": "Loriann",
+    "Faculty_ID": 42629,
+    "Building": "Schulz Information Center",
+    "Room_Number": "1104A",
+    "Department": "Writing Center",
+    "email": "loriann.negri@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Klein",
+    "F_Name": "Ashley",
+    "Faculty_ID": 43584,
+    "Building": "Schulz Information Center",
+    "Room_Number": "2019−B",
+    "Department": "Faculty Center",
+    "email": "ashley.klein@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Simonnet",
+    "F_Name": "Aurore",
+    "Faculty_ID": 43262,
+    "Building": "Schulz Information Center",
+    "Room_Number": 3052,
+    "Department": "Education and Public Outreach",
+    "email": "aurore@universe.sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Simon",
+    "F_Name": "Ashley",
+    "Faculty_ID": 42665,
+    "Building": "Schulz Information Center",
+    "Room_Number": 0,
+    "Department": "Ctr for Community Engagement",
+    "email": "simona@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Jones",
+    "F_Name": "Clarence",
+    "Faculty_ID": 43404,
+    "Building": "Sonoma",
+    "Room_Number": 0,
+    "Department": "University Police",
+    "email": "jonescla@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Nunes",
+    "F_Name": "Maria",
+    "Faculty_ID": 42143,
+    "Building": "Sonoma",
+    "Room_Number": 0,
+    "Department": "University Police",
+    "email": "nunes@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Rhoades",
+    "F_Name": "David",
+    "Faculty_ID": 43180,
+    "Building": "South Fieldhouse",
+    "Room_Number": 0,
+    "Department": "Athletics",
+    "email": "rhoades@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Moranski",
+    "F_Name": "Karen",
+    "Faculty_ID": 43609,
+    "Building": "STEV",
+    "Room_Number": "1041D",
+    "Department": "Academic Programs",
+    "email": "moranski@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Bosick",
+    "F_Name": "Stacey",
+    "Faculty_ID": 42859,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1041,
+    "Department": "Academic Programs",
+    "email": "bosick@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "King−Bailey",
+    "F_Name": "Gillian",
+    "Faculty_ID": 44286,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1041,
+    "Department": "Academic Programs",
+    "email": "kingbail@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lopez Gonzalez",
+    "F_Name": "Veronica",
+    "Faculty_ID": 43593,
+    "Building": "Stevenson Hall",
+    "Room_Number": "1041B",
+    "Department": "Academic Programs",
+    "email": "lopezgon@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Manwiller",
+    "F_Name": "Kari",
+    "Faculty_ID": 44229,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1041,
+    "Department": "Academic Programs",
+    "email": "manwille@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Musick",
+    "F_Name": "Katie",
+    "Faculty_ID": 42844,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1041,
+    "Department": "Academic Programs",
+    "email": "musick@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Purdy",
+    "F_Name": "Kim",
+    "Faculty_ID": 43609,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1041,
+    "Department": "Academic Programs",
+    "email": "purdyk@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Holmstrom−Keyes",
+    "F_Name": "Laurel",
+    "Faculty_ID": 42801,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1027,
+    "Department": "Academic Senate",
+    "email": "holmstrl@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Bishop Gabriel",
+    "F_Name": "Kyle",
+    "Faculty_ID": 43929,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1050,
+    "Department": "Advancement Operations",
+    "email": "kyle.bishop−gabriel@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hankes",
+    "F_Name": "Janet",
+    "Faculty_ID": 43343,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1050,
+    "Department": "Advancement Operations",
+    "email": "hankes@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hannah",
+    "F_Name": "Ian",
+    "Faculty_ID": 44041,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1054,
+    "Department": "Advancement Operations",
+    "email": "ian.hannah@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ogg",
+    "F_Name": "Laurie",
+    "Faculty_ID": 42036,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1071,
+    "Department": "Advancement Operations",
+    "email": "laurie.ogg@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Abbott−Enz",
+    "F_Name": "Pamela",
+    "Faculty_ID": 42561,
+    "Building": "Stevenson Hall",
+    "Room_Number": 0,
+    "Department": "Anthropology",
+    "email": "abbotten@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Boutin",
+    "F_Name": "Alexis",
+    "Faculty_ID": 42729,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2054D",
+    "Department": "Anthropology",
+    "email": "alexis.boutin@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Grace",
+    "F_Name": "Samantha",
+    "Faculty_ID": 42319,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2070A",
+    "Department": "Anthropology",
+    "email": "graces@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Jaffe",
+    "F_Name": "Karin",
+    "Faculty_ID": 42944,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2054A",
+    "Department": "Anthropology",
+    "email": "enstam@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Purser",
+    "F_Name": "Margaret",
+    "Faculty_ID": 43164,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2054E",
+    "Department": "Anthropology",
+    "email": "purser@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Senghas",
+    "F_Name": "Richard",
+    "Faculty_ID": 42307,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2054C",
+    "Department": "Anthropology",
+    "email": "richard.senghas@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Vacca",
+    "F_Name": "Kirsten",
+    "Faculty_ID": 43950,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2070J",
+    "Department": "Anthropology",
+    "email": "vacca@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Whitley",
+    "F_Name": "Thomas",
+    "Faculty_ID": 42547,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2054G",
+    "Department": "Anthropology",
+    "email": "whitley@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Wingard",
+    "F_Name": "John",
+    "Faculty_ID": 42319,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2078,
+    "Department": "Anthropology",
+    "email": "john.wingard@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Atkin",
+    "F_Name": "Thomas",
+    "Faculty_ID": 43333,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2026L",
+    "Department": "Business Administration",
+    "email": "tom.atkin@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Chang",
+    "F_Name": "Kathryn",
+    "Faculty_ID": 42400,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2026D",
+    "Department": "Business Administration",
+    "email": "changkat@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ely",
+    "F_Name": "Kirsten",
+    "Faculty_ID": 42377,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2010D",
+    "Department": "Business Administration",
+    "email": "kirsten.ely@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hu",
+    "F_Name": "Aidong",
+    "Faculty_ID": 42096,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2026I",
+    "Department": "Business Administration",
+    "email": "hua@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Jordan",
+    "F_Name": "Douglas",
+    "Faculty_ID": 42377,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2042,
+    "Department": "Business Administration",
+    "email": "jordand@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lee",
+    "F_Name": "Kyuho",
+    "Faculty_ID": 42160,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2060,
+    "Department": "Business Administration",
+    "email": "kyuho.lee@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Navas",
+    "F_Name": "Tracy",
+    "Faculty_ID": 42377,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2042,
+    "Department": "Business Administration",
+    "email": "navast@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Newton",
+    "F_Name": "Sandra",
+    "Faculty_ID": 43296,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2026M",
+    "Department": "Business Administration",
+    "email": "sandra.newton@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Olsen",
+    "F_Name": "Janeen",
+    "Faculty_ID": 484.8434,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2019,
+    "Department": "Business Administration",
+    "email": "olsenj@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Richman",
+    "F_Name": "Vincent",
+    "Faculty_ID": 42025,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2010D",
+    "Department": "Business Administration",
+    "email": "richman@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Robison",
+    "F_Name": "Jim",
+    "Faculty_ID": 42904,
+    "Building": "Stevenson Hall",
+    "Room_Number": "3006A",
+    "Department": "Business Administration",
+    "email": "robisonj@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Santos",
+    "F_Name": "Michael",
+    "Faculty_ID": 42647,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2026F",
+    "Department": "Business Administration",
+    "email": "michael.santos@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Standridge",
+    "F_Name": "Joseph",
+    "Faculty_ID": 43073,
+    "Building": "Stevenson Hall",
+    "Room_Number": "3006A",
+    "Department": "Business Administration",
+    "email": "joe.standridge@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Sutanonpaiboon",
+    "F_Name": "Janejira",
+    "Faculty_ID": 43128,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2026B",
+    "Department": "Business Administration",
+    "email": "sutanonp@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Urbanski",
+    "F_Name": "John",
+    "Faculty_ID": 42702,
+    "Building": "Stevenson Hall",
+    "Room_Number": "3004B",
+    "Department": "Business Administration",
+    "email": "urbanskj@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Wilson",
+    "F_Name": "Damien",
+    "Faculty_ID": 43555,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2019,
+    "Department": "Business Administration",
+    "email": "wilsodam@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Wong",
+    "F_Name": "Zachary",
+    "Faculty_ID": 42828,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2010E",
+    "Department": "Business Administration",
+    "email": "zachary.wong@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Barr",
+    "F_Name": "Tara Quinn",
+    "Faculty_ID": 42153,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1088,
+    "Department": "Counseling Psychological Svc",
+    "email": "tara.quinn@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Williams",
+    "F_Name": "Laura",
+    "Faculty_ID": 42153,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1088,
+    "Department": "Counseling Psychological Svc",
+    "email": "laura.williams@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Duarte",
+    "F_Name": "Veronica",
+    "Faculty_ID": 43141,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1078,
+    "Department": "Credential Office",
+    "email": "veronica.duarte@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ibarra Aceves",
+    "F_Name": "Maricela",
+    "Faculty_ID": 42593,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1078,
+    "Department": "Credential Office",
+    "email": "maricela.ibarra@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Grant",
+    "F_Name": "Diana",
+    "Faculty_ID": 43962,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2084−D",
+    "Department": "Criminology_Criminal Justice",
+    "email": "diana.grant@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hooper",
+    "F_Name": "Michael",
+    "Faculty_ID": "916.435.8738",
+    "Building": "Stevenson Hall",
+    "Room_Number": 2084,
+    "Department": "Criminology_Criminal Justice",
+    "email": "hooperm@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Jackson",
+    "F_Name": "Pat",
+    "Faculty_ID": 42126,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2084 J",
+    "Department": "Criminology_Criminal Justice",
+    "email": "jackson@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kyle",
+    "F_Name": "Emily",
+    "Faculty_ID": 42561,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2084,
+    "Department": "Criminology_Criminal Justice",
+    "email": "emily.kyle@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Reyes",
+    "F_Name": "Napoleon",
+    "Faculty_ID": 42765,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2084K",
+    "Department": "Criminology_Criminal Justice",
+    "email": "reyesna@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Vieira Asencio",
+    "F_Name": "Emily",
+    "Faculty_ID": 43388,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2084J",
+    "Department": "Criminology_Criminal Justice",
+    "email": "emily.asencio@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Williams",
+    "F_Name": "Eric",
+    "Faculty_ID": 42159,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2084,
+    "Department": "Criminology_Criminal Justice",
+    "email": "willieri@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Estrada",
+    "F_Name": "Kelly",
+    "Faculty_ID": 43176,
+    "Building": "Stevenson Hall",
+    "Room_Number": "1078G",
+    "Department": "Curr Studies Sec Education",
+    "email": "estradak@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Grady",
+    "F_Name": "Karen",
+    "Faculty_ID": 43328,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1078,
+    "Department": "Curr Studies Sec Education",
+    "email": "karen.grady@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kornfeld",
+    "F_Name": "John",
+    "Faculty_ID": 42101,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1041,
+    "Department": "Curr Studies Sec Education",
+    "email": "john.kornfeld@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lyon",
+    "F_Name": "Edward",
+    "Faculty_ID": 43002,
+    "Building": "Stevenson Hall",
+    "Room_Number": 3023,
+    "Department": "Curr Studies Sec Education",
+    "email": "lyone@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Bacigalupa",
+    "F_Name": "Chiara",
+    "Faculty_ID": 42104,
+    "Building": "Stevenson Hall",
+    "Room_Number": "1078F",
+    "Department": "Early Childhood Studies",
+    "email": "chiara.bacigalupa@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Elster",
+    "F_Name": "Charles",
+    "Faculty_ID": 42350,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2013A",
+    "Department": "Early Childhood Studies",
+    "email": "elster@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Pollack",
+    "F_Name": "Lisa",
+    "Faculty_ID": 42672,
+    "Building": "Stevenson Hall",
+    "Room_Number": 3021,
+    "Department": "Early Childhood Studies",
+    "email": "pollack@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Virmani",
+    "F_Name": "Elita",
+    "Faculty_ID": 43311,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2013B",
+    "Department": "Early Childhood Studies",
+    "email": "elita.amini.virmani@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Amri",
+    "F_Name": "Puspa",
+    "Faculty_ID": 43313,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2026 C",
+    "Department": "Economics",
+    "email": "puspa.amri@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Cuellar",
+    "F_Name": "Steven",
+    "Faculty_ID": 42305,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2026B",
+    "Department": "Economics",
+    "email": "cuellar@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hanauer",
+    "F_Name": "Merlin",
+    "Faculty_ID": 42410,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2010C",
+    "Department": "Economics",
+    "email": "hanauer@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Visser",
+    "F_Name": "Michael",
+    "Faculty_ID": 43297,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2042B",
+    "Department": "Economics",
+    "email": "visser@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ayala",
+    "F_Name": "Sandra",
+    "Faculty_ID": 42972,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2013C",
+    "Department": "Ed Ldrshp and Spec Education",
+    "email": "ayalas@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Mahdavi",
+    "F_Name": "Jennifer",
+    "Faculty_ID": 42257,
+    "Building": "Stevenson Hall",
+    "Room_Number": "1078H",
+    "Department": "Ed Ldrshp and Spec Education",
+    "email": "jennifer.mahdavi@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Porter",
+    "F_Name": "Paul",
+    "Faculty_ID": 43270,
+    "Building": "Stevenson Hall",
+    "Room_Number": "3004D",
+    "Department": "Ed Ldrshp and Spec Education",
+    "email": "paul.porter@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Knight",
+    "F_Name": "Mackenzie",
+    "Faculty_ID": 42184,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1041,
+    "Department": "Faculty Affairs",
+    "email": "knightma@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Poblano",
+    "F_Name": "Vanessa",
+    "Faculty_ID": 43236,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1041,
+    "Department": "Faculty Affairs",
+    "email": "vanessa.poblano@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Roberts",
+    "F_Name": "Deborah",
+    "Faculty_ID": 43236,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1041,
+    "Department": "Faculty Affairs",
+    "email": "robertde@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Russo",
+    "F_Name": "Sally",
+    "Faculty_ID": 43170,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1041,
+    "Department": "Faculty Affairs",
+    "email": "sacchett@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Golightly",
+    "F_Name": "Sara",
+    "Faculty_ID": 42261,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1050,
+    "Department": "Financial Aid",
+    "email": "sara.golightly@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Baldwin",
+    "F_Name": "Jeff",
+    "Faculty_ID": 42195,
+    "Building": "Stevenson Hall",
+    "Room_Number": 3064,
+    "Department": "Geography",
+    "email": "Environment & Plan.",
+    "": ""
+  },
+  {
+    "L_Name": "Clark",
+    "F_Name": "Matthew",
+    "Faculty_ID": 42558,
+    "Building": "Stevenson Hall",
+    "Room_Number": "3016 D",
+    "Department": "Geography",
+    "email": "Environment & Plan.",
+    "": ""
+  },
+  {
+    "L_Name": "Fang",
+    "F_Name": "Kevin",
+    "Faculty_ID": 42306,
+    "Building": "Stevenson Hall",
+    "Room_Number": 3060,
+    "Department": "Geography",
+    "email": "Environment & Plan.",
+    "": ""
+  },
+  {
+    "L_Name": "Goman",
+    "F_Name": "Michelle",
+    "Faculty_ID": 42314,
+    "Building": "Stevenson Hall",
+    "Room_Number": 3056,
+    "Department": "Geography",
+    "email": "Environment & Plan.",
+    "": ""
+  },
+  {
+    "L_Name": "Laney",
+    "F_Name": "Rheyna",
+    "Faculty_ID": 42183,
+    "Building": "Stevenson Hall",
+    "Room_Number": 3058,
+    "Department": "Geography",
+    "email": "Environment & Plan.",
+    "": ""
+  },
+  {
+    "L_Name": "Mack",
+    "F_Name": "Natalie",
+    "Faculty_ID": 42306,
+    "Building": "Stevenson Hall",
+    "Room_Number": 3016,
+    "Department": "Geography",
+    "email": "Environment & Plan.",
+    "": ""
+  },
+  {
+    "L_Name": "Soto",
+    "F_Name": "Daniel",
+    "Faculty_ID": 42430,
+    "Building": "Stevenson Hall",
+    "Room_Number": "3016E",
+    "Department": "Geography",
+    "email": "Environment & Plan.",
+    "": ""
+  },
+  {
+    "L_Name": "Watt",
+    "F_Name": "Laura A",
+    "Faculty_ID": 42722,
+    "Building": "Stevenson Hall",
+    "Room_Number": "3016C",
+    "Department": "Geography",
+    "email": "laura.watt@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Bittner",
+    "F_Name": "Stephen",
+    "Faculty_ID": 42447,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2070G",
+    "Department": "History",
+    "email": "bittner@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Estes",
+    "F_Name": "Steve",
+    "Faculty_ID": 42424,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2070D",
+    "Department": "History",
+    "email": "steve.estes@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Halavais",
+    "F_Name": "Mary",
+    "Faculty_ID": 42489,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2062,
+    "Department": "History",
+    "email": "halavais@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Jolly",
+    "F_Name": "Michelle",
+    "Faculty_ID": 42461,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2070M",
+    "Department": "History",
+    "email": "michelle.jolly@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kittelstrom",
+    "F_Name": "Amy",
+    "Faculty_ID": 42327,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2070−J",
+    "Department": "History",
+    "email": "kittelst@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Siliznoff",
+    "F_Name": "Jill",
+    "Faculty_ID": 43211,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2070,
+    "Department": "History",
+    "email": "jill.siliznoff@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Smith",
+    "F_Name": "Benjamin",
+    "Faculty_ID": 42181,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2054H",
+    "Department": "Human Development",
+    "email": "smithbe@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Feldman",
+    "F_Name": "Sandra",
+    "Faculty_ID": 42437,
+    "Building": "Stevenson Hall",
+    "Room_Number": 3002,
+    "Department": "Liberal Studies Ukiah",
+    "email": "sandra.feldman@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Campbell",
+    "F_Name": "Susan",
+    "Faculty_ID": 42628,
+    "Building": "Stevenson Hall",
+    "Room_Number": "3096−G",
+    "Department": "Literacy Studies and Elem Educ",
+    "email": "se.campbell@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Janulaw",
+    "F_Name": "Albert",
+    "Faculty_ID": 795.7895,
+    "Building": "Stevenson Hall",
+    "Room_Number": 3076,
+    "Department": "Literacy Studies and Elem Educ",
+    "email": "janulawa@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Janulaw",
+    "F_Name": "Sharon",
+    "Faculty_ID": 795.7895,
+    "Building": "Stevenson Hall",
+    "Room_Number": 3076,
+    "Department": "Literacy Studies and Elem Educ",
+    "email": "janulaw@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "LaDuke",
+    "F_Name": "Aja",
+    "Faculty_ID": 43201,
+    "Building": "Stevenson Hall",
+    "Room_Number": "3096−A",
+    "Department": "Literacy Studies and Elem Educ",
+    "email": "laduke@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lane",
+    "F_Name": "Paula",
+    "Faculty_ID": 43292,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1078,
+    "Department": "Literacy Studies and Elem Educ",
+    "email": "paula.lane@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Haynes",
+    "F_Name": "Jennifer",
+    "Faculty_ID": 43545,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1012,
+    "Department": "Marketing",
+    "email": "jennifer.haynes@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Reeder",
+    "F_Name": "Jeffrey",
+    "Faculty_ID": 44268,
+    "Building": "Stevenson Hall",
+    "Room_Number": "3016 B",
+    "Department": "Modern Languages Literature",
+    "email": "jeffrey.reeder@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Herrera",
+    "F_Name": "Brian",
+    "Faculty_ID": 42378,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2042,
+    "Department": "Office of the Dean Bus Econ",
+    "email": "herrebri@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Pedro",
+    "F_Name": "Vanessa",
+    "Faculty_ID": 42366,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2042,
+    "Department": "Office of the Dean Bus Econ",
+    "email": "vanessa.pedro@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "St. Andre",
+    "F_Name": "Deisarey",
+    "Faculty_ID": 42220,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2034,
+    "Department": "Office of the Dean Bus Econ",
+    "email": "standred@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Vue",
+    "F_Name": "Valery",
+    "Faculty_ID": 43757,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2034,
+    "Department": "Office of the Dean Bus Econ",
+    "email": "vue@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Williams−Munger",
+    "F_Name": "Natalie",
+    "Faculty_ID": 42221,
+    "Building": "Stevenson Hall",
+    "Room_Number": 0,
+    "Department": "Office of the Dean Bus Econ",
+    "email": "williamn@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Baker−Dunn",
+    "F_Name": "Jenny",
+    "Faculty_ID": 43422,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1078,
+    "Department": "Office of the Dean Education",
+    "email": "bakerdun@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Boland",
+    "F_Name": "Kristen",
+    "Faculty_ID": 44189,
+    "Building": "Stevenson Hall",
+    "Room_Number": "1078K",
+    "Department": "Office of the Dean Education",
+    "email": "kristen.boland@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Frohlech",
+    "F_Name": "Barbara",
+    "Faculty_ID": 43238,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1078,
+    "Department": "Office of the Dean Education",
+    "email": "frohlech@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Graff",
+    "F_Name": "Gayle",
+    "Faculty_ID": 42935,
+    "Building": "Stevenson Hall",
+    "Room_Number": "1078D",
+    "Department": "Office of the Dean Education",
+    "email": "graff@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Humrich",
+    "F_Name": "Aidan",
+    "Faculty_ID": 42132,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1078,
+    "Department": "Office of the Dean Education",
+    "email": "humrich@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Poindexter",
+    "F_Name": "Desiree",
+    "Faculty_ID": 43115,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1078,
+    "Department": "Office of the Dean Education",
+    "email": "poindexd@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Rani",
+    "F_Name": "Poonam",
+    "Faculty_ID": 44203,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1078,
+    "Department": "Office of the Dean Education",
+    "email": "rani@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Brutocao",
+    "F_Name": "Leslie",
+    "Faculty_ID": 42600,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2012,
+    "Department": "Office of the Dean Ext Edu",
+    "email": "brutocal@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Eyler",
+    "F_Name": "Robert",
+    "Faculty_ID": 44256,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1015,
+    "Department": "Office of the Dean Ext Edu",
+    "email": "eyler@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Green",
+    "F_Name": "John",
+    "Faculty_ID": 43232,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1012,
+    "Department": "Office of the Dean Ext Edu",
+    "email": "greenj@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hansen",
+    "F_Name": "Damien",
+    "Faculty_ID": 42604,
+    "Building": "Stevenson Hall",
+    "Room_Number": "1012E",
+    "Department": "Office of the Dean Ext Edu",
+    "email": "damien.hansen@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hansen",
+    "F_Name": "Jessica",
+    "Faculty_ID": 44167,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1012,
+    "Department": "Office of the Dean Ext Edu",
+    "email": "hansejes@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Jacobs",
+    "F_Name": "Carin",
+    "Faculty_ID": 43927,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1012,
+    "Department": "Office of the Dean Ext Edu",
+    "email": "carin.jacobs@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lau",
+    "F_Name": "Jason",
+    "Faculty_ID": 42499,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1012,
+    "Department": "Office of the Dean Ext Edu",
+    "email": "jason.lau@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "O’Brien",
+    "F_Name": "Katie",
+    "Faculty_ID": 42738,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1012,
+    "Department": "Office of the Dean Ext Edu",
+    "email": "katie.obrien@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Price",
+    "F_Name": "Adrianne",
+    "Faculty_ID": 42394,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1012,
+    "Department": "Office of the Dean Ext Edu",
+    "email": "adrianne.price@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Shell",
+    "F_Name": "Julie",
+    "Faculty_ID": 42396,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1012,
+    "Department": "Office of the Dean Ext Edu",
+    "email": "shellj@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Vincenti",
+    "F_Name": "Judy",
+    "Faculty_ID": 44168,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1012,
+    "Department": "Office of the Dean Ext Edu",
+    "email": "vincenti@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Leitsch",
+    "F_Name": "Karen",
+    "Faculty_ID": 42251,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2078,
+    "Department": "Office of the Dean Soc Science",
+    "email": "leitsch@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ruiz",
+    "F_Name": "Viridiana",
+    "Faculty_ID": 42112,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2078,
+    "Department": "Office of the Dean Soc Science",
+    "email": "viri.ruiz@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Wood",
+    "F_Name": "Julie",
+    "Faculty_ID": 43221,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2078,
+    "Department": "Office of the Dean Soc Science",
+    "email": "julie.wood@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Graham",
+    "F_Name": "Samantha",
+    "Faculty_ID": 42156,
+    "Building": "Stevenson Hall",
+    "Room_Number": "#1062 1062",
+    "Department": "Office of the President",
+    "email": "grahasam@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Harders",
+    "F_Name": "Robin",
+    "Faculty_ID": 43566,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1062,
+    "Department": "Office of the President",
+    "email": "hardersr@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Rossi",
+    "F_Name": "Janelle",
+    "Faculty_ID": 42158,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1062,
+    "Department": "Office of the President",
+    "email": "rossij@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Sakaki",
+    "F_Name": "Judy",
+    "Faculty_ID": 42156,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1062,
+    "Department": "Office of the President",
+    "email": "president@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Cunningham",
+    "F_Name": "Patricia",
+    "Faculty_ID": 42028,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1038,
+    "Department": "Office of the Provost and VP",
+    "email": "patricia.cunningham@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Dapiran",
+    "F_Name": "Jo−Ann",
+    "Faculty_ID": 43838,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1041,
+    "Department": "Office of the Provost and VP",
+    "email": "dapiran@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lopez",
+    "F_Name": "Elias",
+    "Faculty_ID": 43001,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1038,
+    "Department": "Office of the Provost and VP",
+    "email": "elias.lopez@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ogg",
+    "F_Name": "Mike",
+    "Faculty_ID": 43351,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1038,
+    "Department": "Office of the Provost and VP",
+    "email": "mike.ogg@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Vollendorf",
+    "F_Name": "Lisa",
+    "Faculty_ID": 42028,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1038,
+    "Department": "Office of the Provost and VP",
+    "email": "lisa.vollendorf@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Yang",
+    "F_Name": "Vivi",
+    "Faculty_ID": 42773,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1024,
+    "Department": "Office of the Provost and VP",
+    "email": "vivi.yang@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Fleming",
+    "F_Name": "Tracey",
+    "Faculty_ID": 43447,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1054,
+    "Department": "Office of VP for Advancement",
+    "email": "flemingt@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Atwood",
+    "F_Name": "Kathryn",
+    "Faculty_ID": 43250,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1024,
+    "Department": "Office Reporting and Analytics",
+    "email": "kathryn.atwood@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Johnson",
+    "F_Name": "Sean",
+    "Faculty_ID": 44032,
+    "Building": "Stevenson Hall",
+    "Room_Number": "1024B",
+    "Department": "Office Reporting and Analytics",
+    "email": "johnssea@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kilat",
+    "F_Name": "Chelsea",
+    "Faculty_ID": 43350,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1024,
+    "Department": "Office Reporting and Analytics",
+    "email": "kilatc@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Boaz",
+    "F_Name": "Cynthia",
+    "Faculty_ID": 42589,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2081,
+    "Department": "Political Science",
+    "email": "boazc@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Brown",
+    "F_Name": "Diane",
+    "Faculty_ID": 823.2927,
+    "Building": "Stevenson Hall",
+    "Room_Number": 0,
+    "Department": "Political Science",
+    "email": "diane.brown@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Gin",
+    "F_Name": "Willie",
+    "Faculty_ID": 42278,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2070 K",
+    "Department": "Political Science",
+    "email": "ginwi@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "McCuan",
+    "F_Name": "David",
+    "Faculty_ID": 43309,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2070F",
+    "Department": "Political Science",
+    "email": "mccuan@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "McNamara",
+    "F_Name": "Robert",
+    "Faculty_ID": 42676,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2070I",
+    "Department": "Political Science",
+    "email": "mcnamara@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Parness",
+    "F_Name": "Diane",
+    "Faculty_ID": 43142,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2070H",
+    "Department": "Political Science",
+    "email": "parness@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ray",
+    "F_Name": "Emily",
+    "Faculty_ID": 42731,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2064,
+    "Department": "Political Science",
+    "email": "emily.ray@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Volkart",
+    "F_Name": "Judith",
+    "Faculty_ID": "Personal Cell Phone",
+    "Building": "Stevenson Hall",
+    "Room_Number": "S2089",
+    "Department": "Political Science",
+    "email": "volkart@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Arend",
+    "F_Name": "Ashlyn",
+    "Faculty_ID": 42452,
+    "Building": "Stevenson Hall",
+    "Room_Number": 3092,
+    "Department": "Psychology",
+    "email": "arend@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Bengson",
+    "F_Name": "Jesse",
+    "Faculty_ID": 42516,
+    "Building": "Stevenson Hall",
+    "Room_Number": "3092C",
+    "Department": "Psychology",
+    "email": "bengson@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Brassington",
+    "F_Name": "Glenn",
+    "Faculty_ID": 42111,
+    "Building": "Stevenson Hall",
+    "Room_Number": 3093,
+    "Department": "Psychology",
+    "email": "glenn.brassington@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Garvin",
+    "F_Name": "Melissa",
+    "Faculty_ID": 43397,
+    "Building": "Stevenson Hall",
+    "Room_Number": "3092B",
+    "Department": "Psychology",
+    "email": "missy.garvin@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Gomes",
+    "F_Name": "Mary",
+    "Faculty_ID": 42173,
+    "Building": "Stevenson Hall",
+    "Room_Number": 3081,
+    "Department": "Psychology",
+    "email": "mary.gomes@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "McCabe",
+    "F_Name": "Laurel",
+    "Faculty_ID": 42130,
+    "Building": "Stevenson Hall",
+    "Room_Number": 3087,
+    "Department": "Psychology",
+    "email": "laurel.mccabe@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Olson",
+    "F_Name": "Gerryann",
+    "Faculty_ID": 42265,
+    "Building": "Stevenson Hall",
+    "Room_Number": 3092,
+    "Department": "Psychology",
+    "email": "olsong@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Schindler",
+    "F_Name": "Mary",
+    "Faculty_ID": 43618,
+    "Building": "Stevenson Hall",
+    "Room_Number": 3057,
+    "Department": "Psychology",
+    "email": "schindlm@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Smith",
+    "F_Name": "Heather",
+    "Faculty_ID": 42587,
+    "Building": "Stevenson Hall",
+    "Room_Number": 3089,
+    "Department": "Psychology",
+    "email": "heather.smith@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Sowerby",
+    "F_Name": "David",
+    "Faculty_ID": 588.0725,
+    "Building": "Stevenson Hall",
+    "Room_Number": 3085,
+    "Department": "Psychology",
+    "email": "sowerby@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Stevens",
+    "F_Name": "Cara",
+    "Faculty_ID": 42412,
+    "Building": "Stevenson Hall",
+    "Room_Number": 3092,
+    "Department": "Psychology",
+    "email": "cara.stevens@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Velasquez−Andrade",
+    "F_Name": "Elisa",
+    "Faculty_ID": 42401,
+    "Building": "Stevenson Hall",
+    "Room_Number": "3092−D",
+    "Department": "Psychology",
+    "email": "elisa.velasquez@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Goss",
+    "F_Name": "Dennis",
+    "Faculty_ID": 43212,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1024,
+    "Department": "Scheduling",
+    "email": "gossd@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Milligan",
+    "F_Name": "Melinda",
+    "Faculty_ID": 42254,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2084F",
+    "Department": "Sociology",
+    "email": "melinda.milligan@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Morovat",
+    "F_Name": "Monique",
+    "Faculty_ID": 42522,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2084,
+    "Department": "Sociology",
+    "email": "morovat@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Paterniti",
+    "F_Name": "Debora",
+    "Faculty_ID": 43033,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2084 I",
+    "Department": "Sociology",
+    "email": "paternit@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Phillips",
+    "F_Name": "Peter",
+    "Faculty_ID": 42588,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2084A",
+    "Department": "Sociology",
+    "email": "peter.phillips@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Yoon",
+    "F_Name": "Soo Yeon",
+    "Faculty_ID": 42583,
+    "Building": "Stevenson Hall",
+    "Room_Number": "2084−N",
+    "Department": "Sociology",
+    "email": "sooyeon.yoon@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Destiny",
+    "F_Name": "Sandy",
+    "Faculty_ID": 44310,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2009,
+    "Department": "Strategic Communications",
+    "email": "sandy.destiny@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Eldred",
+    "F_Name": "Brittany",
+    "Faculty_ID": 44278,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2009,
+    "Department": "Strategic Communications",
+    "email": "eldred@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Geiss",
+    "F_Name": "Robert",
+    "Faculty_ID": 44003,
+    "Building": "Stevenson Hall",
+    "Room_Number": 2009,
+    "Department": "Strategic Communications",
+    "email": "geiss@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Gullixson",
+    "F_Name": "Paul",
+    "Faculty_ID": 42122,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1062,
+    "Department": "Strategic Communications",
+    "email": "paul.gullixson@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Arneson",
+    "F_Name": "Stephen",
+    "Faculty_ID": 42848,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1050,
+    "Department": "University Development",
+    "email": "arnesons@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "O’Neil",
+    "F_Name": "Tiffany",
+    "Faculty_ID": 43203,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1071,
+    "Department": "University Development",
+    "email": "oneilt@sonoma.edu",
+    "": "sotod@sonoma.edu"
+  },
+  {
+    "L_Name": "Spomer",
+    "F_Name": "Chelsea",
+    "Faculty_ID": 42693,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1071,
+    "Department": "University Development",
+    "email": "spomerc@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Stapp",
+    "F_Name": "Mark",
+    "Faculty_ID": 43443,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1054,
+    "Department": "University Development",
+    "email": "stappm@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Tellez",
+    "F_Name": "Kirsten",
+    "Faculty_ID": 44151,
+    "Building": "Stevenson Hall",
+    "Room_Number": 1050,
+    "Department": "University Development",
+    "email": "tellezk@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Romesburg",
+    "F_Name": "Don",
+    "Faculty_ID": 42574,
+    "Building": "Stevenson Hall",
+    "Room_Number": "3016G",
+    "Department": "Women’s and Gender Studies",
+    "email": "romesbur@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Tung",
+    "F_Name": "Charlene",
+    "Faculty_ID": 42086,
+    "Building": "Stevenson Hall",
+    "Room_Number": "3016F",
+    "Department": "Women’s and Gender Studies",
+    "email": "tung@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Storino",
+    "F_Name": "Meri",
+    "Faculty_ID": "na",
+    "Building": "Stevenson Hall 3085",
+    "Room_Number": 0,
+    "Department": "Psychology",
+    "email": "storino@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kaido−Alvarez",
+    "F_Name": "Kimberly",
+    "Faculty_ID": 42194,
+    "Building": "Stevenson Hall Room",
+    "Room_Number": 3016,
+    "Department": "Geography",
+    "email": "Environment & Plan.",
+    "": ""
+  },
+  {
+    "L_Name": "Dean",
+    "F_Name": "James",
+    "Faculty_ID": 42599,
+    "Building": "Stevenson Hall Room",
+    "Room_Number": 2085,
+    "Department": "Sociology",
+    "email": "james.dean@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Davis",
+    "F_Name": "Carly",
+    "Faculty_ID": 43550,
+    "Building": "Student Center",
+    "Room_Number": 3030,
+    "Department": "Box Office",
+    "email": "carly.davis@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Chelini",
+    "F_Name": "Elizabeth",
+    "Faculty_ID": 42541,
+    "Building": "Student Center",
+    "Room_Number": 3020,
+    "Department": "Campus Housing",
+    "email": "elizabeth.chelini@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Harbison",
+    "F_Name": "Amelia",
+    "Faculty_ID": 42541,
+    "Building": "Student Center",
+    "Room_Number": 3020,
+    "Department": "Campus Housing",
+    "email": "harbison@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kennedy",
+    "F_Name": "Dean",
+    "Faculty_ID": 42450,
+    "Building": "Student Center",
+    "Room_Number": 3026,
+    "Department": "Campus Housing",
+    "email": "kennedyd@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Briones",
+    "F_Name": "Marina",
+    "Faculty_ID": 43611,
+    "Building": "Student Center",
+    "Room_Number": 2050,
+    "Department": "Campus Life Programing",
+    "email": "brionesm@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Chattey",
+    "F_Name": "Corey",
+    "Faculty_ID": 42360,
+    "Building": "Student Center",
+    "Room_Number": 2041,
+    "Department": "Campus Prints",
+    "email": "corey.chattey@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Dolcini",
+    "F_Name": "Lori",
+    "Faculty_ID": 43585,
+    "Building": "Student Center",
+    "Room_Number": 0,
+    "Department": "Campus Prints",
+    "email": "lori.dolcini@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Phillips",
+    "F_Name": "Mo",
+    "Faculty_ID": 42804,
+    "Building": "Student Center",
+    "Room_Number": 2034,
+    "Department": "Ctr Student Leadership Inv Svc",
+    "email": "phillipm@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Serrato",
+    "F_Name": "Leonard",
+    "Faculty_ID": 42898,
+    "Building": "Student Center",
+    "Room_Number": 2037,
+    "Department": "Ctr Student Leadership Inv Svc",
+    "email": "serratol@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Romo",
+    "F_Name": "Christopher",
+    "Faculty_ID": "661.916.5339",
+    "Building": "Student Center",
+    "Room_Number": 2075,
+    "Department": "Culinary Services",
+    "email": "christopher.romo@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Werby",
+    "F_Name": "Timothy",
+    "Faculty_ID": 44355,
+    "Building": "Student Center",
+    "Room_Number": 1068,
+    "Department": "Culinary Services",
+    "email": "werby@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kelly",
+    "F_Name": "Casey",
+    "Faculty_ID": 42757,
+    "Building": "Student Center",
+    "Room_Number": 3020,
+    "Department": "Ent. Activities Marketing",
+    "email": "kellycas@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Williams",
+    "F_Name": "Remy",
+    "Faculty_ID": 43605,
+    "Building": "Student Center",
+    "Room_Number": 3020,
+    "Department": "Ent. Activities Marketing",
+    "email": "remy.williams@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Carbone",
+    "F_Name": "Rachel",
+    "Faculty_ID": 43700,
+    "Building": "Student Center",
+    "Room_Number": 3020,
+    "Department": "Office of VP for Student Affrs",
+    "email": "carbone@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hardisty",
+    "F_Name": "Sue",
+    "Faculty_ID": 43532,
+    "Building": "Student Center",
+    "Room_Number": 3020,
+    "Department": "Office of VP for Student Affrs",
+    "email": "hardists@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Monje−Paulson",
+    "F_Name": "Laura",
+    "Faculty_ID": 43123,
+    "Building": "Student Center",
+    "Room_Number": 3020,
+    "Department": "Office of VP for Student Affrs",
+    "email": "laura.monjepaulson@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Mahoney",
+    "F_Name": "Colleen",
+    "Faculty_ID": 44405,
+    "Building": "Student Center",
+    "Room_Number": 3033,
+    "Department": "Orientation and Family Program",
+    "email": "mahoneyc@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Conter",
+    "F_Name": "Katherine",
+    "Faculty_ID": 43964,
+    "Building": "Student Center",
+    "Room_Number": 1052,
+    "Department": "Student Center Operations",
+    "email": "conter@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Roens",
+    "F_Name": "Corbin",
+    "Faculty_ID": 44353,
+    "Building": "Student Center",
+    "Room_Number": 0,
+    "Department": "Student Center Operations",
+    "email": "roens@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Sales",
+    "F_Name": "Angelina",
+    "Faculty_ID": 43356,
+    "Building": "Student Center",
+    "Room_Number": 1052,
+    "Department": "Student Center Operations",
+    "email": "salesa@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Olsen",
+    "F_Name": "Caitlin",
+    "Faculty_ID": 42281,
+    "Building": "Student Center",
+    "Room_Number": "3rd floor 3020",
+    "Department": "Student Engagement",
+    "email": "caitlin.olsen@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Perry",
+    "F_Name": "Colin",
+    "Faculty_ID": 43887,
+    "Building": "Student Center Campus Prints",
+    "Room_Number": 0,
+    "Department": "Campus Prints",
+    "email": "perryc@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Reynolds−Smith",
+    "F_Name": "Anna",
+    "Faculty_ID": 44206,
+    "Building": "Student Center SC",
+    "Room_Number": 3028,
+    "Department": "Office of VP for Student Affrs",
+    "email": "anna.reynolds@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Foss",
+    "F_Name": "Cynthia",
+    "Faculty_ID": 43298,
+    "Building": "Student Center Suite",
+    "Room_Number": 3020,
+    "Department": "Campus Housing",
+    "email": "foss@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Sawyer",
+    "F_Name": "Wm. Gregory",
+    "Faculty_ID": 42838,
+    "Building": "Student Center Suite",
+    "Room_Number": 3020,
+    "Department": "Office of VP for Student Affrs",
+    "email": "sawyerg@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Andersen",
+    "F_Name": "Kathleen",
+    "Faculty_ID": 42921,
+    "Building": "Student Health Center",
+    "Room_Number": 115,
+    "Department": "Student Health Center",
+    "email": "andkathl@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Coffaney",
+    "F_Name": "Paula",
+    "Faculty_ID": 42921,
+    "Building": "Student Health Center",
+    "Room_Number": 147,
+    "Department": "Student Health Center",
+    "email": "coffanep@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Eaton",
+    "F_Name": "Tracey",
+    "Faculty_ID": 42921,
+    "Building": "Student Health Center",
+    "Room_Number": 0,
+    "Department": "Student Health Center",
+    "email": "tracey.eaton@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Fogg",
+    "F_Name": "Mitzi",
+    "Faculty_ID": 42921,
+    "Building": "Student Health Center",
+    "Room_Number": 105,
+    "Department": "Student Health Center",
+    "email": "foggm@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Garcia",
+    "F_Name": "Pilar",
+    "Faculty_ID": 42921,
+    "Building": "Student Health Center",
+    "Room_Number": 0,
+    "Department": "Student Health Center",
+    "email": "garcipil@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Kaczmar",
+    "F_Name": "Timothy",
+    "Faculty_ID": 42921,
+    "Building": "Student Health Center",
+    "Room_Number": 137,
+    "Department": "Student Health Center",
+    "email": "kaczmar@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Montgomery",
+    "F_Name": "Carolyn",
+    "Faculty_ID": 42921,
+    "Building": "Student Health Center",
+    "Room_Number": 0,
+    "Department": "Student Health Center",
+    "email": "carolyn.montgomery@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Tyler",
+    "F_Name": "Lori",
+    "Faculty_ID": 42921,
+    "Building": "Student Health Center",
+    "Room_Number": 0,
+    "Department": "Student Health Center",
+    "email": "lori.tyler@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Henne",
+    "F_Name": "Ryan Jasen",
+    "Faculty_ID": 43078,
+    "Building": "Student Services Building",
+    "Room_Number": 3020,
+    "Department": "Student Engagement",
+    "email": "henne@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Fabionar",
+    "F_Name": "Mark",
+    "Faculty_ID": 42710,
+    "Building": "Student Union",
+    "Room_Number": 0,
+    "Department": "HUB Cultural Center",
+    "email": "mark.fabionar@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Dougherty",
+    "F_Name": "David",
+    "Faculty_ID": 44444,
+    "Building": "University Police",
+    "Room_Number": 0,
+    "Department": "University Police",
+    "email": "dougherd@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Wilde",
+    "F_Name": "Eric",
+    "Faculty_ID": 44444,
+    "Building": "University Police University Police",
+    "Room_Number": 0,
+    "Department": "University Police",
+    "email": "wilde@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Melin",
+    "F_Name": "Anthony",
+    "Faculty_ID": 44064,
+    "Building": "Weill Hall",
+    "Room_Number": 0,
+    "Department": "GMC Back of House",
+    "email": "melin@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Hercs",
+    "F_Name": "Lori",
+    "Faculty_ID": 43957,
+    "Building": "Weill Hall",
+    "Room_Number": 1205,
+    "Department": "GMC House Operations",
+    "email": "hercs@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ringstad",
+    "F_Name": "Erin",
+    "Faculty_ID": 43235,
+    "Building": "Wine Center",
+    "Room_Number": 1007,
+    "Department": "Bus Econ Instruction",
+    "email": "ringstad@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Lusk",
+    "F_Name": "Emily",
+    "Faculty_ID": 43347,
+    "Building": "Wine Center",
+    "Room_Number": 1011,
+    "Department": "Wine Business Program",
+    "email": "porter@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Camillo",
+    "F_Name": "Angelo",
+    "Faculty_ID": 42910,
+    "Building": "Wine Spectator",
+    "Room_Number": 1017,
+    "Department": "Business Administration",
+    "email": "camillo@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Gilinsky",
+    "F_Name": "Armand",
+    "Faculty_ID": 42709,
+    "Building": "Wine Spectator Learning Center",
+    "Room_Number": 1014,
+    "Department": "Business Administration",
+    "email": "gilinsky@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Thach",
+    "F_Name": "Elizabeth",
+    "Faculty_ID": 792.2002,
+    "Building": "Wine Spectator Learning Center",
+    "Room_Number": 113,
+    "Department": "Business Administration",
+    "email": "thach@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Edens",
+    "F_Name": "Leroy",
+    "Faculty_ID": 44033,
+    "Building": "Zinfandel",
+    "Room_Number": 0,
+    "Department": "Residential Education",
+    "email": "edensl@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Blabon",
+    "F_Name": "Ray",
+    "Faculty_ID": 43924,
+    "Building": "Zinfandel Cook’s Office",
+    "Room_Number": 0,
+    "Department": "Culinary Services",
+    "email": "ray.blabon@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Ellis",
+    "F_Name": "Ben",
+    "Faculty_ID": 43396,
+    "Building": "Zinfandel Hall",
+    "Room_Number": 0,
+    "Department": "Residential Education",
+    "email": "ellisbe@sonoma.edu",
+    "": ""
+  },
+  {
+    "L_Name": "Austin−Dillon",
+    "F_Name": "Tramaine",
+    "Faculty_ID": 42534,
+    "Building": "Zinfandel Village",
+    "Room_Number": 160,
+    "Department": "University Studies",
+    "email": "austindi@sonoma.edu",
+    "": "audra.verrier@sonoma.edu"
+  },
+  {
+    "L_Name": "Galbraith",
+    "F_Name": "Holly",
+    "Faculty_ID": 43441,
+    "Building": "zinfandel zinfandel",
+    "Room_Number": 0,
+    "Department": "Culinary Services",
+    "email": "galbraih@sonoma.edu",
+    "": ""
+  }
+]
