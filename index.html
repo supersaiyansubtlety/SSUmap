@@ -8,6 +8,7 @@
 </head>
 <body>
   <script>
+    d3.json('SSU_DepartmentsJson.json').then(json => makeNest(json));
     loadSVG();
   </script>
 </body>

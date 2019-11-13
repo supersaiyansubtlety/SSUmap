@@ -17,14 +17,9 @@ function loadSVG()
 	.attr('height', c.mapHeight)
 	.call(d3.zoom()
 	      .scaleExtent([c.minZoomScale, c.maxZoomScale])
-        .translateExtent([[0,0],[c.mapWidth,c.mapHeight]])
+              .translateExtent([[0,0],[c.mapWidth,c.mapHeight]])
 	      .on('zoom', function () {
 		  svg.attr('transform', d3.event.transform)
-		  /*
-		  var coord = zoom.translate(),
-		      xcoord = coord[0],
-		      ycoord = coord[1];
-		  */
 	      }))
 	.append("g")
 
@@ -38,10 +33,58 @@ function loadSVG()
 
 function main()
 {
-  makeClickables();
+    makeClickables();
 }
+
+function makeNest(jsonObject)
+{
+    const nestedFalcultyCategories = d3.nest()
+	  .key(d => d['Building'])
+	  .key(d => d['Department'])
+	  .key(d => d['L_Name'])
+	  .entries(jsonObject);
+    
+    console.log("nested categories" , nestedFalcultyCategories);
+}
+
+function BackButtonLMB(d)
+{
+    console.log("BackButtonLMB entered: ", d);
+}
+
+function BuildingHandlerLMB(building, x, y)
+{
+    // Delete any pre-existing back buttons
+    d3.select('.back-button').remove();
+    // Only scale if current scale is maxed out.
+    var newX = -x * c.maxZoomScale;
+    var newY = -y * c.maxZoomScale;
+    console.log("BuildingHandler entered: ", building, newX, newY);
+    // Zoom into the building that was clicked, either by manually setting the translate or
+    // making a call using D3's zoom function.
+    
+    d3.select('svg g')
+    //.attr('transform', `translate(${newX}, ${newY}) scale(${c.maxZoomScale})`)
+    	.append('text')
+	.text('<- Back')
+	.attr('font-weight', 100)    
+	.attr('stroke', '#ffdc00')
+	.attr('font-size', '50px')
+	.attr('dy', '0.25em')
+	.attr('text-anchor', 'middle')
+	.attr('transform', `translate(${newX}, ${newY})`)
+	.attr('class', 'back-button')
+	.on('click', function(d) {
+	    BackButtonLMB(d);
+	});    
+}
+
 function makeClickables()
 {
-  var sel = d3.selectAll('#Tuscany')
-  console.log(sel)
+    var sel = d3.selectAll('#Buidlings')
+    sel.on('click', function(d) {
+	var x = d3.mouse(this)[0];
+	var y = d3.mouse(this)[1];
+	BuildingHandlerLMB(this, x, y);
+    });    
 }
