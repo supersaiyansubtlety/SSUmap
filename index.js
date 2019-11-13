@@ -6,6 +6,8 @@ const c = {
     maxZoomScale: 6,
 };
 
+var zoom;
+
 function loadSVG()
 {
     // Resize body.
@@ -15,7 +17,7 @@ function loadSVG()
 	.append("svg")
 	.attr('width', c.mapWidth)
 	.attr('height', c.mapHeight)
-	.call(d3.zoom()
+	.call(zoom = d3.zoom()
 	      .scaleExtent([c.minZoomScale, c.maxZoomScale])
               .translateExtent([[0,0],[c.mapWidth,c.mapHeight]])
 	      .on('zoom', function () {
@@ -62,6 +64,8 @@ function BuildingHandlerLMB(building, x, y)
     console.log("BuildingHandler entered: ", building, newX, newY);
     // Zoom into the building that was clicked, either by manually setting the translate or
     // making a call using D3's zoom function.
+
+    building.call(zoom.transform, `translate(${newX}, ${newY}) scale(${c.maxZoomScale})`);
     
     d3.select('svg g')
     //.attr('transform', `translate(${newX}, ${newY}) scale(${c.maxZoomScale})`)
@@ -85,6 +89,6 @@ function makeClickables()
     sel.on('click', function(d) {
 	var x = d3.mouse(this)[0];
 	var y = d3.mouse(this)[1];
-	BuildingHandlerLMB(this, x, y);
+	BuildingHandlerLMB(d3.select(this), x, y);
     });    
 }
