@@ -65,7 +65,11 @@ function BuildingHandlerLMB(building, x, y)
     // Zoom into the building that was clicked, either by manually setting the translate or
     // making a call using D3's zoom function.
 
-    building.call(zoom.transform, `translate(${newX}, ${newY}) scale(${c.maxZoomScale})`);
+    var bounds = d3.select(building).select('rect');
+    console.log("Bounds: ", bounds.node());
+    //newX = bounds.x;
+    //newY = bounds.y;
+    d3.select(building).call(zoom.transform, `translate(${newX}, ${newY}) scale(${c.maxZoomScale})`);
     
     d3.select('svg g')
     //.attr('transform', `translate(${newX}, ${newY}) scale(${c.maxZoomScale})`)
@@ -85,10 +89,11 @@ function BuildingHandlerLMB(building, x, y)
 
 function makeClickables()
 {
-    var sel = d3.selectAll('#Buidlings')
+    var sel = d3.selectAll('#Buidlings g')
     sel.on('click', function(d) {
+	console.log("d = ", d);
 	var x = d3.mouse(this)[0];
 	var y = d3.mouse(this)[1];
-	BuildingHandlerLMB(d3.select(this), x, y);
+	BuildingHandlerLMB(this, x, y);
     });    
 }
