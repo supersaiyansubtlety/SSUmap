@@ -24,13 +24,13 @@ function loadSVG()
 		  svg.attr('transform', d3.event.transform)
 	      }))
 	.append("g")
-
+    
     d3.xml('19-050_campus_map_revise_v6.svg', function(data) { console.log(data) })
         .then(data => {
             d3.select('svg g').node().append(data.documentElement)
             main()
         })
-
+    
 }
 
 function main()
@@ -56,44 +56,40 @@ function BackButtonLMB(d)
 
 function BuildingHandlerLMB(building, x, y)
 {
-    // Delete any pre-existing back buttons
-    d3.select('.back-button').remove();
     // Only scale if current scale is maxed out.
-    var newX = -x * c.maxZoomScale;
-    var newY = -y * c.maxZoomScale;
-    console.log("BuildingHandler entered: ", building, newX, newY);
+    //var newX = -x * c.maxZoomScale;
+    //var newY = -y * c.maxZoomScale;
+    //console.log("Old X = ", x, " and old Y = ", y);
+
+    //console.log("BuildingHandler entered: ", building, newX, newY);
     // Zoom into the building that was clicked, either by manually setting the translate or
     // making a call using D3's zoom function.
 
     var bounds = d3.select(building).select('rect');
     console.log("Bounds: ", bounds.node());
-    //newX = bounds.x;
-    //newY = bounds.y;
-    d3.select(building).call(zoom.transform, `translate(${newX}, ${newY}) scale(${c.maxZoomScale})`);
-    
-    d3.select('svg g')
-    //.attr('transform', `translate(${newX}, ${newY}) scale(${c.maxZoomScale})`)
-    	.append('text')
-	.text('<- Back')
-	.attr('font-weight', 100)    
-	.attr('stroke', '#ffdc00')
-	.attr('font-size', '50px')
-	.attr('dy', '0.25em')
-	.attr('text-anchor', 'middle')
-	.attr('transform', `translate(${newX}, ${newY})`)
-	.attr('class', 'back-button')
-	.on('click', function(d) {
-	    BackButtonLMB(d);
-	});    
+    newX = bounds.node().x.animVal.value * -1;
+    newY = bounds.node().y.animVal.value * -1;
+    console.log("New X = ", newX, " and new Y = ", newY);
+    d3.select(building).call(zoom.transform, `translate(${newX}, ${newY}) scale(${c.maxZoomScale})`);    
 }
 
 function makeClickables()
 {
     var sel = d3.selectAll('#Buidlings g')
     sel.on('click', function(d) {
-	console.log("d = ", d);
 	var x = d3.mouse(this)[0];
 	var y = d3.mouse(this)[1];
 	BuildingHandlerLMB(this, x, y);
-    });    
+    });
+
+    // DEBUG Clickable
+    // Only used to manually determine coordinates
+    /*
+    var coordSel = d3.select('body svg');
+    coordSel.on('click', function(d) {
+	var a = d3.mouse(this)[0];
+	var b = d3.mouse(this)[1];
+	console.log("Body-SVG Coords: (", a, ",", b, ")");
+    });
+    */
 }
