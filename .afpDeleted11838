@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SSU Map</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+  <script>
+    loadSVG();
+  </script>
+</body>
+</html>

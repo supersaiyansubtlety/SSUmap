@@ -24,13 +24,13 @@ function loadSVG()
 		  svg.attr('transform', d3.event.transform)
 	      }))
 	.append("g")
-    
+
     d3.xml('19-050_campus_map_revise_v6.svg', function(data) { console.log(data) })
         .then(data => {
             d3.select('svg g').node().append(data.documentElement)
             main()
         })
-    
+
 }
 
 function main()
@@ -45,7 +45,7 @@ function makeNest(jsonObject)
 	  .key(d => d['Department'])
 	  .key(d => d['L_Name'])
 	  .entries(jsonObject);
-    
+
     console.log("nested categories" , nestedFalcultyCategories);
 }
 
@@ -70,7 +70,9 @@ function BuildingHandlerLMB(building, x, y)
     newX = bounds.node().x.animVal.value * -1;
     newY = bounds.node().y.animVal.value * -1;
     console.log("New X = ", newX, " and new Y = ", newY);
-    d3.select(building).call(zoom.transform, `translate(${newX}, ${newY}) scale(${c.maxZoomScale})`);    
+    console.log("building:", building);
+    console.log("boundParent: ", d3.select(bounds.node().parentNode));
+    d3.select(building).call(zoom.transform, `translate(${newX}, ${newY}) scale(${c.maxZoomScale})`);
 }
 
 function makeClickables()
