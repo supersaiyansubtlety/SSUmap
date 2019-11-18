@@ -54,7 +54,7 @@ function BackButtonLMB(d)
     console.log("BackButtonLMB entered: ", d);
 }
 
-function BuildingHandlerLMB(building, x, y)
+function BuildingHandlerLMB(bound, x, y)
 {
     // Only scale if current scale is maxed out.
     //var newX = -x * c.maxZoomScale;
@@ -64,6 +64,8 @@ function BuildingHandlerLMB(building, x, y)
     //console.log("BuildingHandler entered: ", building, newX, newY);
     // Zoom into the building that was clicked, either by manually setting the translate or
     // making a call using D3's zoom function.
+    var id = bound.attr('id')
+    console.log('building id: ', id)
 
     var bounds = d3.select(building).select('rect');
     console.log("Bounds: ", bounds.node());
@@ -77,10 +79,27 @@ function BuildingHandlerLMB(building, x, y)
 
 function makeClickables()
 {
-    var sel = d3.selectAll('#Buidlings g')
+    // var sel = d3.selectAll('#Buidlings g')
+    var sel = d3.select('svg').selectAll('*').filter(function(d)
+    {
+      console.log(d)
+      // if(d.attr('id').indexOf('-Bounds') !== -1)
+      //   return true
+      return false
+    })
     sel.on('click', function(d) {
-	var x = d3.mouse(this)[0];
-	var y = d3.mouse(this)[1];
+	// var x = d3.mouse(this)[0];
+	// var y = d3.mouse(this)[1];
+
+console.log(d3.select(this))
+
+  // if (id.indexOf('-Bounds') == -1)
+  // {
+  //   console.log('not a bound')
+  //   return
+  // }
+  // console.log('this is a bound')
+
 	BuildingHandlerLMB(this, x, y);
     });
 
