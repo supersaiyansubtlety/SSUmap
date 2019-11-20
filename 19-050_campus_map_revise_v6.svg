@@ -1083,7 +1083,7 @@
             </g>
             <text x="198.75px" y="301.499px" style="font-family:'AvenirNext-Bold', 'Avenir Next', sans-serif;font-weight:700;font-size:5.5px;fill:rgb(35,31,32);">Stevenson Hall</text>
             <g id="Stevenson-Hall-Bounds" serif:id="Stevenson Hall Bounds" transform="matrix(0.24,0,0,0.24,0,0)">
-                <rect x="806.508" y="1228.15" width="209.637" height="124.267" style="fill:none;"/>
+                <rect x="806.508" y="1228.15" width="209.637" height="124.267" style="fill:rgb(252,20,4);fill-opacity:0;"/>
             </g>
         </g>
         <g id="Gymnasium--Fieldhouse" serif:id="Gymnasium, Fieldhouse">
@@ -1093,10 +1093,10 @@
             <text x="344.308px" y="327.473px" style="font-family:'AvenirNext-Bold', 'Avenir Next', sans-serif;font-weight:700;font-size:5.5px;fill:rgb(35,31,32);">Fieldhouse</text>
             <text x="337.13px" y="287.912px" style="font-family:'AvenirNext-Bold', 'Avenir Next', sans-serif;font-weight:700;font-size:6px;fill:rgb(35,31,32);">G<tspan x="341.6px 345.002px " y="287.912px 287.912px ">ym</tspan>nasium</text>
             <g id="Fieldhouse-Bounds" serif:id="Fieldhouse Bounds" transform="matrix(0.24,0,0,0.24,0,0)">
-                <rect x="1420.83" y="1320.83" width="108.333" height="65.188" style="fill:none;"/>
+                <rect x="1420.83" y="1320.83" width="108.333" height="65.188" style="fill:rgb(255,7,0);fill-opacity:0;"/>
             </g>
             <g id="Gymnasium-Bounds" serif:id="Gymnasium Bounds" transform="matrix(0.24,0,0,0.24,0,0)">
-                <path d="M1420.83,1129.25L1562.5,1129.17L1610.67,1166.23L1610.67,1282.9L1658.33,1283.33L1657.55,1321.96L1421.09,1320.83L1420.83,1129.25Z" style="fill:none;stroke:black;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                <path d="M1420.83,1129.25L1562.5,1129.17L1610.67,1166.23L1610.67,1282.9L1658.33,1283.33L1657.55,1321.96L1421.09,1320.83L1420.83,1129.25Z" style="fill:rgb(255,16,0);fill-opacity:0;"/>
             </g>
         </g>
         <g id="Nichols-Hall" serif:id="Nichols Hall">
@@ -1153,7 +1153,7 @@
             </g>
             <text x="170.922px" y="268.919px" style="font-family:'AvenirNext-Bold', 'Avenir Next', sans-serif;font-weight:700;font-size:5px;fill:rgb(35,31,32);">Carson Hall</text>
             <g id="Carson-Hall-Bounds" serif:id="Carson Hall Bounds" transform="matrix(0.24,0,0,0.24,0,0)">
-                <path d="M682.292,1194.52L682.292,1156.25L785.417,1156.25L785.417,1064.58L668.75,1064.58L620.833,1116.67L620.571,1194.52L682.292,1194.52Z" style="fill:none;stroke:black;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                <path d="M682.292,1194.52L682.292,1156.25L785.417,1156.25L785.417,1064.58L668.75,1064.58L620.833,1116.67L620.571,1194.52L682.292,1194.52Z" style="fill:rgb(230,29,16);fill-opacity:0;"/>
             </g>
         </g>
         <g transform="matrix(-1,0,0,1,388.063,-219.249)">
@@ -1166,8 +1166,11 @@
             <rect x="216.813" y="369.062" width="7.312" height="3.375" style="fill:rgb(209,211,212);"/>
         </g>
         <g id="Art">
-            <g id="Art-Bounds" serif:id="Art Bounds" transform="matrix(1,0,0,1,0,-176.187)">
+            <g id="Art1" serif:id="Art" transform="matrix(1,0,0,1,0,-176.187)">
                 <path d="M223.687,383.312L219.625,383.312L219.625,380.499L223.687,380.499L223.687,383.312ZM250.375,372.75L250.375,370.375L237.375,370.375L237.375,374.437L228.625,374.437L228.625,376.312L225.937,376.312L225.937,374.75L222.312,374.75L222.312,371.875L208.375,371.875L208.375,380.187L214.687,380.187L214.687,385.187L205,385.187L205,382.5L198.5,382.5L198.5,392.75L204.687,392.75L204.687,388.937L207.75,388.937L207.75,394.187L214.5,394.187L214.5,397.375L212.5,397.375L212.5,407.375L216.625,407.375L216.625,413.25L225.406,413.25L225.406,417.812L230,417.812L230,404.562L235.875,404.562L235.875,410.812L238.125,410.812L238.125,413.312L242.125,413.312L242.125,410.812L240.5,410.812L240.5,402.875L238.812,402.875L238.812,401.375L238.812,399.625L236.375,399.625L236.375,397.687L226.937,397.687L226.937,387.687L239.125,387.687L239.125,376.875L240.5,376.875L240.5,375L245.5,375L245.5,377.375L252.312,377.375L252.312,372.75L250.375,372.75Z" style="fill:rgb(209,211,212);fill-rule:nonzero;"/>
+            </g>
+            <g id="Art-Bounds" serif:id="Art Bounds" transform="matrix(0.24,0,0,0.24,1.09139e-13,5.45697e-14)">
+                <path d="M804.95,809.117L1051.3,809.117L1051.3,838.283L996.354,837.5L995.05,944.533L1008.33,944.533L1008.85,988.021L958.333,987.5L958.333,1006.77L933.854,1012.24L903.388,1012.24L827.083,902.083L804.95,827.083L804.95,809.117Z" style="fill:rgb(255,11,0);fill-opacity:0;"/>
             </g>
             <text x="217.342px" y="227.224px" style="font-family:'AvenirNext-Bold', 'Avenir Next', sans-serif;font-weight:700;font-size:6px;fill:rgb(35,31,32);">Art</text>
         </g>
@@ -1268,10 +1271,10 @@
                 <text x="111.46px" y="293.797px" style="font-family:'AvenirNext-Bold', 'Avenir Next', sans-serif;font-weight:700;font-size:4px;fill:rgb(35,31,32);">Room</text>
             </g>
             <g id="Zinfandel-Classrooms-Bounds" serif:id="Zinfandel Classrooms Bounds" transform="matrix(0.24,0,0,0.24,0,0)">
-                <path d="M433.333,1154.17L499.479,1155.21L500.435,1184.9L529.167,1184.9L566.667,1166.67L566.667,1121.88L504.167,1107.81L458.333,1107.81L445.833,1120.83L433.333,1154.17Z" style="fill:none;stroke:black;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                <path d="M433.333,1154.17L499.479,1155.21L500.435,1184.9L529.167,1184.9L566.667,1166.67L566.667,1121.88L504.167,1107.81L458.333,1107.81L445.833,1120.83L433.333,1154.17Z" style="fill:rgb(255,0,11);fill-opacity:0;"/>
             </g>
             <g id="Harvest-Rooms-Bounds" serif:id="Harvest Rooms Bounds" transform="matrix(0.24,0,0,0.24,0,0)">
-                <path d="M488.075,1226.04L433.333,1225L433.36,1154.17L462.5,1154.17L463.021,1194.52L489.063,1194.52L488.075,1226.04Z" style="fill:none;stroke:black;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                <path d="M488.075,1226.04L433.333,1225L433.36,1154.17L462.5,1154.17L463.021,1194.52L489.063,1194.52L488.075,1226.04Z" style="fill:rgb(255,0,9);fill-opacity:0;"/>
             </g>
         </g>
         <g transform="matrix(-1,0,0,1,265.25,-90.25)">
@@ -1318,10 +1321,10 @@
                 <text x="157.595px" y="380.282px" style="font-family:'AvenirNext-Bold', 'Avenir Next', sans-serif;font-weight:700;font-size:5px;fill:rgb(35,31,32);">Center</text>
             </g>
             <g id="Library-Bounds" serif:id="Library Bounds" transform="matrix(0.24,0,0,0.24,0,0)">
-                <rect x="544.271" y="1375" width="155.729" height="114.06" style="fill:none;"/>
+                <rect x="544.271" y="1375" width="155.729" height="114.06" style="fill:rgb(255,5,0);fill-opacity:0;"/>
             </g>
             <g id="Schultz-Information-Center-Bounds" serif:id="Schultz Information Center Bounds" transform="matrix(0.24,0,0,0.24,0,0)">
-                <rect x="570.833" y="1491.67" width="163.542" height="109.894" style="fill:none;"/>
+                <rect x="570.833" y="1491.67" width="163.542" height="109.894" style="fill:rgb(255,5,0);fill-opacity:0;"/>
             </g>
         </g>
         <g transform="matrix(-1,0,0,1,427.188,300.033)">
