@@ -11,6 +11,7 @@ const c = {
 };
 
 var zoom;
+var nestedSSUData;
 var mapSVG;
 var mouseX;
 var mouseY;
@@ -77,23 +78,48 @@ function main()
 
 function makeNest(jsonObject)
 {
-    const nestedFalcultyCategories = d3.nest()
-	  .key(d => d['Building'])
-	  .key(d => d['Department'])
-	  .key(d => d['L_Name'])
-	  .entries(jsonObject);
-
-    console.log("nested categories" , nestedFalcultyCategories);
+    nestedSSUData = d3.nest()
+	.key(d => d['Building'])
+	.key(d => d['Department'])
+	.key(d => d['L_Name'])
+	.entries(jsonObject);
+    
+    console.log("nested categories" , nestedSSUData);
 }
 
 function BuildingHandlerLMB(bound)
 {
-    console.log('id: ', bound.attr('id'));
+    // Save the bound's ID to a variable
+    var id = bound.attr('id');
+
+    /* TESTING NESTED DATA RETRIEVAL */
+    
+    // Remove the bounds from the ID
+    id = id.replace("-Bounds", "");
+    // Remove the hyphens from the ID
+    id = id.replace("-", " ");
+    var i;
+    for(i = 0; i < nestedSSUData.length; i++) {
+	if(nestedSSUData[i].key == id) {
+	    console.log("Match found for", id);
+	    // Break to keep the index of the matching key
+	    break;
+	}
+    }
+    // At this point, if the index is valid, display the relevant majors for the
+    // target building. 
+    if(i < nestedSSUData.length) {
+	console.log("LISTING MAJORS/AREAS");
+	for(j = 0; j < nestedSSUData[i].values.length; j++) {
+	    console.log(nestedSSUData[i].values[j]);
+	}
+    }
+    console.log('id: ', id);
     console.log("Mouse Coords: (", mouseX, ", ", mouseY, ")");
     var boundRect = bound.select('rect').node();
     console.log("Bound Rect: ", boundRect);
     
-    /* PRIMITIVE ZOOM CALL */
+    /* PRIMITIVE ZOOM - We still need to get the centroid/proper bounding box coords... */
     var newX = (mouseX * -1.5);
     var newY = (mouseY * -1.5);
     //var newX = (mouseX * -1) - (c.mapWidth / 2);
