@@ -18,51 +18,50 @@ function loadSVG()
 	.attr('width', c.mapWidth)
 	.attr('height', c.mapHeight)
 	.call(zoom = d3.zoom()
-	      .scaleExtent([c.minZoomScale, c.maxZoomScale])
-              .translateExtent([[0,0],[c.mapWidth,c.mapHeight]])
-	      .on('zoom', function () {
-		  svg.attr('transform', d3.event.transform)
-	      }))
+    .scaleExtent([c.minZoomScale, c.maxZoomScale])
+    .translateExtent([[0,0],[c.mapWidth,c.mapHeight]])
+    .on('zoom', function () {
+      svg.attr('transform', d3.event.transform)
+    }))
 	.append("g")
 
-    d3.xml('19-050_campus_map_revise_v6.svg', function(data) { console.log(data) })
-        .then(data => {
-            d3.select('svg g').node().append(data.documentElement)
-            main()
-        })
+  d3.xml('map.svg', function(data) { console.log(data) })
+    .then(data => {
+      svg.node().append(data.documentElement)
+      main()
+    })
 
 }
 
 function main()
 {
-    makeClickables();
+  makeClickables();
 }
 
 function makeNest(jsonObject)
 {
-    const nestedFalcultyCategories = d3.nest()
-	  .key(d => d['Building'])
-	  .key(d => d['Department'])
-	  .key(d => d['L_Name'])
-	  .entries(jsonObject);
-
-    console.log("nested categories" , nestedFalcultyCategories);
+  const nestedFalcultyCategories = d3.nest()
+    .key(d => d['Building'])
+    .key(d => d['Department'])
+    .key(d => d['L_Name'])
+    .entries(jsonObject)
+  console.log("nested categories" , nestedFalcultyCategories);
 }
 
 function BackButtonLMB(d)
 {
-    console.log("BackButtonLMB entered: ", d);
+  console.log("BackButtonLMB entered: ", d);
 }
 
 function BuildingHandlerLMB(bound)
 {
-    console.log('id: ', bound.attr('id'))
-
+  console.log('bound: ', bound)
+  console.log('bound node BB: ', bound.node().getBBox())
+  console.log('id: ', bound.attr('id'))
 }
 
 function makeClickables()
 {
-    // var sel = d3.selectAll('#Buidlings g')
     var sel = d3.select('svg').selectAll('*').filter(function(d, dd, ddd)
     {
       id = d3.select(this).attr('id')
@@ -74,7 +73,6 @@ function makeClickables()
 
     sel.on('click', function (e, i, p)
     {
-      // console.log('clicked this: ', d3.select(this))
       BuildingHandlerLMB(d3.select(this))
     })
 }
