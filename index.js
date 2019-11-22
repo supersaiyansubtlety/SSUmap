@@ -69,7 +69,7 @@ function makeNest(jsonObject)
 
 function BackButtonLMB(d)
 {
-    console.log("BackButtonLMB entered: ", d);
+  console.log("BackButtonLMB entered: ", d);
 }
 
 function BuildingHandlerLMB(bound)
