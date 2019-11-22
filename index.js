@@ -32,7 +32,7 @@ function loadSVG()
     //     svg.attr('transform', d3.event.transform)
     //   })
     // d3.select('body svg').call(zoom)
-    
+
     d3.xml('map.svg', function(data) { console.log(data) })
 	.then(data => {
 	    svg.node().append(data.documentElement)
@@ -74,43 +74,22 @@ function BackButtonLMB(d)
 
 function BuildingHandlerLMB(bound)
 {
-    var centroid = getCentroid(bound.node().getBBox())
+    var centroid =
+    {
+      x:rect.x + rect.width/2,
+      y:rect.y + rect.height/2
+    }
 
-    d3.select(bound.node().parentNode).append("circle").attr("cx", centroid.x).attr("cy", centroid.y).attr("r", 3).style("fill", "purple").attr('opacity', 1);
-
-
-    var winWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-    var winHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-    // console.log('w: ', winWidth,'h: ', winHeight)
-    // console.log('centroid before: ', centroid)
-    var mapDims = mapSVG.node().viewBox.baseVal;
-    // centroid.x = ((centroid.x) - mapDims.width)// / mapDims.width * winWidth
-    // centroid.y =  ((centroid.y) - mapDims.height)// / mapDims.height * winHeight
-    // console.log('body selection/node: ', d3.zoomTransform(d3.select('body svg').node()).k)
-    var curZoom = d3.zoomTransform(d3.select('body svg').node());
-    // curZoom.k is the current scale factor when clicked. x and y is presumably the
-    // top-left-most point visible at the zoom factor k.
-    //console.log('curZoom: k=', curZoom.k, ' x: ', curZoom.x, ' y: ', curZoom.y )
-    console.log('centroid-pre: ', centroid);
     var offsetX = (c.mapVBWidth / 2);
     var offsetY = (c.mapVBHeight / 2);
-    /*
-    if(curZoom.k == 1)
-    {
-	console.log('Modifying centroid');
-	centroid.x = (centroid.x - curZoom.x)/curZoom.k;
-	centroid.y = (centroid.y - curZoom.y)/curZoom.k;
-    }
-    */
-    console.log('centroid-post: ', centroid);
-    //console.log('offsetX = ', offsetX, '; offsetY = ', offsetY);
-    // console.log('centroid after: ', centroid)
+
     var translation = d3.zoomIdentity.scale(c.maxZoomScale).translate(-centroid.x, -centroid.y)
-    //console.log('translate = ', translation);
+
     translation.x += offsetX;
     translation.y += offsetY;
-    d3.select('body svg').transition().duration(1500).call(zoom.transform, translation);
-    
+
+    d3.select('body svg').transition().duration(500).call(zoom.transform, translation);
+
 }
 
 function makeClickables()
@@ -130,5 +109,3 @@ function makeClickables()
 
     sel.on('click', function () { BuildingHandlerLMB(d3.select(this)) })
 }
-
-function getCentroid(rect) { return { x:rect.x + rect.width/2, y:rect.y + rect.height/2} }
