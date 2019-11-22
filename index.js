@@ -74,6 +74,7 @@ function BackButtonLMB(d)
 
 function BuildingHandlerLMB(bound)
 {
+  var rect = bound.node().getBBox()
     var centroid =
     {
       x:rect.x + rect.width/2,
@@ -94,18 +95,17 @@ function BuildingHandlerLMB(bound)
 
 function makeClickables()
 {
-    var sel = d3.select('svg').selectAll('*').filter(function() {
-	var id = d3.select(this).attr('id')
-	var pos
-	if(id)
-	{
-	    var pos = (id.indexOf('-Bounds'))
-	    if ((pos !== -1) && (pos === (id.length - 7)))
-		return true
-	}
-	return false
-    })
-    console.log('sel: ', sel)
-
-    sel.on('click', function () { BuildingHandlerLMB(d3.select(this)) })
+  var sel = d3.select('svg').selectAll('*').filter(function()
+  {
+  	var id = d3.select(this).attr('id')
+  	var pos
+  	if(id)
+  	{
+      var pos = (id.indexOf('-Bounds'))
+      if ((pos !== -1) && (pos === (id.length - 7)))
+  	    return true
+  	}
+  	return false
+  })
+  sel.on('click', function () { BuildingHandlerLMB(d3.select(this)) })
 }
