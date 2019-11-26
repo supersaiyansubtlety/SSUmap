@@ -6,7 +6,11 @@ const c = {
     minZoomScale: 1,
     maxZoomScale: 6,
     mapVBWidth: 792,
-    mapVBHeight: 612
+    mapVBHeight: 612,
+    topMargin: 10,
+    rightMargin: 10,
+    searchWidth: 200,
+    searchHeight: 30
 };
 
 var zoom;
@@ -42,7 +46,6 @@ function loadSVG()
 	    //.attr('viewBox', '0 0 1000 800')
 	    main();
 	})
-
 }
 
 function main()
@@ -55,6 +58,7 @@ function main()
 	});
     d3.select('body svg').call(zoom);
     makeClickables();
+    makeSearchBox();
 }
 
 function makeNest(jsonObject)
@@ -72,11 +76,12 @@ function BackButtonLMB(d)
     console.log("BackButtonLMB entered: ", d);
 }
 
+
 function BuildingHandlerLMB(bound)
 {
     var centroid = getCentroid(bound.node().getBBox())
 
-    d3.select(bound.node().parentNode).append("circle").attr("cx", centroid.x).attr("cy", centroid.y).attr("r", 3).style("fill", "purple").attr('opacity', 1);
+    //d3.select(bound.node().parentNode).append("circle").attr("cx", centroid.x).attr("cy", centroid.y).attr("r", 3).style("fill", "purple").attr('opacity', 1);
 
 
     var winWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
@@ -92,7 +97,7 @@ function BuildingHandlerLMB(bound)
     // top-left-most point visible at the zoom factor k.
     //console.log('curZoom: k=', curZoom.k, ' x: ', curZoom.x, ' y: ', curZoom.y )
     console.log('centroid-pre: ', centroid);
-    var offsetX = (c.mapVBWidth / 2);
+    var offsetX = (c.mapVBWidth / 3);
     var offsetY = (c.mapVBHeight / 2);
     /*
     if(curZoom.k == 1)
@@ -109,8 +114,7 @@ function BuildingHandlerLMB(bound)
     //console.log('translate = ', translation);
     translation.x += offsetX;
     translation.y += offsetY;
-    d3.select('body svg').transition().duration(1500).call(zoom.transform, translation);
-    
+    d3.select('body svg').transition().duration(1500).call(zoom.transform, translation);    
 }
 
 function makeClickables()
@@ -129,6 +133,30 @@ function makeClickables()
     console.log('sel: ', sel)
 
     sel.on('click', function () { BuildingHandlerLMB(d3.select(this)) })
+}
+
+function makeSearchBox()
+{
+    d3.select('body svg')
+	.append('rect')
+	.attr('x', `${c.mapWidth - c.rightMargin - c.searchWidth}`)
+	.attr('y', `${c.topMargin + c.searchHeight}`)
+	.attr('width', c.searchWidth)
+	.attr('height', c.searchHeight)
+	.attr('opacity', 0.4)
+	.attr('stroke', 'green')
+	.attr('stroke-width', '3')
+	.attr('fill', 'gray'); // Here
+
+    d3.select('body')
+	.append('input')
+    //.attr('transform', `translate(${c.mapWidth - c.rightMargin - c.searchWidth}, ${c.topMargin + c.searchHeight})`)
+	.attr('transform', `translate(0, 0)`)
+	.attr('type', 'text')
+	.attr('x', `${c.mapWidth - c.rightMargin - c.searchWidth}`)
+	.attr('y', `${c.topMargin + c.searchHeight}`)
+	.attr('name', 'textField')
+	.attr('value', 'Search Box');
 }
 
 function getCentroid(rect) { return { x:rect.x + rect.width/2, y:rect.y + rect.height/2} }
