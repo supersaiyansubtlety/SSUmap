@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <style>
+
+        .node circle {
+            fill: #fff;
+            stroke: steelblue;
+            stroke-width: 3px;
+        }
+
+        .node text {
+            font: 12px sans-serif;
+        }
+
+        .link {
+            fill: none;
+            stroke: #ccc;
+            stroke-width: 2px;
+        }
+
+    </style>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js"></script>
+    <script type="text/javascript" src="http://d3js.org/colorbrewer.v1.min.js"></script>
+    <script type="text/javascript" src="SSU_Faculty.js"></script>
+
+</head>
+<body>
+<script>
+
+    d3.json('FacultyFlare.json').then(json => makeNest(json));
+
+
+</script>
+<div id="chart"></div>
+</body>
+</html>
