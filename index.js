@@ -23,6 +23,8 @@ function loadSVG()
     // Call D3's zoom function which also handles translating.
     // Not sure if this will conflict with clicks.
     svg = d3.select('body')
+    // .style('position', 'relative')
+    // .style('padding', '30px')
 	.append("svg")
 	.attr('width', c.mapWidth)
 	.attr('height', c.mapHeight)
@@ -36,7 +38,7 @@ function loadSVG()
     //     svg.attr('transform', d3.event.transform)
     //   })
     // d3.select('body svg').call(zoom)
-    
+
     d3.xml('map.svg', function(data) { console.log(data) })
 	.then(data => {
 	    svg.node().append(data.documentElement)
@@ -114,7 +116,7 @@ function BuildingHandlerLMB(bound)
     //console.log('translate = ', translation);
     translation.x += offsetX;
     translation.y += offsetY;
-    d3.select('body svg').transition().duration(1500).call(zoom.transform, translation);    
+    d3.select('body svg').transition().duration(1500).call(zoom.transform, translation);
 }
 
 function makeClickables()
@@ -137,26 +139,36 @@ function makeClickables()
 
 function makeSearchBox()
 {
-    d3.select('body svg')
-	.append('rect')
-	.attr('x', `${c.mapWidth - c.rightMargin - c.searchWidth}`)
-	.attr('y', `${c.topMargin + c.searchHeight}`)
-	.attr('width', c.searchWidth)
-	.attr('height', c.searchHeight)
-	.attr('opacity', 0.4)
-	.attr('stroke', 'green')
-	.attr('stroke-width', '3')
-	.attr('fill', 'gray'); // Here
-
-    d3.select('body')
-	.append('input')
-    //.attr('transform', `translate(${c.mapWidth - c.rightMargin - c.searchWidth}, ${c.topMargin + c.searchHeight})`)
-	.attr('transform', `translate(0, 0)`)
-	.attr('type', 'text')
-	.attr('x', `${c.mapWidth - c.rightMargin - c.searchWidth}`)
-	.attr('y', `${c.topMargin + c.searchHeight}`)
-	.attr('name', 'textField')
-	.attr('value', 'Search Box');
+  d3.select('body')
+    // .append('div')
+    .append('input')
+    .style('position', 'fixed')
+    .style('z-index', 200)
+	  .style('left', `${c.mapWidth - c.rightMargin - c.searchWidth}px`)
+	  .style('top', `${c.topMargin + c.searchHeight}px`)
+    .style('width', `${c.searchWidth}px`)
+    .style('height', `${c.searchHeight}px`)
+    .style('background-color', 'rgba(255, 255, 255, 0.87)')
+    .style('border-color', 'rgba(225, 225, 225, 0.7)')
+    .style('border-radius', '7px')
+    .style('border-width', '2px')
+    .style('border-style', 'solid')
+    // .style('opacity', 0.5)
+    .style('font-size', '12px')
+    .attr('type', 'text')
+	  .attr('name', 'textField')
+	  .attr('placeholder', 'Enter search here...')
+    .attr('onkeypress', 'textInputHandler(event)');
 }
 
 function getCentroid(rect) { return { x:rect.x + rect.width/2, y:rect.y + rect.height/2} }
+
+function textInputHandler(event)
+{
+  if(event.code ==='Enter')
+  {
+    console.log('entered: ', event.path[0].value);
+    // console.log('event: ', event)
+
+  }
+}
