@@ -19,6 +19,7 @@ const c = {
 var zoom;
 var svg;
 var mapSVG;
+var alreadyZoomed = false;
 
 // For use in "Tree" code.
 var i = 0,
@@ -28,7 +29,9 @@ var i = 0,
     svg,
     nodeEnter,
     nodes,
-    links;
+    links,
+    lastClicked = null;
+
 var margin = {top: 20, right: 90, bottom: 30, left: 90};
 
 function loadSVG()
@@ -60,7 +63,7 @@ function loadSVG()
 	    mapSVG = svg.select('svg');
 	    console.log('Map should be loaded here!');
 	    main();
-	})
+	});
 }
 
 function main()
@@ -70,31 +73,71 @@ function main()
 	.translateExtent([[0,0],[c.mapWidth,c.mapHeight]])
 	.on('zoom', function () {
 	    d3.select('.Map').attr('transform', d3.event.transform)
-	    if(d3.zoomTransform(d3.select('.Map').node()).k !== c.maxZoomScale)
-	    {
-		    d3.selectAll('.Tree')
-		    //.attr('transform', `translate(${c.mapWidth},0)`)
-  		    .transition()
-  		    .duration(250)
-  		    .attr('opacity', 0);
-	    }
-	    else
-	    {
-		    d3.selectAll('.Tree')
-		    //.attr('transform', `translate(${c.mapWidth},0)`)
-  		    .transition()
-  		    .duration(250)
-  		    .attr('opacity', 1);
-	    }
-      window.setTimeout(function()
-      {
-        console.log('nodes: ', nodes)
-        console.log('name: ', nodes[10].data.name)
+	    // if(d3.zoomTransform(d3.select('.Map').node()).k !== c.maxZoomScale)
+	    // {
+		  //   d3.selectAll('.Tree')
+		  //   //.attr('transform', `translate(${c.mapWidth},0)`)
+  		//     .transition()
+  		//     .duration(250)
+  		//     .attr('opacity', 0);
+	    // }
+	    // else
+	    // {
+		  //   d3.selectAll('.Tree')
+		  //   //.attr('transform', `translate(${c.mapWidth},0)`)
+  		//     .transition()
+  		//     .duration(250)
+  		//     .attr('opacity', 1);
+	    // }
 
-        click(nodes[10]);
-        // console.log('boiler: ', svg.selectAll('g.node #Boiler-Plant').data);
-      },2000);
-	});
+      var zoomed = d3.zoomTransform(d3.select('.Map').node()).k === c.maxZoomScale;
+      if(zoomed)
+      {
+        if (!alreadyZoomed)
+        {
+          console.log('max zoomage');
+          alreadyZoomed = true;
+          // d3.selectAll('.Tree')
+  		    // //.attr('transform', `translate(${c.mapWidth},0)`)
+    		  //   .transition()
+    		  //   .duration(250)
+    		  //   .attr('opacity', 1);
+
+            // window.setTimeout(function()
+            // {
+            //   // console.log('nodes[10]: ', nodes[10])
+            //   // console.log('name: ', nodes[10].data.name)
+            //
+            //   // nodes[n].data.name
+            //
+            //   click(nodes[10]);
+            //   // console.log('boiler: ', svg.selectAll('g.node #Boiler-Plant').data);
+            // },250);
+        }
+      }
+      else
+      {
+        if(alreadyZoomed)
+        {
+          alreadyZoomed = false;
+        console.log("unzooming");
+          resetTree();
+
+          // window.setTimeout(function()
+          // {
+          //   if(lastClicked !== null)
+          //   {
+          //     click(lastClicked);
+          //     lastClicked = null;
+          //   }
+          // },250);
+        }
+      }
+
+
+  });
+
+
     var dbgZoom = d3.selectAll('.Map').call(zoom);
     console.log('Zoom should be implemented here! = ', dbgZoom);
     makeClickables();
@@ -128,9 +171,9 @@ function makeClickables()
     sel.on('click', function () { zoomToSelection(d3.select(this), 1/3, 1/2) })
 }
 
-function zoomToSelection(id, xRat, yRat)
+function zoomToSelection(sel, xRat, yRat)
 {
-    var rect = id.node().getBBox()
+    var rect = sel.node().getBBox()
     var centroid =
 	{
 	    x: rect.x + rect.width/2,
@@ -154,10 +197,13 @@ function zoomToSelection(id, xRat, yRat)
     translation.y += offsetY
 
     d3.select('.Map').transition().duration(500).call(zoom.transform, translation);
-    d3.select('.Tree')
-    	.transition()
-	.duration(500)
-	.attr('opacity', 1);
+    window.setTimeout(()=>
+    {
+      setTreeOpacity(1);
+      console.log("sel node: ", sel.node());
+      clickNodeByName(sel.node().id.replace('-Bounds', '').replace(/-/g, ' '));
+    }, 500);
+
 }
 
 function zoomByName(buildingName, xRat, yRat)
@@ -165,13 +211,13 @@ function zoomByName(buildingName, xRat, yRat)
     var buildingId = formatToBoundId(buildingName)
     var sel = d3.select(`svg g svg #${buildingId}`);
     if(!sel.empty())
-	zoomToSelection(sel, xRat, yRat);
+	   zoomToSelection(sel, xRat, yRat);
 }
 
 function formatToBoundId(buildingName)
 {
     var outString = buildingName + '-Bounds'
-    outString = outString.replace(' ', '-')
+    outString = outString.replace(/ /g, '-')
     console.log('outstring: ', outString)
     return outString
 }
@@ -209,10 +255,16 @@ function textInputHandler(event)
 	console.log('entered: ', event.path[0].value);
 	// console.log('event: ', event)
 	zoomByName(event.path[0].value, 1/3, 1/2);
+  // clickNodeByName(event.path[0].value);
+    // nodes[n].data.name
+
+    // click(nodes[10]);
+  // })
     }
 }
 
-function loadVisual(jsonObject) {
+function loadVisual(jsonObject)
+{
     var treeData = jsonObject;
 
     // Set the dimensions and margins of the diagram
@@ -227,8 +279,8 @@ function loadVisual(jsonObject) {
     //.attr("width", width + margin.right + margin.left)
     //.attr("height", height + margin.top + margin.bottom)
         .append("g")
-	.attr("transform", "translate(" + (- c.mapWidth / 4) + "," + margin.top + ")")
-	.attr('class', 'Tree');
+      	.attr("transform", "translate(" + (- c.mapWidth / 4) + "," + margin.top + ")")
+      	.attr('class', 'Tree');
 
     // declares a tree layout and assigns the size
     treemap = d3.tree().size([height, width]);
@@ -241,23 +293,23 @@ function loadVisual(jsonObject) {
     root.y0 = 0;
 
     // Collapse after the second level
-    root.children.forEach(collapse);
-    console.log('root: ', root);
-    console.log('root.children: ', root.children);
 
-    update(root);
-    d3.selectAll('.Tree')
-	.transition()
-	.duration(500)
-	.attr('opacity', 0);
+    resetTree();
+
+    // root.children.forEach(collapse);
+    // console.log('root: ', root);
+    // console.log('root.children: ', root.children);
+    //
+    // update(root);
+    // setTreeOpacity(0);
 }
 
 // Toggle children on click.
 function click(d, i , p) {
-    console.log('Click was called');
-    console.log('d: ', d)
-    console.log('i: ', i)
-    console.log('p: ', p)
+    // console.log('Click was called');
+    // console.log('d: ', d)
+    // console.log('i: ', i)
+    // console.log('p: ', p)
     if (d.children) {
         d._children = d.children;
         d.children = null;
@@ -427,4 +479,40 @@ function update(source) {
           ${d.y} ${d.x}`
         return path;
     }
+}
+
+function clickNodeByName(name)
+{
+  nodes.forEach((node) => {
+    if (node.data.name === name)
+    {
+      window.setTimeout(()=>
+      {
+        lastClicked = node;
+        click(node);
+      },250);
+    }
+  });
+}
+
+function setTreeOpacity(op)
+{
+  var tree = d3.selectAll('.Tree');
+
+  console.log("setting tree opacity: ", op);
+  d3.selectAll('.Tree')
+  //.attr('transform', `translate(${c.mapWidth},0)`)
+    .transition()
+    .duration(250)
+    .attr('opacity', op);
+}
+
+function resetTree()
+{
+  root.children.forEach(collapse);
+  // console.log('root: ', root);
+  // console.log('root.children: ', root.children);
+
+  update(root);
+  setTreeOpacity(0);
 }
