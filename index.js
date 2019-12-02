@@ -45,7 +45,7 @@ function loadSVG()
 	.append("g")
 	.attr('width', c.mapVBWidth)
 	.attr('height', c.mapVBHeight)
-	.attr('class', 'Map');	     
+	.attr('class', 'Map');
     // zoom = d3.zoom()
     //   .scaleExtent([c.minZoomScale, c.maxZoomScale])
     //   .translateExtent([[0,0],[c.mapWidth,c.mapHeight]])
@@ -72,20 +72,28 @@ function main()
 	    d3.select('.Map').attr('transform', d3.event.transform)
 	    if(d3.zoomTransform(d3.select('.Map').node()).k !== c.maxZoomScale)
 	    {
-		d3.selectAll('.Tree')
+		    d3.selectAll('.Tree')
 		    //.attr('transform', `translate(${c.mapWidth},0)`)
-		    .transition()
-		    .duration(250)
-		    .attr('opacity', 0);
+  		    .transition()
+  		    .duration(250)
+  		    .attr('opacity', 0);
 	    }
 	    else
 	    {
-		d3.selectAll('.Tree')
+		    d3.selectAll('.Tree')
 		    //.attr('transform', `translate(${c.mapWidth},0)`)
-		    .transition()
-		    .duration(250)
-		    .attr('opacity', 1);
+  		    .transition()
+  		    .duration(250)
+  		    .attr('opacity', 1);
 	    }
+      window.setTimeout(function()
+      {
+        console.log('nodes: ', nodes)
+        console.log('name: ', nodes[10].data.name)
+
+        click(nodes[10]);
+        // console.log('boiler: ', svg.selectAll('g.node #Boiler-Plant').data);
+      },2000);
 	});
     var dbgZoom = d3.selectAll('.Map').call(zoom);
     console.log('Zoom should be implemented here! = ', dbgZoom);
@@ -236,7 +244,7 @@ function loadVisual(jsonObject) {
     root.children.forEach(collapse);
     console.log('root: ', root);
     console.log('root.children: ', root.children);
-    
+
     update(root);
     d3.selectAll('.Tree')
 	.transition()
@@ -369,7 +377,7 @@ function update(source) {
     // ****************** links section ***************************
 
     /*
-    
+
     // Update the links...
     var link = svg.selectAll('path.link')
         .data(links, function (d) {
