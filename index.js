@@ -70,7 +70,7 @@ function main()
 {
     zoom = d3.zoom()
 	.scaleExtent([c.minZoomScale, c.maxZoomScale])
-	.translateExtent([[0,0],[c.mapWidth,c.mapHeight]])
+	.translateExtent([[0, 0],[c.mapWidth, c.mapHeight]])
 	.on('zoom', function () {
 	    d3.select('.Map').attr('transform', d3.event.transform)
 	    // if(d3.zoomTransform(d3.select('.Map').node()).k !== c.maxZoomScale)
@@ -326,7 +326,7 @@ function click(d, i , p) {
 
 // Collapse the node and all it's children
 function collapse(d) {
-    console.log('Collapse was called');
+    // console.log('Collapse was called');
     if (d.children) {
         d._children = d.children
         d._children.forEach(collapse)
@@ -351,6 +351,10 @@ function update(source) {
         d.y = d.depth * c.nodeDepth;
         // console.log("d.y: ", d.y);
     });
+    nodes.forEach((e) => {recursiveNodeSort(e.data.children)});
+    nodes = nodes.sort((a, b) => { return (''+a.data.name).localeCompare(b.data.name); } );
+    // recursiveNodeSort(nodes.data);
+    console.log("nodes: ", nodes);
 
     // ****************** Nodes section ***************************
 
@@ -515,4 +519,22 @@ function resetTree()
 
   update(root);
   setTreeOpacity(0);
+}
+
+function recursiveNodeSort(parent)
+{
+  // nodes = nodes.sort((a, b) => { return (''+a.data.name).localeCompare(b.data.name); } );
+  if(parent)
+  {
+    console.log("parent & parent.children");
+    parent.forEach((e) => {
+      if(e.children && e.children.length)
+      {
+        console.log('recur loop');
+        recursiveNodeSort(e.children);
+      }
+    });
+
+    parent = parent.sort((a, b) => { return (''+a.name).localeCompare(b.name); } );
+  }
 }
