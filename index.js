@@ -29,8 +29,7 @@ var i = 0,
     svg,
     nodeEnter,
     nodes,
-    links,
-    lastClicked = null;
+    links;
 
 var margin = {top: 20, right: 90, bottom: 30, left: 90};
 
@@ -110,7 +109,7 @@ function main()
             //
             //   // nodes[n].data.name
             //
-            //   click(nodes[10]);
+            //   expandNode(nodes[10]);
             //   // console.log('boiler: ', svg.selectAll('g.node #Boiler-Plant').data);
             // },250);
         }
@@ -127,7 +126,7 @@ function main()
           // {
           //   if(lastClicked !== null)
           //   {
-          //     click(lastClicked);
+          //     expandNode(lastClicked);
           //     lastClicked = null;
           //   }
           // },250);
@@ -168,7 +167,13 @@ function makeClickables()
 	return false
     })
     console.log('sel: ', sel)
-    sel.on('click', function () { zoomToSelection(d3.select(this), 1/3, 1/2) })
+    sel.on('click', function ()
+    {
+      building = d3.select(this);
+       zoomToSelection(building, 1/3, 1/2);
+       expandNodeByNameDelayed(building);
+       //HERE2
+    })
 }
 
 function zoomToSelection(sel, xRat, yRat)
@@ -197,13 +202,6 @@ function zoomToSelection(sel, xRat, yRat)
     translation.y += offsetY
 
     d3.select('.Map').transition().duration(500).call(zoom.transform, translation);
-    window.setTimeout(()=>
-    {
-      setTreeOpacity(1);
-      console.log("sel node: ", sel.node());
-      clickNodeByName(sel.node().id.replace('-Bounds', '').replace(/-/g, ' '));
-    }, 500);
-
 }
 
 function zoomByName(buildingName, xRat, yRat)
@@ -211,7 +209,9 @@ function zoomByName(buildingName, xRat, yRat)
     var buildingId = formatToBoundId(buildingName)
     var sel = d3.select(`svg g svg #${buildingId}`);
     if(!sel.empty())
+    {
 	   zoomToSelection(sel, xRat, yRat);
+   }
 }
 
 function formatToBoundId(buildingName)
@@ -250,16 +250,56 @@ function getCentroid(rect) { return { x:rect.x + rect.width/2, y:rect.y + rect.h
 
 function textInputHandler(event)
 {
-    if(event.code ==='Enter')
+    if(event.code === 'Enter')
     {
-	console.log('entered: ', event.path[0].value);
-	// console.log('event: ', event)
-	zoomByName(event.path[0].value, 1/3, 1/2);
-  // clickNodeByName(event.path[0].value);
-    // nodes[n].data.name
-
-    // click(nodes[10]);
-  // })
+	    console.log('entered: ', event.path[0].value);
+      resetTree();
+      var foundNode = findNode(event.path[0].value);
+      if(foundNode)
+      {
+        var stack = [];
+        // console.log('node found\\|/');
+        // resetTree();
+        // console.log('foundNode: ', foundNode);
+        while (foundNode && !(foundNode.data && (foundNode.data.name === 'flare')))
+        {
+          console.log('foundNode: ', foundNode);
+          // expandNodeDelayed(foundNode, 500);
+          stack.push(foundNode); // stack.push(foundNode);
+          foundNode = foundNode.grandParent;
+        }
+        // stack.push(foundNode);
+        var i = 0;
+        // while(stack.length)
+        // {
+        //   i++;
+        //   expandNodeDelayed(stack.pop(), 1000 * i, i);
+        // }
+        // for (item of stack)
+        // {
+        zoomByName(stack[stack.length-1].data.name, 1/3, 1/2);
+        function doDelays()
+        {
+          console.log('doing delays...');
+          window.setTimeout( () =>
+          {
+            i++;
+            var cur = stack.pop()
+            console.log('cur: ', cur);
+            // expandNodeDelayed(findNode((item.data ? item.data.name : item.name )), 1000 * i);//, i);
+            expandNode(findNode((cur.data ? cur.data.name : cur.name )), true);
+            setTreeOpacity(1);
+            if(stack.length) doDelays();
+          }, 500 * i);
+        }
+        doDelays();
+      }
+      else
+      {
+        console.log('node not found');
+        zoomByName(event.path[0].value, 1/3, 1/2);
+      }
+	    // zoomByName(event.path[0].value, 1/3, 1/2);
     }
 }
 
@@ -294,7 +334,18 @@ function loadVisual(jsonObject)
 
     // Collapse after the second level
 
+    var treeData = treemap(root);
+
+    // Compute the new tree layout.
+    nodes = treeData.descendants();
+    links = treeData.descendants().slice(1);
+
     resetTree();
+    //recursively sort all nodes
+    nodes.forEach((e) => {recursiveNodeSort(e.data.children, e)});
+    nodes = nodes.sort((a, b) => { return (''+a.data.name).localeCompare(b.data.name); } );
+    // recursiveNodeSort(nodes.data.children);
+    console.log("nodes: ", nodes);
 
     // root.children.forEach(collapse);
     // console.log('root: ', root);
@@ -305,23 +356,50 @@ function loadVisual(jsonObject)
 }
 
 // Toggle children on click.
-function click(d, i , p) {
-    // console.log('Click was called');
-    // console.log('d: ', d)
-    // console.log('i: ', i)
-    // console.log('p: ', p)
-    if (d.children) {
-        d._children = d.children;
-        d.children = null;
-    } else {
-        d.children = d._children;
-        d._children = null;
-    }
-    d3.select('.Tree')
-	.transition()
-	.duration(250)
-	.attr('transform', `translate(${(-c.mapWidth / 4) * d.depth},${margin.top})`);
+function expandNode(d, strict) {
+  // if(depth === null) { depth = d.depth; update(d)}
+  // console.log('Click was called');
+  console.log('d start: ', d)
+  // console.log('i: ', i)
+  // console.log('p: ', p)
+  if (d.children)// || strict)
+  {
+      d._children = d.children;
+      d.children = null;
+  }
+  else //if(!strict)
+  {
+      d.children = d._children;
+      d._children = null;
+  }
+  // var expanded = false;
+  // if (d._children !== null)
+  // {
+  //   console.log('d.children: ', d.children);
+  //   console.log('d._children: ', d._children);
+  //   expanded = true;
+  //   d.children = d._children;
+  //   d._children = null;
+  // }
+  // else if(!strict)
+  // {
+  //     expanded = true;
+  //     d._children = d.children;
+  //     d.children = null;
+  // }
+
+
+  d3.select('.Tree')
+  	.transition()
+  	.duration(250)
+  	.attr('transform', `translate(${(-c.mapWidth / 4) * d.depth}, ${margin.top})`);
+  // console.log('pre-update: ', d);
+  // if(expanded)
+  // {
+  //   console.log('expanded');
     update(d);
+  // }
+  // console.log('post-update: ', d);
 }
 
 // Collapse the node and all it's children
@@ -336,7 +414,8 @@ function collapse(d) {
 
 function update(source) {
 
-    console.log('Update was called');
+    // console.log('Update was called');
+    // console.log('nodes start: ', nodes);
     // Assigns the x and y position for the nodes
     var treeData = treemap(root);
 
@@ -351,17 +430,12 @@ function update(source) {
         d.y = d.depth * c.nodeDepth;
         // console.log("d.y: ", d.y);
     });
-    nodes.forEach((e) => {recursiveNodeSort(e.data.children)});
-    nodes = nodes.sort((a, b) => { return (''+a.data.name).localeCompare(b.data.name); } );
-    // recursiveNodeSort(nodes.data);
-    console.log("nodes: ", nodes);
-
     // ****************** Nodes section ***************************
 
     // Update the nodes...
     var node = svg.selectAll('g.node')
         .data(nodes, function (d) {
-	    return d.id || (d.id = ++i);
+	         return d.id || (d.id = ++i);
         });
 
     // Enter any new modes at the parent's previous position.
@@ -370,9 +444,9 @@ function update(source) {
         .attr('class', 'node')
         .attr('id', function(d) {return d.data.name.replace(/ /g, '-')})
         .attr("transform", function (d) {
-	    return "translate(" + source.y0 + "," + source.x0 + ")";
+	         return "translate(" + source.y0 + "," + source.x0 + ")";
         })
-        .on('click', click);
+        .on('click', expandNode);
 
     // Add Circle for the nodes
     nodeEnter.append('circle')
@@ -483,17 +557,17 @@ function update(source) {
           ${d.y} ${d.x}`
         return path;
     }
+    // console.log('nodes end: ', nodes);
 }
 
-function clickNodeByName(name)
+function expandNodeByName(name)
 {
   nodes.forEach((node) => {
     if (node.data.name === name)
     {
       window.setTimeout(()=>
       {
-        lastClicked = node;
-        click(node);
+        expandNode(node);
       },250);
     }
   });
@@ -501,9 +575,6 @@ function clickNodeByName(name)
 
 function setTreeOpacity(op)
 {
-  var tree = d3.selectAll('.Tree');
-
-  console.log("setting tree opacity: ", op);
   d3.selectAll('.Tree')
   //.attr('transform', `translate(${c.mapWidth},0)`)
     .transition()
@@ -521,20 +592,131 @@ function resetTree()
   setTreeOpacity(0);
 }
 
-function recursiveNodeSort(parent)
+function recursiveNodeSort(parent, grandParent)
 {
   // nodes = nodes.sort((a, b) => { return (''+a.data.name).localeCompare(b.data.name); } );
   if(parent)
   {
-    console.log("parent & parent.children");
-    parent.forEach((e) => {
+    // console.log("grandParent: ", grandParent);
+    parent.forEach((e) =>
+    {
+      e.grandParent = grandParent;
       if(e.children && e.children.length)
       {
-        console.log('recur loop');
-        recursiveNodeSort(e.children);
+        // console.log('e: ', e);
+        recursiveNodeSort(e.children, e);
       }
     });
-
     parent = parent.sort((a, b) => { return (''+a.name).localeCompare(b.name); } );
+    // parent.grandParent = grandParent;
   }
+}
+
+function findNode(name)
+{
+  var stack1 = [nodes];
+  var stack2 = [];
+  var curStack = stack1;
+  var nextStack = stack2;
+  var tail;
+  var res;
+
+  var getChildren;
+  var children;
+
+  while(curStack.length)
+  {
+    // console.log('finding...');
+    //handle top-level case, where everything is contained in array elements' .data's
+    getChildren = (curStack[0][0].data ? (e) => { return e.data.children; } : (e) => { return e.children; });
+    while(curStack.length)
+    {
+      // console.log('looping...');
+      tail = curStack.pop();
+      res = arrayBinarySearch(tail, name);
+      if(res) return res;
+      for(child of tail)
+      {
+        if(children = getChildren(child))
+          nextStack.push(children);
+      }
+    }
+    [curStack, nextStack] = swap(curStack, nextStack);
+  }
+  return null;
+}
+
+// function arrayBinarySearch(array, name)
+// {
+//   // console.log('array: ', array);
+//   var start = 0;
+//   var end = array.length - 1;
+//   var mid = Math.round((start + end)/2);
+//   var prevMid = 0;
+//   var next;
+//   //handle top-level case, where everything is contained in array elements' .data's
+//   var getName = (array[0].data ? (i) => { return array[i].data.name } : (i) => { return array[i].name });
+//   // console.log('getName: ', getName);
+//   while((next = getName(mid).localeCompare(name)) && (prevMid != mid))
+//   {
+//     // console.log('comparing name: ', getName(mid), ', next: ', next);
+//     //next < 0 ? end /=
+//     if(next > 0)
+//     { // array[mid].name BEFORE name
+//       end = mid;
+//     }
+//     else
+//     { // array[mid].name AFTER name
+//       start = mid;
+//     }
+//     prevMid = mid;
+//     mid = Math.round((start + end)/2);
+//   }
+//
+//   if(next) // not found
+//     return null;
+//
+//   return array[mid];
+//
+//
+//
+// }
+
+function arrayBinarySearch(array, name)
+{
+  var getName = (array[0].data ? (e) => { return e.data.name } : (e) => { return e.name });
+  for (item of array)
+  {
+    if(getName(item)===name)
+      return item;
+  }
+  return null;
+}
+function expandNodeDelayed(node, delay)
+{
+  console.log("start of expandNodeDelayed: ", delay);
+  if(delay === null) { delay = 500; }
+  setTreeOpacity(1);
+  window.setTimeout(()=>
+  {
+    // setTreeOpacity(1);
+    expandNode(node);
+    setTreeOpacity(1);
+
+    console.log("expandNodeDelayed after delay: ", delay);
+  }, delay);
+}
+
+function expandNodeByNameDelayed(sel)
+{
+  window.setTimeout(()=>
+  {
+    setTreeOpacity(1);
+    console.log("sel node: ", sel.node());
+    expandNodeByName(sel.node().id.replace('-Bounds', '').replace(/-/g, ' '));
+  }, 500);
+}
+
+function swap(a, b) {
+  return [b, a]
 }
