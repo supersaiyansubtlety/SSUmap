@@ -682,10 +682,15 @@ function arrayBinarySearch(array, name)
   //   (getName(i)+'').localeCompare(name);
   // }
 
-  // if(next) // not found
-  //   return null;
+  if(next) // not found
+    return null;
 
   // return array[mid];
+  if(array[mid].grandParent && array[mid].grandParent.children)
+    return array[mid].grandParent.children[mid]
+  else {
+    return array[mid]
+  }
   // console.log('nums: ', mid - 1, ', ', mid + 1, ', ', (array.length - 1 - mid - 1))
   // console.log('mid: ', mid, ', array: ', array)
   // console.log('splice1: ', array.splice(mid, 1))
@@ -697,14 +702,14 @@ function arrayBinarySearch(array, name)
   // {
     // console.log('nums: ', mid - 1, ', ', mid + 1, ', ', (array.length - 1 - mid - 1))
     // console.log('item: ', item)
-    getName = (array[0].data ? (e) => { return e.data.name } : (e) => { return e.name });
-      for (item of array)
-      {
-        if(getName(item)===name)
-          return item;
-      }
-      return null;
-  // }
+  //   getName = (array[0].data ? (e) => { return e.data.name } : (e) => { return e.name });
+  //     for (item of array)
+  //     {
+  //       if(getName(item)===name)
+  //         return item;
+  //     }
+  //     return null;
+  // // }
 
 
 }
