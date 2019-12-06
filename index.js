@@ -208,19 +208,22 @@ function textInputHandler(event)
         stack.push(foundNode);
         foundNode = foundNode.grandParent;
       }
-      zoomByName(stack[stack.length - 1].data.name, 1/3, 1/2);
-      function doDelays()
+      if(stack.length)
       {
-        window.setTimeout( () =>
+        zoomByName(stack[stack.length - 1].data.name, 1/3, 1/2);
+        function doDelays()
         {
-          var cur = stack.pop()
-          console.log('cur: ', cur)
-          expandNode(findNode((cur.data ? cur.data.name : cur.name )), true);
-          setTreeOpacity(1);
-          if(stack.length) doDelays();
-        }, 500);
+          window.setTimeout( () =>
+          {
+            var cur = stack.pop()
+            console.log('cur: ', cur)
+            expandNode(findNode((cur.data ? cur.data.name : cur.name )), true);
+            setTreeOpacity(1);
+            if(stack.length) doDelays();
+          }, 500);
+        }
+        doDelays();
       }
-      doDelays();
     }
     else
       zoomByName(event.path[0].value, 1/3, 1/2);
