@@ -29,7 +29,7 @@
         Although the 'GMC Hospitality Center' is within the 'Music Center', no
         building will be zoomed as the 'Music Center' is not within the area
         covered by the map.
-    - Search "shesh" to expand 'Ali Kooshesh', showing information associated
+    - Search "Shesh" to expand 'Ali Kooshesh', showing information associated
         with the faculty member. The map will also zoom in on 'Darwin Hall'
         because 'Ali Kooshesh' is under 'Computer Science' which is under
         'Darwin Hall'.
