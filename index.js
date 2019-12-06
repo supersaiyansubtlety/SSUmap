@@ -158,6 +158,7 @@ function zoomToSelection(sel, xRat, yRat)
 function zoomByName(buildingName, xRat, yRat)
 {
   var buildingId = formatToBoundId(buildingName)
+  if(buildingName.indexOf('@') !== -1) return
   var sel = d3.select(`svg g svg #${buildingId}`);
   if(!sel.empty())
     zoomToSelection(sel, xRat, yRat);
@@ -202,23 +203,22 @@ function textInputHandler(event)
     {
       var stack = [];
 
-      while (foundNode && !(foundNode.data && (foundNode.data.name === 'flare')))
+      while (foundNode && !(foundNode.data && (foundNode.data.name === 'Sonoma State')))
       {
         stack.push(foundNode);
         foundNode = foundNode.grandParent;
       }
-      var i = 0;
-      zoomByName(stack[stack.length-1].data.name, 1/3, 1/2);
+      zoomByName(stack[stack.length - 1].data.name, 1/3, 1/2);
       function doDelays()
       {
         window.setTimeout( () =>
         {
-          i++;
           var cur = stack.pop()
+          console.log('cur: ', cur)
           expandNode(findNode((cur.data ? cur.data.name : cur.name )), true);
           setTreeOpacity(1);
           if(stack.length) doDelays();
-        }, 500 * i);
+        }, 500);
       }
       doDelays();
     }
@@ -484,15 +484,24 @@ function findNode(name)
   var getChildren;
   var children;
 
+  var depth = 0;
+
   while(curStack.length)
   {
     //handle top-level case, where everything is contained in array elements' .data's
     getChildren = (curStack[0][0].data ? (e) => { return e.data.children; } : (e) => { return e.children; });
+
     while(curStack.length)
     {
       tail = curStack.pop();
-      res = arrayBinarySearch(tail, name);
-      if(res) return res;
+      console.log('depth: ', depth)
+      res = fallBackSearch(tail, name); //arrayBinarySearch(tail, name);//(depth < 2 ? arrayBinarySearch(tail, name) :
+      if(res)
+      {
+        console.log('depth: ', depth);
+        return res;
+      }
+
       for(child of tail)
       {
         if(children = getChildren(child))
@@ -500,43 +509,71 @@ function findNode(name)
       }
     }
     [curStack, nextStack] = swap(curStack, nextStack);
+    depth++;
   }
+
   return null;
 }
 
 function arrayBinarySearch(array, name)
 {
+  var localArray = array.slice();
   var start = 0;
-  var end = array.length - 1;
+  var end = localArray.length - 1;
   var mid = Math.round((start + end)/2);
   var prevMid = 0;
   var next;
-  //handle top-level case, where everything is contained in array elements' .data's
-  var getName = (array[0].data ? (i) => { return array[i].data.name } : (i) => { return array[i].name });
-  while((next = (getName(mid)+'').localeCompare(name)) && (prevMid != mid))
+  //handle top-level case, where everything is contained in localArray elements' .data's
+  var getName = (localArray[0].data ? (i) => { return localArray[i].data.name } : (i) => { return localArray[i].name });
+  next = (getName(mid)+'').localeCompare(name);
+  while(next && (prevMid != mid))//(next = (getName(mid)+'').localeCompare(name))
   {
     if(next > 0)
-    { // array[mid].name comes BEFORE name
+    { // localArray[mid].name comes BEFORE name
       end = mid;
     }
     else
-    { // array[mid].name comes AFTER name
+    { // localArray[mid].name comes AFTER name
       start = mid;
     }
     prevMid = mid;
     mid = Math.round((start + end)/2);
+    next = (getName(mid)+'').localeCompare(name);
   }
   if(prevMid == mid && mid != 0)
-    next = getName(--mid).localeCompare(name)
+    next = (getName(--mid)+'').localeCompare(name)
 
   if(next) // not found
     return null;
 
   if(array[mid].grandParent && array[mid].grandParent.children)
-    return array[mid].grandParent.children[mid]
+      return array[mid].grandParent.children[mid]
   else
     return array[mid]
 }
+
+function fallBackSearch(array, name)
+{
+  var getName = (array[0].data ? (e) => { return e.data.name } : (e) => { return e.name });
+  console.log('fall array: ', array)
+  for (item of array)
+  {
+    if(getName(item)===name)
+      return item;
+  }
+  return null;
+}
+
+// function arrayBinarySearch(array, name)
+// {
+//   var getName = (array[0].data ? (e) => { return e.data.name } : (e) => { return e.name });
+//   for (item of array)
+//   {
+//     if(getName(item)===name)
+//       return item;
+//   }
+//   return null;
+// }
 
 function expandNodeDelayed(node, delay)
 {
