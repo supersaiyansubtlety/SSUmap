@@ -261,7 +261,7 @@ function textInputHandler(event)
         // console.log('node found\\|/');
         // resetTree();
         // console.log('foundNode: ', foundNode);
-        while (foundNode && !(foundNode.data && (foundNode.data.name === 'flare')))
+        while (foundNode && !(foundNode.data && (foundNode.data.name === 'Sonoma State')))
         {
           console.log('foundNode: ', foundNode);
           // expandNodeDelayed(foundNode, 500);
@@ -287,9 +287,24 @@ function textInputHandler(event)
             var cur = stack.pop()
             console.log('cur: ', cur);
             // expandNodeDelayed(findNode((item.data ? item.data.name : item.name )), 1000 * i);//, i);
-            expandNode(findNode((cur.data ? cur.data.name : cur.name )), true);
+            console.log('expanding node: ', cur, ', name: ', (cur.data ? cur.data.name : cur.name ))
+            console.log('cur found: ', findNode((cur.data ? cur.data.name : cur.name )))
+            // var curFind = findNode(cur.data ? cur.data.name : cur.name );
+            // if(curFind.grandParent && !(curFind.data && curFind.data.depth))
+            // {
+            //   console.log('grand depth: ', curFind.grandParent.depth, 'grand: ', curFind.grandParent)
+            //   curFind.depth = curFind.grandParent.depth + 1
+            // }
+            expandNode(cur, true)//findNode(cur.data ? cur.data.name : cur.name ), true);
             setTreeOpacity(1);
             if(stack.length) doDelays();
+            // else
+            // {
+            //   window.setTimeout( () =>
+            //   {
+            //     expandNode(findNode(cur.data ? cur.data.name : cur.name ), true);
+            //   }, 500);
+            // }
           }, 500 * i);
         }
         doDelays();
@@ -305,6 +320,16 @@ function textInputHandler(event)
 
 function loadVisual(jsonObject)
 {
+  // console.log('jsonObject1: ', jsonObject);
+  // recursiveNodeSort(jsonObject.children, null);
+  // console.log('jsonObject stinged: ', JSON.stringify(jsonObject));
+  // const fs = require('fs')
+  // fs.writeFile('Output.txt', JSON.stringify(jsonObject), (err) => {
+
+    // In case of a error throw err.
+//     if (err) throw err;
+// })
+
     var treeData = jsonObject;
 
     // Set the dimensions and margins of the diagram
@@ -356,22 +381,47 @@ function loadVisual(jsonObject)
 }
 
 // Toggle children on click.
-function expandNode(d, strict) {
-  // if(depth === null) { depth = d.depth; update(d)}
+function expandNode(d, jank) {
+  // if(depth === null) { depth = d.depth;}
+  if(jank)
+  {
+    if(!d.depth)
+    {
+      // d.children = d3.select(d)._groups[0][0].children
+      d.depth = d.grandParent.depth + 1
+    }
+    // update(d)
+    // console.log('jank: ', findNode(d.data ? d.data.name : d.name ))
+    // console.log('nodes: ', nodes)
+    // console.log('jank sel: ', d3.select(d))
+
+  }
+
   // console.log('Click was called');
-  console.log('d start: ', d)
+  console.log('d start: ', d, 'd.children: ', d.children)
   // console.log('i: ', i)
   // console.log('p: ', p)
-  if (d.children)// || strict)
-  {
-      d._children = d.children;
-      d.children = null;
-  }
-  else //if(!strict)
-  {
-      d.children = d._children;
-      d._children = null;
-  }
+  // if(!jank)
+  // {
+    if (d.children)// && !jank)// || strict)
+    {
+      console.log('if')
+        d._children = d.children;
+        d.children = null;
+    }
+    else //if(!jank)
+    {
+      console.log('else')
+        d.children = d._children;
+        d._children = null;
+    }
+  // }
+  // else
+  // {
+  //   // d.children = d._children;
+  //   // d.children = d.children
+  //   // d._children = null;
+  // }
   // var expanded = false;
   // if (d._children !== null)
   // {
@@ -398,8 +448,14 @@ function expandNode(d, strict) {
   // {
   //   console.log('expanded');
     update(d);
+    // if(jank)
+    // {
+    //   update(d)
+    //   console.log('post jank: ', findNode(d.data ? d.data.name : d.name ))
+    //   console.log('post nodes: ', nodes)
+    // }
   // }
-  // console.log('post-update: ', d);
+  console.log('d end: ', d);
 }
 
 // Collapse the node and all it's children
@@ -646,52 +702,59 @@ function findNode(name)
   return null;
 }
 
-// function arrayBinarySearch(array, name)
-// {
-//   // console.log('array: ', array);
-//   var start = 0;
-//   var end = array.length - 1;
-//   var mid = Math.round((start + end)/2);
-//   var prevMid = 0;
-//   var next;
-//   //handle top-level case, where everything is contained in array elements' .data's
-//   var getName = (array[0].data ? (i) => { return array[i].data.name } : (i) => { return array[i].name });
-//   // console.log('getName: ', getName);
-//   while((next = getName(mid).localeCompare(name)) && (prevMid != mid))
-//   {
-//     // console.log('comparing name: ', getName(mid), ', next: ', next);
-//     //next < 0 ? end /=
-//     if(next > 0)
-//     { // array[mid].name BEFORE name
-//       end = mid;
-//     }
-//     else
-//     { // array[mid].name AFTER name
-//       start = mid;
-//     }
-//     prevMid = mid;
-//     mid = Math.round((start + end)/2);
-//   }
-//
-//   if(next) // not found
-//     return null;
-//
-//   return array[mid];
-//
-//
-//
-// }
-
 function arrayBinarySearch(array, name)
 {
-  var getName = (array[0].data ? (e) => { return e.data.name } : (e) => { return e.name });
-  for (item of array)
+  // console.log('array: ', array);
+  var start = 0;
+  var end = array.length - 1;
+  var mid = Math.round((start + end)/2);
+  var prevMid = 0;
+  var next;
+  if(array[0].name ==='Biology')
+    console.log('array: ', array);
+  //handle top-level case, where everything is contained in array elements' .data's
+  var getName = (array[0].data ? (i) => { return array[i].data.name } : (i) => { return array[i].name });
+  // console.log('getName: ', getName);
+  while((next = getName(mid).localeCompare(name)) && (prevMid != mid))
   {
-    if(getName(item)===name)
-      return item;
+    if(array[0].name ==='Biology')
+    { console.log('comparing name: ', getName(mid), ', next: ', next);}
+    //next < 0 ? end /=
+    if(next > 0)
+    { // array[mid].name BEFORE name
+      end = mid;
+    }
+    else
+    { // array[mid].name AFTER name
+      start = mid;
+    }
+    prevMid = mid;
+    mid = Math.round((start + end)/2);
+    if(array[0].name ==='Biology')
+      console.log('mid: ', mid, 'prevMid: ', prevMid)
   }
-  return null;
+  if(prevMid == mid && mid != 0)
+    next = getName(--mid).localeCompare(name)
+
+  if(next) // not found
+    return null;
+
+  return array[mid];
+
+
+
 }
+
+// function arrayBinarySearch(array, name)
+// {
+//   var getName = (array[0].data ? (e) => { return e.data.name } : (e) => { return e.name });
+//   for (item of array)
+//   {
+//     if(getName(item)===name)
+//       return item;
+//   }
+//   return null;
+// }
 function expandNodeDelayed(node, delay)
 {
   console.log("start of expandNodeDelayed: ", delay);
