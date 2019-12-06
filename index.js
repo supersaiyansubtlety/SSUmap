@@ -677,6 +677,8 @@ function arrayBinarySearch(array, name)
     prevMid = mid;
     mid = Math.round((start + end)/2);
   }
+  if(prevMid == mid && mid != 0)
+    next = getName(--mid).localeCompare(name)
   // for (var i = 0; i<array.length; i++)
   // {
   //   (getName(i)+'').localeCompare(name);
@@ -688,9 +690,8 @@ function arrayBinarySearch(array, name)
   // return array[mid];
   if(array[mid].grandParent && array[mid].grandParent.children)
     return array[mid].grandParent.children[mid]
-  else {
+  else
     return array[mid]
-  }
   // console.log('nums: ', mid - 1, ', ', mid + 1, ', ', (array.length - 1 - mid - 1))
   // console.log('mid: ', mid, ', array: ', array)
   // console.log('splice1: ', array.splice(mid, 1))
