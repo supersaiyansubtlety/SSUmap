@@ -360,6 +360,11 @@ function expandNode(d, strict) {
   // if(depth === null) { depth = d.depth; update(d)}
   // console.log('Click was called');
   console.log('d start: ', d)
+  // if(!d.depth)
+  //   {
+  //     // d.children = d3.select(d)._groups[0][0].children
+  //     d.depth = d.grandParent.depth + 1
+  //   }
   // console.log('i: ', i)
   // console.log('p: ', p)
   if (d.children)// || strict)
@@ -646,52 +651,77 @@ function findNode(name)
   return null;
 }
 
-// function arrayBinarySearch(array, name)
-// {
-//   // console.log('array: ', array);
-//   var start = 0;
-//   var end = array.length - 1;
-//   var mid = Math.round((start + end)/2);
-//   var prevMid = 0;
-//   var next;
-//   //handle top-level case, where everything is contained in array elements' .data's
-//   var getName = (array[0].data ? (i) => { return array[i].data.name } : (i) => { return array[i].name });
-//   // console.log('getName: ', getName);
-//   while((next = getName(mid).localeCompare(name)) && (prevMid != mid))
-//   {
-//     // console.log('comparing name: ', getName(mid), ', next: ', next);
-//     //next < 0 ? end /=
-//     if(next > 0)
-//     { // array[mid].name BEFORE name
-//       end = mid;
-//     }
-//     else
-//     { // array[mid].name AFTER name
-//       start = mid;
-//     }
-//     prevMid = mid;
-//     mid = Math.round((start + end)/2);
-//   }
-//
-//   if(next) // not found
-//     return null;
-//
-//   return array[mid];
-//
-//
-//
-// }
-
 function arrayBinarySearch(array, name)
 {
-  var getName = (array[0].data ? (e) => { return e.data.name } : (e) => { return e.name });
-  for (item of array)
+  // console.log('array: ', array);
+  var start = 0;
+  var end = array.length - 1;
+  var mid = Math.round((start + end)/2);
+  var prevMid = 0;
+  var next;
+  //handle top-level case, where everything is contained in array elements' .data's
+  var getName = (array[0].data ? (i) => { return array[i].data.name } : (i) => { return array[i].name });
+  // console.log('getName: ', getName);
+  while((next = (getName(mid)+'').localeCompare(name)) && (prevMid != mid))
   {
-    if(getName(item)===name)
-      return item;
+    // console.log('comparing name: ', getName(mid), ', next: ', next);
+    //next < 0 ? end /=
+    if(next > 0)
+    { // array[mid].name BEFORE name
+      end = mid;
+    }
+    else
+    { // array[mid].name AFTER name
+      start = mid;
+    }
+    prevMid = mid;
+    mid = Math.round((start + end)/2);
   }
-  return null;
+  // for (var i = 0; i<array.length; i++)
+  // {
+  //   (getName(i)+'').localeCompare(name);
+  // }
+
+  // if(next) // not found
+  //   return null;
+
+  // return array[mid];
+  // console.log('nums: ', mid - 1, ', ', mid + 1, ', ', (array.length - 1 - mid - 1))
+  // console.log('mid: ', mid, ', array: ', array)
+  // console.log('splice1: ', array.splice(mid, 1))
+  // console.log('Array.prototype: ', Array.prototype)
+  // console.log('array.values(): ', array.values(1))
+  // console.log('splice2: ', array.splice(1, array.length - 2))
+  // getName = (array[0].data ? (i) => { return i.data.name } : (i) => { return i.name });
+  // for(item of array)
+  // {
+    // console.log('nums: ', mid - 1, ', ', mid + 1, ', ', (array.length - 1 - mid - 1))
+    // console.log('item: ', item)
+    getName = (array[0].data ? (e) => { return e.data.name } : (e) => { return e.name });
+      for (item of array)
+      {
+        if(getName(item)===name)
+          return item;
+      }
+      return null;
+  // }
+
+
 }
+
+// function arrayBinarySearch(array, name)
+// {
+//   var getName = (array[0].data ? (e) => { return e.data.name } : (e) => { return e.name });
+//   // var checkName = (array[0].data ? (i) => { return array[i].data.name } : (i) => { return array[i].name });
+//   // console.log('array: ', array, ', array[0], ', array[0], 'checkName(0): ', checkName(0));
+//   // (checkName(0) + '').localeCompare(name)
+//   for (item of array)
+//   {
+//     if(getName(item)===name)
+//       return item;
+//   }
+//   return null;
+// }
 function expandNodeDelayed(node, delay)
 {
   console.log("start of expandNodeDelayed: ", delay);
