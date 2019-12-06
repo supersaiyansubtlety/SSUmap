@@ -524,9 +524,9 @@ function arrayBinarySearch(array, name)
   var prevMid = 0;
   var next;
   //handle top-level case, where everything is contained in localArray elements' .data's
-  var getName = (localArray[0].data ? (i) => { return localArray[i].data.name } : (i) => { return localArray[i].name });
-  next = (getName(mid)+'').localeCompare(name);
-  while(next && (prevMid != mid))//(next = (getName(mid)+'').localeCompare(name))
+  var getName = (localArray[0].data ? (i) => { return localArray[i].data.name+'' } : (i) => { return localArray[i].name+'' });
+  next = (getName(mid)).localeCompare(name);
+  while(next && (prevMid != mid))//(next = (getName(mid)).localeCompare(name))
   {
     if(next > 0)
     { // localArray[mid].name comes BEFORE name
@@ -538,10 +538,10 @@ function arrayBinarySearch(array, name)
     }
     prevMid = mid;
     mid = Math.round((start + end)/2);
-    next = (getName(mid)+'').localeCompare(name);
+    next = (getName(mid)).localeCompare(name);
   }
   if(prevMid == mid && mid != 0)
-    next = (getName(--mid)+'').localeCompare(name)
+    next = (getName(--mid)).localeCompare(name)
 
   if(next) // not found
     return null;
@@ -554,11 +554,11 @@ function arrayBinarySearch(array, name)
 
 function fallBackSearch(array, name)
 {
-  var getName = (array[0].data ? (e) => { return e.data.name } : (e) => { return e.name });
+  var getName = (array[0].data ? (e) => { return e.data.name+'' } : (e) => { return e.name+'' });
   console.log('fall array: ', array)
   for (item of array)
   {
-    if(getName(item)===name)
+    if(getName(item).search(new RegExp(name, 'i')) != -1)//.search(/nopic/i
       return item;
   }
   return null;
