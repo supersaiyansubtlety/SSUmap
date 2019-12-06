@@ -20,7 +20,6 @@ var zoom;
 var svg;
 var mapSVG;
 var alreadyZoomed = false;
-var treeDepth;
 
 // For use in "Tree" code.
 var i = 0,
@@ -171,7 +170,7 @@ function makeClickables()
     sel.on('click', function ()
 	   {
 	       building = d3.select(this);
-	       zoomToSelection(building, 1/2, 1/2);
+	       zoomToSelection(building, 1/3, 1/2);
 	       expandNodeByNameDelayed(building);
 	       //HERE2
 	   })
@@ -360,39 +359,21 @@ function loadVisual(jsonObject)
     // console.log('root.children: ', root.children);
     //
     // update(root);
-    console.log('Setting opacity at end of loadVisual!');
-    setTreeOpacity(0);
+    // setTreeOpacity(0);
 }
 
 // Toggle children on click.
 function expandNode(d, strict) {
-    console.log('Top of expandNode');
     // if(depth === null) { depth = d.depth; update(d)}
     // console.log('Click was called');
     console.log('d start: ', d)
     if(d.depth === 2) {
-	d3.select('body')
+	d3.selectAll('.Tree')
 	    .append('text')
-	    .text('Collapse Tree')
-	    .style('position', 'fixed')
-	//.style('left', c.mapWidth + 50)
-	//.style('top', c.mapHeight - 50)
-	    .style('x', c.mapWidth + 50)
-	    .style('y', c.mapHeight - 50)
-	    .style('width', '126px')
-	    .style('height', '20px')
-	    .style('background-color', 'rgba(255, 255, 255, 0.87)')
-	    .style('border-color', 'rgba(225, 225, 225, 0.7)')
-	    .style('border-radius', '6px')
-	    .style('border-width', '3px')
-	    .style('border-style', 'solid')
-	    .style('font-family', 'sans-serif')
-	    .style('font-size', '20px')
-	    .attr('class', 'Back-Text')
-	    .on('click', function() {
-		resetTree();
-		d3.selectAll('.Back-Text').remove();
-	    });
+	    .attr('x', 800)
+	    .attr('y', 100)
+	    .text('Back')
+	    .attr('class', 'Back-Text');
     }
     // console.log('i: ', i)
     // console.log('p: ', p)
@@ -422,12 +403,10 @@ function expandNode(d, strict) {
     //     d.children = null;
     // }
     
-    console.log('Inner display!');
     d3.selectAll('.Tree')
   	.transition()
   	.duration(250)
-        .attr('transform', `translate(${((-d.depth) * c.nodeDepth - (c.mapWidth / 2))},${5})`);
-    
+        .attr('transform', `translate(${(-d.depth * c.nodeDepth - (c.mapWidth / 2))},${5})`);
     // console.log('pre-update: ', d);
     // if(expanded)
     // {
@@ -435,18 +414,6 @@ function expandNode(d, strict) {
     update(d);
     // }
     // console.log('post-update: ', d);
-    console.log('d at end of expansion = ', d);
-    if(d.depth < 1) {
-	console.log('Setting to transparent');
-	window.setTimeout(()=> {
-	    setTreeOpacity(0);
-	},250);
-    } else {
-	console.log('Setting to opaque');
-	window.setTimeout(()=> {
-	    setTreeOpacity(1);
-	},250);
-    }
 }
 
 // Collapse the node and all it's children
@@ -609,7 +576,6 @@ function update(source) {
 
 function expandNodeByName(name)
 {
-    console.log('Called expandNodeByName');
     nodes.forEach((node) => {
 	if (node.data.name === name)
 	{
@@ -624,6 +590,7 @@ function expandNodeByName(name)
 function setTreeOpacity(op)
 {
     d3.selectAll('.Tree')
+    //.attr('transform', `translate(${c.mapWidth},0)`)
 	.transition()
 	.duration(250)
 	.attr('opacity', op);
@@ -746,16 +713,16 @@ function expandNodeDelayed(node, delay)
     setTreeOpacity(1);
     window.setTimeout(()=>
 		      {
+			  // setTreeOpacity(1);
 			  expandNode(node);
 			  setTreeOpacity(1);
-			  
+
 			  console.log("expandNodeDelayed after delay: ", delay);
 		      }, delay);
 }
 
 function expandNodeByNameDelayed(sel)
 {
-    console.log('Called expandNodeByNameDelayed');
     window.setTimeout(()=>
 		      {
 			  setTreeOpacity(1);
