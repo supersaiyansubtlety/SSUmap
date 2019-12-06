@@ -172,7 +172,8 @@ function makeClickables()
 	   {
 	       building = d3.select(this);
 	       zoomToSelection(building, 1/2, 1/2);
-	       expandNodeByNameDelayed(building);
+         if(findNode(building.attr('id').replace('-Bounds', '').replace(/-/g, ' ')))
+	        expandNodeByNameDelayed(building);
 	       //HERE2
 	   })
 }
@@ -321,15 +322,15 @@ function loadVisual(jsonObject)
         .style('position', 'fixed')
         .attr('width', c.mapWidth)
         .attr('height', c.mapHeight * 2)
-    //.attr("width", width + margin.right + margin.left)                                                                          
-    //.attr("height", height + margin.top + margin.bottom)                                                                        
+    //.attr("width", width + margin.right + margin.left)
+    //.attr("height", height + margin.top + margin.bottom)
         .append("g")
         .attr('width', c.mapWidth)
         .attr('height', c.mapHeight)
 	.attr("transform", "translate(" + (-c.mapWidth / 2) + "," + 5 + ")")
         .attr('class', 'Tree');
-    
-    
+
+
     // declares a tree layout and assigns the size
     treemap = d3.tree().size([height, width]);
 
@@ -360,8 +361,8 @@ function loadVisual(jsonObject)
     // console.log('root.children: ', root.children);
     //
     // update(root);
-    console.log('Setting opacity at end of loadVisual!');
-    setTreeOpacity(0);
+    // console.log('Setting opacity at end of loadVisual!');
+    // setTreeOpacity(0);
 }
 
 // Toggle children on click.
@@ -421,13 +422,13 @@ function expandNode(d, strict) {
     //     d._children = d.children;
     //     d.children = null;
     // }
-    
+
     console.log('Inner display!');
     d3.selectAll('.Tree')
   	.transition()
   	.duration(250)
         .attr('transform', `translate(${((-d.depth) * c.nodeDepth - (c.mapWidth / 2))},${5})`);
-    
+
     // console.log('pre-update: ', d);
     // if(expanded)
     // {
@@ -484,7 +485,7 @@ function update(source) {
         .data(nodes, function (d) {
 	    return d.id || (d.id = ++i);
         });
-    
+
     // Enter any new modes at the parent's previous position.
 
     nodeEnter = node.enter().append('g')
@@ -748,7 +749,7 @@ function expandNodeDelayed(node, delay)
 		      {
 			  expandNode(node);
 			  setTreeOpacity(1);
-			  
+
 			  console.log("expandNodeDelayed after delay: ", delay);
 		      }, delay);
 }
