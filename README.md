@@ -1,13 +1,9 @@
 ## SSUmap
 
 ### Setup
-- Unpack SSUmap.zip
+- clone repo into your public_html folder on blue
 
-- Place the SSUmap folder in your public_html folder on blue (make sure your
-      unpacking program didn't nest the SSUmap folder within an additional
-      SSUmap folder)
-
-- Go to https://blue.cs.sonoma.edu/~your_blue_login/SSUmap/index.html
+- Go to https://blue.cs.sonoma.edu/~your_blue_login/SSU-map/index.html
 
 ### Usage
 - Scroll and click+drag to free-zoom and free-pan, respectively.
